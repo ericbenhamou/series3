@@ -18,6 +18,7 @@ const choicePattern = /^([A-D])[\.\)]\s*(.*)$/i;
 const headerPattern = /^QUESTION ID\s+(\d+)/i;
 const correctPattern = /^CORRECT ANSWER IS:\s*(.+)$/i;
 const yourPattern = /^YOUR ANSWER IS:\s*(.+)$/i;
+const trueFalsePattern = /^\(?\s*true\s*\/\s*false\s*\)?\.?$/i;
 
 const categoryRules = [
   {
@@ -95,6 +96,45 @@ function joinWrappedLines(lines) {
   return lines.join(" ").replace(/\s+/g, " ").trim();
 }
 
+function normalizeAnswerValue(value) {
+  const cleaned = String(value || "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!cleaned) return "";
+  if (/NONE/i.test(cleaned)) return "";
+
+  const letterMatch = cleaned.match(/\b([A-D])\b/i);
+  if (letterMatch) return letterMatch[1].toUpperCase();
+
+  return "";
+}
+
+function cleanPromptLines(questionId, promptLines) {
+  return promptLines
+    .map((line) => line.replace(/\bseries 3 GreenLight Exam(?: on\.?)?$/i, "").trim())
+    .filter((line) => line && !new RegExp(`^QUESTION ID\\s+${questionId}\\b`, "i").test(line));
+}
+
+function buildFallbackChoices(promptLines, correctAnswer, yourAnswer) {
+  const promptHasTrueFalse = promptLines.some((line) => trueFalsePattern.test(line)) ||
+    promptLines.some((line) => /true\s*\/\s*false/i.test(line));
+
+  if (promptHasTrueFalse && ["A", "B"].includes(correctAnswer || "") && ["A", "B", ""].includes(yourAnswer || "")) {
+    return [
+      { label: "A", text: "True" },
+      { label: "B", text: "False" },
+    ];
+  }
+
+  return [];
+}
+
+function getAnswerText(answerLabel, choices) {
+  if (!answerLabel) return "";
+  return choices.find((choice) => choice.label === answerLabel)?.text || "";
+}
+
 function inferCategory(question) {
   const haystack = [
     question.prompt,
@@ -125,13 +165,15 @@ function inferTopicTags(question) {
 function parseEntry(entry) {
   const rawLines = Array.isArray(entry.lines) ? entry.lines.map(normalizeLine).filter(Boolean) : [];
   const lines = sliceToPrimaryQuestion(rawLines);
+  const headerIndex = lines.findIndex((line) => headerPattern.test(line));
   const headerLine = lines.find((line) => headerPattern.test(line)) || "";
   const questionId = headerLine.match(headerPattern)?.[1] || String(entry.order);
 
   const correctIndex = lines.findIndex((line) => correctPattern.test(line));
   const yourIndex = lines.findIndex((line) => yourPattern.test(line));
 
-  const bodyLines = lines.slice(1, correctIndex > 0 ? correctIndex : lines.length);
+  const bodyStart = headerIndex >= 0 ? headerIndex + 1 : 1;
+  const bodyLines = lines.slice(bodyStart, correctIndex > 0 ? correctIndex : lines.length);
   const explanationLines = yourIndex >= 0 ? lines.slice(yourIndex + 1) : [];
 
   const promptLines = [];
@@ -159,6 +201,11 @@ function parseEntry(entry) {
 
   if (currentChoice) choices.push(currentChoice);
 
+  const correctAnswer = normalizeAnswerValue(lines[correctIndex]?.match(correctPattern)?.[1] || "");
+  const yourAnswer = normalizeAnswerValue(lines[yourIndex]?.match(yourPattern)?.[1] || "");
+  const cleanedPromptLines = cleanPromptLines(questionId, promptLines);
+  const finalChoices = choices.length ? choices : buildFallbackChoices(cleanedPromptLines, correctAnswer, yourAnswer);
+
   const question = {
     order: entry.order,
     fileName: entry.fileName,
@@ -166,18 +213,20 @@ function parseEntry(entry) {
     questionId,
     title: `Question ${questionId}`,
     examLabel: "Series 3 GreenLight Exam",
-    promptLines,
-    prompt: promptLines.join("\n"),
-    choices,
-    correctAnswer: lines[correctIndex]?.match(correctPattern)?.[1]?.trim() || "",
-    yourAnswer: lines[yourIndex]?.match(yourPattern)?.[1]?.trim() || "",
+    promptLines: cleanedPromptLines,
+    prompt: cleanedPromptLines.join("\n"),
+    choices: finalChoices,
+    correctAnswer,
+    yourAnswer,
     explanationLines,
     explanation: joinWrappedLines(explanationLines),
     ocrText: lines.join("\n"),
   };
 
   question.isWrong = question.correctAnswer !== question.yourAnswer;
-  question.isUnanswered = /\[\[NONE\]\]/i.test(question.yourAnswer) || question.yourAnswer === "";
+  question.isUnanswered = question.yourAnswer === "";
+  question.correctAnswerText = getAnswerText(question.correctAnswer, question.choices);
+  question.yourAnswerText = getAnswerText(question.yourAnswer, question.choices);
   question.category = inferCategory(question);
   question.tags = inferTopicTags(question);
 

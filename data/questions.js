@@ -42,6 +42,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25762 : Series 3 GreenLight Exam\nAs it relates to options trading, which of the following are correct ?\nI. All long and short puts with the same strike price will be out of the money at the same time\nII. All long calls and all long puts with the same strike price will be in the money at the same time\nIII. All long puts and short calls with the same strike price will be out of the money at the same time\nIV. All long and short calls with the same strike price will be in the money at the same time\nA. II and III\nB. I and II\nC. III and IV\nD. I and IV\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: C\nIt is important to note that the terms in the money, at the money and out of the money are not impacted by if the contract is held long or short. All long and short puts with the same strike. will be out of the money at the same time. All\ncalls and puts with the same strike will be at the money at the same time.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "I and IV",
+    "yourAnswerText": "III and IV",
     "category": "Options",
     "tags": [
       "options"
@@ -85,6 +87,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25668 : Series 3 GreenLight Exam\nWhich of the following futures contracts is considered to reflect market sentiment relating to corporate credit risk ?\nA. T' Bill\nB. T' Bond\nC. Gold\nD. Eurodollar\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: B\nThe Eurodollar futures contract is considered to reflect corporate credit risk. As the rate on Eurodollars increase, it indicates that the risk of corporate default is also increasing.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Eurodollar",
+    "yourAnswerText": "T' Bond",
     "category": "Rates & Bonds",
     "tags": [
       "rates",
@@ -130,6 +134,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25749 : Series 3 GreenLight Exam on\nAn investor who trades single stock futures contracts by establishing both the long and short positions, will be subject to which of the following based on an adverse price move?\nA. A long contract marked to the market will be subject to a call that is less than the loss, while a short position marked to the market will be subject to a call that is greater than the loss\nB. A long contract marked to the market will be subject to a call that is equal to the loss, while a short position marked to the market will be subject to a call that is greater than the loss\nC. Both long and short contracts will be subject to a call that is equal to the loss or to the FCM's margin requirement, whichever is greater\nD. Both long and short contracts will be subject to a call that is equal to 120% of the loss or to the FCM's margin requirement, whichever is greater\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: C\nSingle stock futures contracts are subject to a margin requirement of 20 percent of the contract value. A long position that falls will require the investor to establish margin equal to 20 percent of the lower market value. While a short\nposition subject to a call will require the investor to deposit margin to meet the 20 percent requirement based on the new higher market value.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "A long contract marked to the market will be subject to a call that is less than the loss, while a short position marked to the market will be subject to a call that is greater than the loss",
+    "yourAnswerText": "Both long and short contracts will be subject to a call that is equal to the loss or to the FCM's margin requirement, whichever is greater",
     "category": "Compliance",
     "tags": [
       "options"
@@ -143,14 +149,13 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25715",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25715 : Series 3 GreenLight Exam on.",
       "As it relates to processors and spreaders which of the following are considered correct ?",
       "I. The processor sells the output",
       "II. The processor is subject to spread margin",
       "III. The spreader sells the input",
       "IV. The spreader is speculating against the processor"
     ],
-    "prompt": "QUESTION ID 25715 : Series 3 GreenLight Exam on.\nAs it relates to processors and spreaders which of the following are considered correct ?\nI. The processor sells the output\nII. The processor is subject to spread margin\nIII. The spreader sells the input\nIV. The spreader is speculating against the processor",
+    "prompt": "As it relates to processors and spreaders which of the following are considered correct ?\nI. The processor sells the output\nII. The processor is subject to spread margin\nIII. The spreader sells the input\nIV. The spreader is speculating against the processor",
     "choices": [
       {
         "label": "A",
@@ -179,6 +184,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wr g)\nQUESTION ID 25715 : Series 3 GreenLight Exam on.\nAs it relates to processors and spreaders which of the following are considered correct ?\nI. The processor sells the output\nII. The processor is subject to spread margin\nIII. The spreader sells the input\nIV. The spreader is speculating against the processor\nA. I and II\nB. III and IV\nC. l, III and IV\nD. l, II, III,\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nAll of the choices are correct except a processor is considered to be a bona fide hedger and would be subject to hedge margin requirements not spread margin requirements. When a processor establishes a spread as a hedge by\ngoing long the input and short the output, the trader who sells the spread to the processor is effectively speculating against the processors ability to operate profitably.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "l, III and IV",
+    "yourAnswerText": "l, II, III,",
     "category": "Hedging",
     "tags": [
       "hedging",
@@ -229,6 +236,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25698 : Series 3 GreenLight Exam\nIn response to the CPI rising, the FRB has begun increasing interest rates. Which of the following will likely occur as a result of this action ?\nI. The U.S dollar will become stronger\nII. The price of oil will rise\nIII. The price of silver will fall\nIV. U.S exports will fall\nA. II and III\nB. I and IV\nC. l, III and IV\nD. l, II, and IV\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nAs the FRB increases interest rates, it increases the value of the dollar relative to other currencies and relative to items priced in dollars as a whole. If the value of the dollar increases it will make US exports less attractive and exports\nwill fall. As the value of the dollar increases commodities priced in dollars, such as gold, oil and silver will also fall.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "l, III and IV",
+    "yourAnswerText": "I and IV",
     "category": "Rates & Bonds",
     "tags": [
       "rates"
@@ -276,6 +285,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25680 : Series 3 GreenLight Exam\nA trader who believes that crushers are not going to be able to operate profitably in the current economic condition, would establish which of the following positions ?\nI. Long soybeans\nII. Short soybeans\nIII. Long soy meal and oil\nIV. Short soy meal and oil\nA. II and III\nB. I and IV\nC. II and IV\nD. I and III\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: B\nA trader who believes that crushers will not be able to operate profitably, would establish a reverse crush spread. A reverse crush spread is established by going short soybeans and going long soy meal and soy oil.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "II and III",
+    "yourAnswerText": "I and IV",
     "category": "Spreads",
     "tags": [
       "spreads"
@@ -289,14 +300,13 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25752",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25752 : Series 3 GreenLight Exam",
       "Which of the following is correct about the risk disclosure document given to an investor who is seeking to trade single stock futures ?",
       "I. It is required by the NFA",
       "II. It must contain detailed information relating to stock splits",
       "III. If the customer is going to day trade futures, the customer must be given a disclosure for day trading",
       "IV. It is required by FINRA"
     ],
-    "prompt": "QUESTION ID 25752 : Series 3 GreenLight Exam\nWhich of the following is correct about the risk disclosure document given to an investor who is seeking to trade single stock futures ?\nI. It is required by the NFA\nII. It must contain detailed information relating to stock splits\nIII. If the customer is going to day trade futures, the customer must be given a disclosure for day trading\nIV. It is required by FINRA",
+    "prompt": "Which of the following is correct about the risk disclosure document given to an investor who is seeking to trade single stock futures ?\nI. It is required by the NFA\nII. It must contain detailed information relating to stock splits\nIII. If the customer is going to day trade futures, the customer must be given a disclosure for day trading\nIV. It is required by FINRA",
     "choices": [
       {
         "label": "A",
@@ -325,6 +335,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25752 : Series 3 GreenLight Exam\nWhich of the following is correct about the risk disclosure document given to an investor who is seeking to trade single stock futures ?\nI. It is required by the NFA\nII. It must contain detailed information relating to stock splits\nIII. If the customer is going to day trade futures, the customer must be given a disclosure for day trading\nIV. It is required by FINRA\nA. I and II\nB. I and III\nC. l, II and IV\nD. l, II, III,\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nBoth the NFA and FNRA require that the risk disclosure document be given to customers who open accounts to trade single stock futures. The disclosure will contain both the severe risks of day trading and detailed informatior\nregarding stock stock splits. Choice three is not correct as it states that the disclosure regarding day trading would only be given if the person was going to day trade.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "l, II and IV",
+    "yourAnswerText": "l, II, III,",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -374,6 +386,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25747 : Series 3 GreenLight Exam ron\nAs it relates to the carrying charges for a stock index futures contract, which of the following is not considered ?\nI. Safekeeping of securities\nII. Interest\nIII. Dividends received\nIV. Insurance\nA. I and IV\nB. II and III\nC. II, and IV\nD. l, III and IV\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: D\nStock index futures do not settle with the delivery of any physical certificates. Therefore, there is no need to safekeeping or insurance for any securities. Interest rates determine the cost of financing the purchase of the underlying\nsecurities and therefore they are a carrying charge. Dividends paid on the underlying securities reduce the carrying charge on the long side and increase carrying charges for short sellers of securities. All of these factors are used to\ndetermine fair value for stock index futures.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "I and IV",
+    "yourAnswerText": "l, III and IV",
     "category": "Rates & Bonds",
     "tags": [
       "rates"
@@ -423,6 +437,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25733 : Series 3 GreenLightExam ron\nA trader is seeking to establish a position in the market for a specific commodity. The trader would like to enter orders to both establish and offset the contracts. As it relates to MIT, market if touched orders, which of the following are\ntrue ?\nI. An MIT order to buy will be executed if the contract is offered at the MIT price, with no trades taking place at the MIT price\nII. An MIT order to buy will be executed if the contract trades at the MIT price\nIII. An MIT order to sell will be executed if the contract is bid at the MIT price, with no trades taking place at the MIT price\nIV. An MIT order to sell will be executed if the contract trades at the MIT price\nA. II and IV\nB. I and III\nC. I and II\nD. l, II, III,\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: A\nMIT, market if touched orders will be executed if the quote is equal to the MIT price or if the contract trades at the MIT price. An MIT order to buy will be executed if the offer equals the MIT price. An MIT order to sell will be executed if the\nbid price equals the MIT price.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "l, II, III,",
+    "yourAnswerText": "II and IV",
     "category": "General Review",
     "tags": []
   },
@@ -439,7 +455,16 @@ window.SERIES3_QUESTIONS = [
       "( True/False )"
     ],
     "prompt": "An investor who established an inter-market spread in gold futures by going long a gold contract on one exchange and simultaneously going short gold on another exchange, may offset the contracts in an ex pit transaction so long\nas the contract months are the same.\n( True/False )",
-    "choices": [],
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
     "correctAnswer": "B",
     "yourAnswer": "A",
     "explanationLines": [
@@ -450,6 +475,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25689 : Series 3 GreenLight Exam\nAn investor who established an inter-market spread in gold futures by going long a gold contract on one exchange and simultaneously going short gold on another exchange, may offset the contracts in an ex pit transaction so long\nas the contract months are the same.\n( True/False )\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: A\nThis is false. The only way to offset the contracts is to execute an order for the contracts on the exchange where the contract position was opened. While the contracts cover the same commodity, the contracts are traded on different\nexchanges.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
     "category": "Spreads",
     "tags": [
       "spreads"
@@ -493,6 +520,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25718 : Series 3 GreenLight Exam\nABC Machine and Manufacturing has just placed an order with a German industrial company for the purchase of new equipment for their factory. The purchase order calls for ABC to pay for the equipment 9 months from now in\nEuros. The contract price is 12,500,000 Euros. At the time the order is placed the spot price for the Euro is $1.10 and the 9 month futures contract is 1.1235. ABC purchases IO of the 9 month Euro futures contracts at the current price. If the\nbasis increases by .0025, what is the net effect of the change to ABC? Each contract covers 125,000 Euros.\nA. An increase in cost of $3,125\nB. An increase in cost of $31,250\nC. A decrease in cost of $3,125\nD. A decrease in cost of $31,250\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: A",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "An increase in cost of $31,250",
+    "yourAnswerText": "An increase in cost of $3,125",
     "category": "Options",
     "tags": [
       "spreads",
@@ -538,6 +567,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25780 : Series 3 GreenLight Exam on\nAn newly formed FCM has begun building a reputation for being among the best firms when it comes to recommendations in the metals markets. It is developing promotional material to run in the financial papers and on the\nInternet. Which of the following is false regarding the required disclaimers?\nA. A special disclaimer is required if the FCM has less than 2 years experience in proprietary or customer trading activities\nB. A special disclaimer is required relating to hypothetical results\nC. A special disclaimer is required if the FCM has allocated assets to advisors for less than 1 year\nD. A special disclaimer is required relating to hypothetical results by specific advisors\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: D\nThe question asks which is false. An FCM must have a special disclaimer if it has less than 1 year ( not 2 years) of experience trading customer or proprietary account.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "A special disclaimer is required if the FCM has less than 2 years experience in proprietary or customer trading activities",
+    "yourAnswerText": "A special disclaimer is required relating to hypothetical results by specific advisors",
     "category": "Compliance",
     "tags": [
       "options"
@@ -586,6 +617,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25767 : Series 3 GreenLightExam ron\nAs it relates to the NFA which of the follow are correct ?\nI. The NFA regulates off floor activities\nII. The NFA regulates the handling of orders executed on an exchange\nIII. The president of the NFA is the only person empowered to initiate a member responsibility action and is appointed by Congress\nIV. The NFA will handle disputes over financial losses through the reparations process\nA. I only\nB. I and II\nC. II and IV\nD. III only\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: C\nThe only choice that is correct is that the NFA handles off floor activities. The exchanges handle all issues on the trading floor. The president of the NFA is the only person who may initiate a member responsibility action, however the\npresident of the NFA is not appointed by congress. The CFTC, not the NFA, handles monetary disputes through the reparations process. The NFA handles monetary disputes through the arbitration process.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "I only",
+    "yourAnswerText": "II and IV",
     "category": "Compliance",
     "tags": [
       "options",
@@ -600,10 +633,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25721",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25721 : Series 3 GreenLight Exam",
       "As it relates to a long hedger who is seeking to offset the price risk associated with a change in the commodity price, which of the following is correct?"
     ],
-    "prompt": "QUESTION ID 25721 : Series 3 GreenLight Exam\nAs it relates to a long hedger who is seeking to offset the price risk associated with a change in the commodity price, which of the following is correct?",
+    "prompt": "As it relates to a long hedger who is seeking to offset the price risk associated with a change in the commodity price, which of the following is correct?",
     "choices": [
       {
         "label": "A",
@@ -632,6 +664,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25721 : Series 3 GreenLight Exam\nAs it relates to a long hedger who is seeking to offset the price risk associated with a change in the commodity price, which of the following is correct?\nA. The established hedge will reduce the effective sales price, if the basis weakens\nB. The established hedge will reduce the effective purchase price, if the basis weakens\nC. The established hedge will reduce the effective sales price, if the basis strengthens\nD. The established hedge will reduce the effective purchase price, if the basis strengthens\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: A\nWhen the basis weakens it becomes more negative. A long hedger who has bought a futures contract to hedge the later purchase of the commodity will realize a lower effective purchase price if the basis weakens. The price of the\ncash commodity will have fallen by more than the price of the futures contract. This allows the hedger to pay a lower effective purchase price.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The established hedge will reduce the effective purchase price, if the basis weakens",
+    "yourAnswerText": "The established hedge will reduce the effective sales price, if the basis weakens",
     "category": "Hedging",
     "tags": [
       "hedging",
@@ -646,10 +680,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25737",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25737 : Series 3 GreenLight Exam on",
       "The formula used to calculate settlement prices at the end of the business day:"
     ],
-    "prompt": "QUESTION ID 25737 : Series 3 GreenLight Exam on\nThe formula used to calculate settlement prices at the end of the business day:",
+    "prompt": "The formula used to calculate settlement prices at the end of the business day:",
     "choices": [
       {
         "label": "A",
@@ -677,6 +710,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wr g)\nQUESTION ID 25737 : Series 3 GreenLight Exam on\nThe formula used to calculate settlement prices at the end of the business day:\nA. Is set by the clearinghouse with the approval of the CFTC\nB. Is set by the exchanges where the contracts trade\nC. Is set by the clearinghouse only\nD. Is set by the clearinghouse with the approval of the exchange\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nNo regulator or exchange sets a formula for the calculation of settlement prices. Each clearinghouse determines how settlement prices will be calculated",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Is set by the clearinghouse only",
+    "yourAnswerText": "Is set by the clearinghouse with the approval of the exchange",
     "category": "Compliance",
     "tags": []
   },
@@ -720,6 +755,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25759 : Series 3 GreenLight Exam on\nA dairy purchases 10 March Class III milk futures contracts at 16.65 per cwt. Each contract covers 200,000 lbs per contract. If the dairy opts to offset the contracts when March Class III milk is at 17.02, the dairy would realize a:\nEach contract has a multiplier of $20\nA. $14,000 profit\nB. $140,000 profit\nC. $7,400 profit\nD. $74,000 profit\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nThe contract was purchased at 16.65 and sold for 17.02 for a profit of .37. Each tick is worth $20. So the profit per contract is 37 X $20 =$740 X 10 contracts\n= $7,400",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "$7,400 profit",
+    "yourAnswerText": "$140,000 profit",
     "category": "Agriculture & Energy",
     "tags": []
   },
@@ -762,6 +799,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25693 : Series 3 GreenLight Exam\nAn associated person who is establishing an account for a new customer is reviewing the customer's suitability to trade futures. Pursuant to NFA Rule 2-30 which of the following criteria would be the least important when determining\na customer's suitability to trade futures ?\nA. Income\nB. Age\nC. Education\nD. Experience\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nA customer's educational background would be the least important when determining if a customer should be approved to trade options on futures.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Education",
+    "yourAnswerText": "Experience",
     "category": "Compliance",
     "tags": [
       "options",
@@ -776,14 +815,13 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25783",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25783 : Series 3 GreenLight Exam",
       "Which of the following would be an acceptable form of compensation for an FCM handling customer accounts?",
       "I. Charging the client an upfront fee as a percentage of the account",
       "II. Charging the client an upfront fee plus monthly commissions",
       "III. Charging the client a percentage of the profits in the client's account",
       "IV. Charging the client a percentage of the profits, plus a service charge for periods with losses"
     ],
-    "prompt": "QUESTION ID 25783 : Series 3 GreenLight Exam\nWhich of the following would be an acceptable form of compensation for an FCM handling customer accounts?\nI. Charging the client an upfront fee as a percentage of the account\nII. Charging the client an upfront fee plus monthly commissions\nIII. Charging the client a percentage of the profits in the client's account\nIV. Charging the client a percentage of the profits, plus a service charge for periods with losses",
+    "prompt": "Which of the following would be an acceptable form of compensation for an FCM handling customer accounts?\nI. Charging the client an upfront fee as a percentage of the account\nII. Charging the client an upfront fee plus monthly commissions\nIII. Charging the client a percentage of the profits in the client's account\nIV. Charging the client a percentage of the profits, plus a service charge for periods with losses",
     "choices": [
       {
         "label": "A",
@@ -812,6 +850,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25783 : Series 3 GreenLight Exam\nWhich of the following would be an acceptable form of compensation for an FCM handling customer accounts?\nI. Charging the client an upfront fee as a percentage of the account\nII. Charging the client an upfront fee plus monthly commissions\nIII. Charging the client a percentage of the profits in the client's account\nIV. Charging the client a percentage of the profits, plus a service charge for periods with losses\nA. I only\nB. II and III\nC. III and IV\nD. l, II, III,\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: C\nFCMs have a number of ways in which they can be compensated. All of the choices listed are acceptable, so long as the customer is well informed of the charges and has agreed to the compensation. If the compensation is going to\nbe based on a share of the profits the customer must agree in writing .",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "l, II, III,",
+    "yourAnswerText": "III and IV",
     "category": "Compliance",
     "tags": []
   },
@@ -823,10 +863,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25738",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25738 : Series 3 GreenLight Exam",
       "An active trading day is coming to an end. As it relates for the closing price for a commodity, which of the following is correct?"
     ],
-    "prompt": "QUESTION ID 25738 : Series 3 GreenLight Exam\nAn active trading day is coming to an end. As it relates for the closing price for a commodity, which of the following is correct?",
+    "prompt": "An active trading day is coming to an end. As it relates for the closing price for a commodity, which of the following is correct?",
     "choices": [
       {
         "label": "A",
@@ -854,6 +893,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25738 : Series 3 GreenLight Exam\nAn active trading day is coming to an end. As it relates for the closing price for a commodity, which of the following is correct?\nA. The closing price is equal to the settlement price\nB. The closing price is equal to the last trade executed\nC. The closing price is equal to the nominal price\nD. The closing price is equal to the last trade reported\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: A\nThe closing price to a commodity is the last trade reported to the tape. The final settlement price is calculated by the clearinghouse and may differ from the closing price.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The closing price is equal to the last trade reported",
+    "yourAnswerText": "The closing price is equal to the settlement price",
     "category": "Delivery & Settlement",
     "tags": []
   },
@@ -899,6 +940,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25686 : Series 3 GreenLight Exam ro\nAn associated person is speaking to a potential new client on the telephone. The potential new client is a high net worth individual who was referred to the AP by an existing client. The potential new client only has 15 minutes to speak\nto the AP between meetings and is asking about how futures trading can be used to diversify his investments and to enhance his overall return. The AP explains how the futures markets work and how futures can be used to meet his\nstated goals. The prospective client thanks him for the information and says he will contact him next week to open an account. The AP sets the date to speak again and lets the prospective client know that he will be emailing him the\nrisk disclosure documents. Which of the following is correct?\nA. The AP has acted appropriately in his interaction with the prospective client\nB. This is only acceptable if the risk disclosure document has been approved by the AP's FCM\nC. The AP has not acted ethically and has failed to follow NFA regulations\nD. This is acceptable if the risk disclosure document has been approved by the firm and covers both futures and options on futures\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nWhen an AP is speaking to a client or prospective client, a clear mention of the risks associated with futures trading must be included during the phone conversation. Simply emailing a risk disclosure does not meet ethical\nrequirements to disclose the risks associated with futures trading.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The AP has not acted ethically and has failed to follow NFA regulations",
+    "yourAnswerText": "This is acceptable if the risk disclosure document has been approved by the firm and covers both futures and options on futures",
     "category": "Compliance",
     "tags": []
   },
@@ -941,6 +984,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25685 : Series 3 GreenLight Exam\nAn FCM who is seeking to increase its business has created an infomercial designed to approximate the style of an interview on a financial news program. The actor who plays the news anchor is asking the guest about trading\nfutures contracts. Which of the following is not correct?\nA. Any discussion regarding the potential to profit must be balanced with a statement relating to risk\nB. The infomercial must be followed by a statement detailing that the preceding was a paid advertisement\nC. The infomercial must be preceded by a statement detailing that the following is a paid advertisement\nD. Infomercials of 30 minutes or less may direct the viewers to where a risk statement may be obtained\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: C\nAll infomercials regardless of length must be preceded and followed by a disclosure letting the audience know that the presentation is scripted and for promotional purposes.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Infomercials of 30 minutes or less may direct the viewers to where a risk statement may be obtained",
+    "yourAnswerText": "The infomercial must be preceded by a statement detailing that the following is a paid advertisement",
     "category": "Compliance",
     "tags": []
   },
@@ -982,6 +1027,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25681 : Series 3 GreenLight Exam\nA cattle grower could hedge the business risk associated with growing cattle using all of the following strategies, except:\nA. going long corn futures\nB. going long feeder cattle futures\nC. going short feeder cattle futures\nD. going long calls on feeder cattle\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nGoing short feeder cattle would not hedge a cattle grower's business risk. Feeder cattle are the raw input for the cattle grower's business. To hedge the cattle grower would have to go long feeder cattle.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "going short feeder cattle futures",
+    "yourAnswerText": "going long feeder cattle futures",
     "category": "Options",
     "tags": [
       "hedging",
@@ -1030,6 +1077,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25732 : Series 3 GreenLight Exam\nA futures trader is looking at a chart for natural gas. The trader notices that over the last few months, the price action on the chart indicates that the futures seem to be overbought. Which of the following is correct ?\nI. There has been a large increase in buying interest\nII. This is a bullish signal\nIII. This is not related to the supply or demand in the cash market\nIV. This is a bearish signal\nA. II and III\nB. I and IV\nC. l, III and IV\nD. l, II and IV\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nThe term overbought is a technical term and not related to any fundamental factors relating to the commodity. An overbought pattern signifies a large run up in the price of a commodity and is a bearish indicator.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "l, III and IV",
+    "yourAnswerText": "I and IV",
     "category": "Agriculture & Energy",
     "tags": [
       "rates"
@@ -1043,14 +1092,13 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25729",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25729 : Series 3 GreenLight Exam",
       "A synthetic short put would be established by combining which two of the following ?",
       "I. Long Call",
       "II. Short futures",
       "III. Long futures",
       "IV. Short call"
     ],
-    "prompt": "QUESTION ID 25729 : Series 3 GreenLight Exam\nA synthetic short put would be established by combining which two of the following ?\nI. Long Call\nII. Short futures\nIII. Long futures\nIV. Short call",
+    "prompt": "A synthetic short put would be established by combining which two of the following ?\nI. Long Call\nII. Short futures\nIII. Long futures\nIV. Short call",
     "choices": [
       {
         "label": "A",
@@ -1079,6 +1127,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25729 : Series 3 GreenLight Exam\nA synthetic short put would be established by combining which two of the following ?\nI. Long Call\nII. Short futures\nIII. Long futures\nIV. Short call\nA. III and IV\nB. I and II\nC. II and IV\nD. I and III\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: B\nTo create any synthetic position you must replicate the profit and loss characteristics of that position. To create a synthetic short put, you would have to purchase futures contracts and sell calls. This will limit your potential gain on\nthe upside and your maximum loss will be equal to your breakeven down to zero.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "III and IV",
+    "yourAnswerText": "I and II",
     "category": "Options",
     "tags": [
       "options"
@@ -1123,6 +1173,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25743 : Series 3 GreenLight Exam\nAn investor is looking at the quote for a T'Bill and notices the 3 month bill is trading at a price of 990. This would imply an annual interest rate of:\nA. 1 percent\nB. 3 percent\nC. 4 percent\nD. 6 percent\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: A\nIf a T' bill contract is trading at 990 and matures at 1000 three months later, the interest received would be equal to I percent for 3 months. (10 / 1000 = 1 %) To determine the annual rate associated with the T 'bill you must multiply the\nrate if I percent x 4, to get 4 percent.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "4 percent",
+    "yourAnswerText": "1 percent",
     "category": "Rates & Bonds",
     "tags": [
       "rates"
@@ -1167,6 +1219,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25734 : Series 3 GreenLight Exam\nA futures trader is becoming more experienced and is looking at how he can used different types of orders to enter and exit the market. Which of the following choices is correct ?\nA. MIT orders to buy and limit orders to sell are placed below the current market price\nB. MIT orders to sell and stop orders to buy are placed above the current market price\nC. Stop orders to buy and limit orders to buy are placed below the current market price\nD. Stop orders to sell and limit orders to sell are placed above the current market price\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: A\nMIT orders to sell would be placed above the market, similar to a sell limit order. A buy stop order is placed above the market and is used to protect a short position or to enter a long position should the market trade higher and break\nthrough resistance .",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "MIT orders to sell and stop orders to buy are placed above the current market price",
+    "yourAnswerText": "MIT orders to buy and limit orders to sell are placed below the current market price",
     "category": "General Review",
     "tags": []
   },
@@ -1178,10 +1232,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25751",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25751 : Series 3 GreenLight Exam on",
       "Single stock futures contracts trading on the various exchanges, covering different securities, would clear:"
     ],
-    "prompt": "QUESTION ID 25751 : Series 3 GreenLight Exam on\nSingle stock futures contracts trading on the various exchanges, covering different securities, would clear:",
+    "prompt": "Single stock futures contracts trading on the various exchanges, covering different securities, would clear:",
     "choices": [
       {
         "label": "A",
@@ -1209,6 +1262,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wr g)\nQUESTION ID 25751 : Series 3 GreenLight Exam on\nSingle stock futures contracts trading on the various exchanges, covering different securities, would clear:\nA. Through a clearinghouse for that exchange only\nB. Through a registered clearing firm\nC. Through the FCM\nD. Though the Options Clearing Corporation\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: C\nSingle stock futures contracts clear through the Options Clearing Corporation or the OCC. The do not clear through a clearinghouse as the underlying instrument is a stock and not a commodity.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Though the Options Clearing Corporation",
+    "yourAnswerText": "Through the FCM",
     "category": "Compliance",
     "tags": [
       "options"
@@ -1253,6 +1308,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25768 : Series 3 GreenLight Exam\nWhich of the following is not correct at is relates to the reporting of large positions ?\nA. It is required by the CFTC\nB. It takes options positions into account\nC. It is for net long or short positions\nD. Open contract positions on other exchanges cannot be used to offset contract positions for calculation purposes\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: C\nThe question asks which of the following is not correct. Open positions on other exchanges may be used to offset positions on other exchanges for calculation purposes. The answer is incorrect in that it states that positions may not\nbe used to offset open positions on other exchanges.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Open contract positions on other exchanges cannot be used to offset contract positions for calculation purposes",
+    "yourAnswerText": "It is for net long or short positions",
     "category": "Compliance",
     "tags": []
   },
@@ -1264,11 +1321,10 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25716",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25716 : Series 3 GreenLight Exam",
       "Jim is a third generation cattle grower. He has seen his family's income rise and fall as a result of the changes in market conditions. Jim has an MBA in finance and is looking at ways to manage the family business by using financial",
       "instruments. Which of the following transactions would not help Jim in his efforts ?"
     ],
-    "prompt": "QUESTION ID 25716 : Series 3 GreenLight Exam\nJim is a third generation cattle grower. He has seen his family's income rise and fall as a result of the changes in market conditions. Jim has an MBA in finance and is looking at ways to manage the family business by using financial\ninstruments. Which of the following transactions would not help Jim in his efforts ?",
+    "prompt": "Jim is a third generation cattle grower. He has seen his family's income rise and fall as a result of the changes in market conditions. Jim has an MBA in finance and is looking at ways to manage the family business by using financial\ninstruments. Which of the following transactions would not help Jim in his efforts ?",
     "choices": [
       {
         "label": "A",
@@ -1297,6 +1353,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25716 : Series 3 GreenLight Exam\nJim is a third generation cattle grower. He has seen his family's income rise and fall as a result of the changes in market conditions. Jim has an MBA in finance and is looking at ways to manage the family business by using financial\ninstruments. Which of the following transactions would not help Jim in his efforts ?\nA. Go long soy meal\nB. Go long feeder cattle\nC. Go long corn\nD. Go long live cattle\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: B\nA cattle grower is a producer of live cattle, therefore going long live cattle futures would not hedge the business risks associated with growing cattle. This transaction would magnify, not offset or hedge the risk. Going long feeder\ncattle, corn or soy meal would hedge all of the input costs.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Go long live cattle",
+    "yourAnswerText": "Go long feeder cattle",
     "category": "Hedging",
     "tags": [
       "hedging",
@@ -1342,6 +1400,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25766 : Series 3 GreenLight Exam\nAn associated person who is speaking with a client, accepts the customer's order to purchase 4 December soybeans. The AP promptly transmits the order for execution. A trader on the firm's desk elects to fill the order on a principal\nbasis and sells the contracts to the customer to establish a short contract position in the firm's trading account. Which of the following is correct?\nA. This is only allowed with the approval of the customer\nB. The is strictly prohibited\nC. This acceptable and is part of the role of an FCM\nD. This is only allowed if the price the customer paid was better than the best price in the market\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: D\nA firm may only execute an order for a customer on a principal basis with the approval of the customer. In a principal transaction the FCM participates in the trade and takes the other side of the customer's order.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "This is only allowed with the approval of the customer",
+    "yourAnswerText": "This is only allowed if the price the customer paid was better than the best price in the market",
     "category": "Compliance",
     "tags": [
       "spreads"
@@ -1385,6 +1445,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25774 : Series 3 GreenLight Exam ron\nA member or associate who would like to share directly or indirectly in the performance of customer accounts:\nA. May not do so under any circumstances\nB. May only share in the results if the member is registered as a CPO\nC. May only share in the results if the member is registered as a CTA\nD. May only share in the results if approved by the customer\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: C\nA member or an associated person may share in the profits of a customer's account, if the profit sharing arrangement is disclosed to the customer and approved in writing by the customer.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "May only share in the results if approved by the customer",
+    "yourAnswerText": "May only share in the results if the member is registered as a CTA",
     "category": "Compliance",
     "tags": []
   },
@@ -1430,6 +1492,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25777 : Series 3 GreenLight Exam\nAs it relates to NFA Rule 2-29, and the on-premises advertising file, which of the following are correct?\nI. It must be kept for 3 years\nII. It must be readily accessible for 3 years\nIII. It must be kept for 5 years\nIV. It must be readily accessible for 2 years\nA. I and IV\nB. III and IV\nC. II and IV\nD. I and II\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nEach NFA member is required to keep a copy of all promotional materials in its onsite advertising file readily accessible for 2 years and copies must be maintained for 3 years total.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "II and IV",
+    "yourAnswerText": "III and IV",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -1476,6 +1540,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25708 : Series 3 GreenLight Exam\nA speculator sells 3 March wheat at 5.32 to open the contract. The exchange has set the initial margin requirement at $4,000 per contract and the minimum margin is set at $3,600 per contract. If wheat rallies 5 % and is marked to\nthe market at that price, which of the following is not correct ? Each wheat contract covers 5,000 bushels of wheat.\nA. A call for variation margin in the amount of $3,990 will be issued\nB. The speculator has negative open trade equity\nC. The initial margin for the contract was 80 cents per bushel and the minimum was 74 cents per bushel\nD. The wheat contract was marked to the market at 5.586\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: A\nThe initial contract margin was $4,000 per contract and the minimum was $3,600. To determine the margin per bushel divide the total dollars required by the number of bushels in the contracts. $4,000 / 5000 bu — 80 cents per\nbushel. $3,600 / 5000 bu — 72 cents per bushel. The investor has negative OTE as he was short and the contract rallied 5 % to 5.586. The investor lost .266 on each bushel. The total call would be to cover the loss of .266 X 15,000 bushels\n-$3,990.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The initial margin for the contract was 80 cents per bushel and the minimum was 74 cents per bushel",
+    "yourAnswerText": "A call for variation margin in the amount of $3,990 will be issued",
     "category": "Options",
     "tags": [
       "options"
@@ -1489,10 +1555,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25755",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25755 : Series 3 GreenLight Exam on",
       "A multinational corporations looking to hedge the purchase of Japanese Yen, would realize a benefit from the hedge in all of the following scenarios, except:"
     ],
-    "prompt": "QUESTION ID 25755 : Series 3 GreenLight Exam on\nA multinational corporations looking to hedge the purchase of Japanese Yen, would realize a benefit from the hedge in all of the following scenarios, except:",
+    "prompt": "A multinational corporations looking to hedge the purchase of Japanese Yen, would realize a benefit from the hedge in all of the following scenarios, except:",
     "choices": [
       {
         "label": "A",
@@ -1521,6 +1586,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wr g)\nQUESTION ID 25755 : Series 3 GreenLight Exam on\nA multinational corporations looking to hedge the purchase of Japanese Yen, would realize a benefit from the hedge in all of the following scenarios, except:\nA. If the basis weakens\nB. If the price of the Yen increases less than the price of the future\nC. If the Yen falls in value the loss will be offset by the fall in the futures\nD. If the spread between the spot price and the price of the future weakens\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nThe purpose of the long hedge is to hedge against a rise in the Yen. If the Yen falls, that is good for the entity that needs to acquire the Yen. However, if the Yen falls and the futures contract falls this would not off set a loss. If the Yen\nfalls more than the futures contract that would benefit the hedger.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "If the Yen falls in value the loss will be offset by the fall in the futures",
+    "yourAnswerText": "If the price of the Yen increases less than the price of the future",
     "category": "Currencies",
     "tags": [
       "hedging",
@@ -1535,10 +1602,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25695",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25695 : Series 3 GreenLight Exam",
       "Pursuant to NFA advertising regulations, an FCM member firm who engages in promotional activity is required to maintain records of the activities:"
     ],
-    "prompt": "QUESTION ID 25695 : Series 3 GreenLight Exam\nPursuant to NFA advertising regulations, an FCM member firm who engages in promotional activity is required to maintain records of the activities:",
+    "prompt": "Pursuant to NFA advertising regulations, an FCM member firm who engages in promotional activity is required to maintain records of the activities:",
     "choices": [
       {
         "label": "A",
@@ -1566,6 +1632,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25695 : Series 3 GreenLight Exam\nPursuant to NFA advertising regulations, an FCM member firm who engages in promotional activity is required to maintain records of the activities:\nA. for 2 years readily accessible and 4 years total\nB. for 2 years readily accessible and 5 years total\nC. for 3 years readily accessible and 4 years total\nD. for 3 years readily accessible and 5 years total\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: B\nUnder NFA regulations a member must maintain copies of its promotional material for 3 years readily accessible and 5 years total. Readily accessible means that the member can produce it on demand.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "for 3 years readily accessible and 5 years total",
+    "yourAnswerText": "for 2 years readily accessible and 5 years total",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -1614,6 +1682,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25714 : Series 3 GreenLight Exam\nAs it relates to an intra-commodity spread established in an agriculture product, which of the following is / are correct ?\nI. A bull spreader goes long the front month\nII. A bear spreader will have profit if the contago increases\nIII. A bull spreader will profit if the contango increases\nIV. A bear spreader will profit if market inverts\nA. III and IV\nB. I and II\nC. I and IV\nD. II and III\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: A\nAs it relates to an intra-commodity spread in agriculture commodities, A bullish trader goes long the front month and short the distant contract. A bearish spread would be established by shorting the front month and going long the\ndistant contract. A bull spreader wants the spread to narrow, while a bear spreader wants the spread to increase.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "I and II",
+    "yourAnswerText": "III and IV",
     "category": "Spreads",
     "tags": [
       "spreads"
@@ -1627,10 +1697,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25703",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25703 : Series 3 GreenLight Exam",
       "As it relates to the futures markets which of the following is not correct?"
     ],
-    "prompt": "QUESTION ID 25703 : Series 3 GreenLight Exam\nAs it relates to the futures markets which of the following is not correct?",
+    "prompt": "As it relates to the futures markets which of the following is not correct?",
     "choices": [
       {
         "label": "A",
@@ -1659,6 +1728,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25703 : Series 3 GreenLight Exam\nAs it relates to the futures markets which of the following is not correct?\nA. Supply elasticity for commodities with lower costs of production tends to be higher than commodities with higher costs of production\nB. It is easier to predict the basis for a commodity with a known growing cycle than for commodities that are continuously produced\nC. There is more volatility in the cash and futures markets than there is in the basis for commodities produced year round\nD. It is easier to predict the basis for a commodity relative to its absolute price\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: A\nThis question is asking which is not correct. It is not easier to predict the basis for a commodity with a known growing cycle than for one that is continuously produced. Supply disruptions, along with good and bad crop years have a\nmajor influence on the basis for these commodities. Oil, gold and silver do not have a crop year or production cycle and the basis can be more easily predicted.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "It is easier to predict the basis for a commodity with a known growing cycle than for commodities that are continuously produced",
+    "yourAnswerText": "Supply elasticity for commodities with lower costs of production tends to be higher than commodities with higher costs of production",
     "category": "Macro & Market Theory",
     "tags": [
       "spreads"
@@ -1672,14 +1743,13 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25748",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25748 : Series 3 GreenLight Exam on",
       "In which two of the following commodities spreads, would the trader be considered bullish?",
       "I. Long March S & P futures, Short September S & P futures",
       "II. Short March wheat, Long September wheat",
       "III. Short March NASDAQ futures, Long September NASDAQ futures",
       "IV. Long March corn, Short September corn"
     ],
-    "prompt": "QUESTION ID 25748 : Series 3 GreenLight Exam on\nIn which two of the following commodities spreads, would the trader be considered bullish?\nI. Long March S & P futures, Short September S & P futures\nII. Short March wheat, Long September wheat\nIII. Short March NASDAQ futures, Long September NASDAQ futures\nIV. Long March corn, Short September corn",
+    "prompt": "In which two of the following commodities spreads, would the trader be considered bullish?\nI. Long March S & P futures, Short September S & P futures\nII. Short March wheat, Long September wheat\nIII. Short March NASDAQ futures, Long September NASDAQ futures\nIV. Long March corn, Short September corn",
     "choices": [
       {
         "label": "A",
@@ -1708,6 +1778,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrg)\nQUESTION ID 25748 : Series 3 GreenLight Exam on\nIn which two of the following commodities spreads, would the trader be considered bullish?\nI. Long March S & P futures, Short September S & P futures\nII. Short March wheat, Long September wheat\nIII. Short March NASDAQ futures, Long September NASDAQ futures\nIV. Long March corn, Short September corn\nA. III and IV\nB. I and II\nC. II and III\nD. II and IV\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: C\nTo determine if the spreader is bullish or bearish you must look at the type of commodity involved. With commodities such as wheat and corn, a bullish person would purchase the near month and sell the distant month. With stock\nindex futures contracts a bullish trader would sell the near term contract and purchase the distant contract.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "III and IV",
+    "yourAnswerText": "II and III",
     "category": "Spreads",
     "tags": [
       "spreads"
@@ -1757,6 +1829,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25701 : Series 3 GreenLight Exam\nFastTrade operates as a CPO and offers three different pools for investors to choose from. FastTrade utilizes the services of an in-house adviser to determine the asset selection for two of the three pools. The third pool is managed by\nthree outside advisers. Which of the following is / are correct?\nI. FastTrade must register as both a CPO and CTA\nII. The names of the outside adviser must be disclosed to the investors for any adviser managing more than 10 percent of the pool\nIII. FastTrade need only register as a CPO\nIV. Only the name of the primary outside adviser must be disclosed to investors.\nA. I and IV\nB. II and III\nC. III and IV\nD. I and II\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: D\nA CPO that advises only its own pools is not required to register as a CTA as it is not giving advice to outside clients. Any CPO that utilizes the services of an outside CTA must disclose the name of any outside adviser who manages 10\npercent or more of the of the pool.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "II and III",
+    "yourAnswerText": "I and II",
     "category": "Compliance",
     "tags": []
   },
@@ -1799,6 +1873,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25781 : Series 3 GreenLight Exam\nGreatTrades commodities broker has just received word that a small regional publication has ranked it as number 1 for futures trading results, The ranking system used by this small publisher is not consistent with CFTC guidelines.\nWhich of the following is correct?\nA. GreatTrades may not reference the ranking in any of its printed promotional material\nB. GreatTrades must prefile printed promotional material for comment prior to use\nC. GreatTrades must explain the ranking in any material the references the ranking\nD. GreatTreades would be subject to enforcement actions If APs discuss the ranking during phone calls and presentations\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nThe use of non standard ranking systems or systems that are not consistent with industry standards are not prohibited. However, these systems must be clearly explained.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "GreatTrades must explain the ranking in any material the references the ranking",
+    "yourAnswerText": "GreatTrades must prefile printed promotional material for comment prior to use",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -1812,10 +1888,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25735",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25735 : Series 3 GreenLight Exam",
       "As it relates to a customer with an open futures contract position established through an FCM that is a member of the clearinghouse, which of the following is correct ?"
     ],
-    "prompt": "QUESTION ID 25735 : Series 3 GreenLight Exam\nAs it relates to a customer with an open futures contract position established through an FCM that is a member of the clearinghouse, which of the following is correct ?",
+    "prompt": "As it relates to a customer with an open futures contract position established through an FCM that is a member of the clearinghouse, which of the following is correct ?",
     "choices": [
       {
         "label": "A",
@@ -1843,6 +1918,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25735 : Series 3 GreenLight Exam\nAs it relates to a customer with an open futures contract position established through an FCM that is a member of the clearinghouse, which of the following is correct ?\nA. The customer is liable for the open contract position booked through the clearinghouse\nB. The customer must deposit the funds with the clearinghouse by the open of the next trading day\nC. The customer is liable to the clearinghouse for any losses\nD. The customer is not liable to the clearinghouse for any monetary risk or losses\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: B\nA customer never interacts with the clearinghouse. The FCM is responsible to the clearinghouse for any and all financial liabilities. The customer only deals with the FCM or 1B as the case maybe.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The customer is not liable to the clearinghouse for any monetary risk or losses",
+    "yourAnswerText": "The customer must deposit the funds with the clearinghouse by the open of the next trading day",
     "category": "Compliance",
     "tags": []
   },
@@ -1889,6 +1966,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25786 : Series 3 GreenLight Exam\nA CPO has established a base investment figure relating to its pool for disclosure purpose. Which of the following is / are corret\nI. Organizational expenses will be deducted from the base figure\nII. Performance will be calculated using the base figure\nIII. The dilution table will be used to calculate management fees\nIV. Net proceeds detail the amount of funds available for trading\nA. I and II\nB. II and III\nC. I and IV\nD. l, II, III IV\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nOrganization expenses are deducted from the base figure and the net proceeds detail the amount of the investment that would be available for trading. The performance figure would be based on the net proceeds and not on the\nbase figure and the dilution table does not calculate management fees.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "I and IV",
+    "yourAnswerText": "l, II, III IV",
     "category": "Compliance",
     "tags": []
   },
@@ -1900,10 +1979,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25742",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25742 : Series 3 GreenLight Exam",
       "A trader who has an open long Eurodollar contract after the last trading day has elapsed, will receive,"
     ],
-    "prompt": "QUESTION ID 25742 : Series 3 GreenLight Exam\nA trader who has an open long Eurodollar contract after the last trading day has elapsed, will receive,",
+    "prompt": "A trader who has an open long Eurodollar contract after the last trading day has elapsed, will receive,",
     "choices": [
       {
         "label": "A",
@@ -1931,6 +2009,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25742 : Series 3 GreenLight Exam\nA trader who has an open long Eurodollar contract after the last trading day has elapsed, will receive,\nA. A Eurodollar deposit\nB. Euros\nC. Dollars\nD. A Eurodollar bond\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: A\nEurodollar contracts settle with the delivery of U.S dollars.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Dollars",
+    "yourAnswerText": "A Eurodollar deposit",
     "category": "Currencies",
     "tags": [
       "rates",
@@ -1975,6 +2055,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25764 : Series 3 GreenLight Exam (wrong)\nAn entity whose primary business is effecting transactions in currency exchange, but who does not transact business in listed futures contracts, would be required to do which of the following ?\nA. Register with the NFA as a retail foreign exchange delaer\nB. Register with the NFA as an 1B\nC. Register with the CFTC as a foreign exchange dealer\nD. Register with the CFTC as an 1B\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: A\nThe entity does not transact business in futures, so they would not be required to register with the NFA. The entity would be required to register with the CFTC as a foreign currency dealer.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Register with the CFTC as a foreign exchange dealer",
+    "yourAnswerText": "Register with the NFA as a retail foreign exchange delaer",
     "category": "Compliance",
     "tags": [
       "regulation",
@@ -1989,10 +2071,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25765",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25765 : Series 3 GreenLight Exam",
       "The futures contract based on the S & P 500 index is derived from the value of 500 stocks, each of which are regulated by the SEC. As it relates to the regulation of the S & P futures contract, which of the following is correct ?"
     ],
-    "prompt": "QUESTION ID 25765 : Series 3 GreenLight Exam\nThe futures contract based on the S & P 500 index is derived from the value of 500 stocks, each of which are regulated by the SEC. As it relates to the regulation of the S & P futures contract, which of the following is correct ?",
+    "prompt": "The futures contract based on the S & P 500 index is derived from the value of 500 stocks, each of which are regulated by the SEC. As it relates to the regulation of the S & P futures contract, which of the following is correct ?",
     "choices": [
       {
         "label": "A",
@@ -2020,6 +2101,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25765 : Series 3 GreenLight Exam\nThe futures contract based on the S & P 500 index is derived from the value of 500 stocks, each of which are regulated by the SEC. As it relates to the regulation of the S & P futures contract, which of the following is correct ?\nA. The contract is regulated by the SEC\nB. The contract is regulated by the CFTC\nC. The contract is regulated by both the SEC and CFTC\nD. The contract is primarily regulated by the CFTC, while the inclusion in the underlying index is regulated by the SEC\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: D\nBecause the settlement of the contract does not result in the delivery of the underlying stock, and settles in cash, the contracts are only regulated by the CFTC and not by the SEC.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The contract is regulated by the CFTC",
+    "yourAnswerText": "The contract is primarily regulated by the CFTC, while the inclusion in the underlying index is regulated by the SEC",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -2063,6 +2146,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25739 : Series 3 GreenLight Exam\nThe last trading day for a commodity is September 12th. A producer of the commodity has filed their notice of intent to deliver on September 10th. The seller sets a delivery date of September 22nd. Which of the following is correct ?\nA. The buyer must pay the full cash value based on the price at which the contract was open\nB. The buyer must pay the full cash value based on the settlement price when delivery occurs\nC. The buyer must pay the full cash value based on the settlement price as of the last trading day\nD. The buyer must pay the full cash value based on the settlement price as of the day the notice was filed\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: C\nThe cash price paid by the buyer is the final settlement price of the contract on the date that the notice of intent to deliver was filed.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The buyer must pay the full cash value based on the settlement price as of the day the notice was filed",
+    "yourAnswerText": "The buyer must pay the full cash value based on the settlement price as of the last trading day",
     "category": "Delivery & Settlement",
     "tags": []
   },
@@ -2105,6 +2190,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25696 : Series 3 GreenLight Exam\nTradeFast is an NFA member FCM who has just been recognized as last year's leading FCM, based on its trading results. Futures Traders Monthly has mailed TradeFast an award plaque and detailed its findings in an article in last\nmonth's edition. The team at TradeFast feel this will help the firm gain new customers and help it stand out among other FCMs. Which of the following is correct?\nA. If the ranking system is not consistent with CFTC standards it may not be used\nB. If the ranking system is not consistent with CFTC standards it must be submitted to the NFA for review\nC. If the ranking system is not consistent with CFTC standards it must be submitted to a principal of the FCM for review\nD. If the ranking system is not consistent with CFTC standards it must be clearly explained\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: A\nA member firm who wants to use the results of an outside ranking or rating service to promote its business, must clearly explain the ranking system to readers if the system does not meet CFTC guidelines.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "If the ranking system is not consistent with CFTC standards it must be clearly explained",
+    "yourAnswerText": "If the ranking system is not consistent with CFTC standards it may not be used",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -2154,6 +2241,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25683 : Series 3 GreenLightExam rom\nA trader of debt is looking at the futures market and reviewing rates and credit conditions. The current T'bill futures contract is quoted at a price equal to 1.05 percent and the equivalent Eurodollar futures contract is quoted at a price\nequal to 1.22 percent. If the quote on the T'bill contract goes to 1.18 percent and the quote on the Eurodollar contract goes to 1.28 percent, a trader would assume which of the following?\nI. Lenders are more willing to lend\nII. Interest rates are increasing\nIII. Lenders have become more risk averse\nIV. Investors are seeking safe havens for capital\nA. I and II\nB. III and IV\nC. I and III\nD. II and IV\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: B\nThe question details the TED spread. Consisting of Tbill futures and Eurodollar futures. The spread or the difference in interest rates has narrowed from 17 basis points to 10 basis points. Therefore, investors are more willing to lend. The\ninterest rates on both have also increased.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "I and II",
+    "yourAnswerText": "III and IV",
     "category": "Rates & Bonds",
     "tags": [
       "spreads",
@@ -2169,11 +2258,10 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25744",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25744 : Series 3 GreenLight Exam on",
       "A trader has established an inter-commodity spread comprised of 1 short T'bill contract and 10 long T'bond contracts. The contract sizes are $1,000,000 and $100,000 respectively. If long and short term interest rates increase by the",
       "same amount, which of the following is true?"
     ],
-    "prompt": "QUESTION ID 25744 : Series 3 GreenLight Exam on\nA trader has established an inter-commodity spread comprised of 1 short T'bill contract and 10 long T'bond contracts. The contract sizes are $1,000,000 and $100,000 respectively. If long and short term interest rates increase by the\nsame amount, which of the following is true?",
+    "prompt": "A trader has established an inter-commodity spread comprised of 1 short T'bill contract and 10 long T'bond contracts. The contract sizes are $1,000,000 and $100,000 respectively. If long and short term interest rates increase by the\nsame amount, which of the following is true?",
     "choices": [
       {
         "label": "A",
@@ -2202,6 +2290,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wr g)\nQUESTION ID 25744 : Series 3 GreenLight Exam on\nA trader has established an inter-commodity spread comprised of 1 short T'bill contract and 10 long T'bond contracts. The contract sizes are $1,000,000 and $100,000 respectively. If long and short term interest rates increase by the\nsame amount, which of the following is true?\nA. The price of the bill contract will change more\nB. The price of the bond contracts will change more\nC. The price of both contracts will change in equal amounts\nD. The price changes will be inverse\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: D\nIf both long and short term rates change by the same amount, the change in the price of the Tbond contract would be greater. Longer term debt instruments are more price sensitive to a change in interest rates than short term\ndebt instruments.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The price of the bond contracts will change more",
+    "yourAnswerText": "The price changes will be inverse",
     "category": "Rates & Bonds",
     "tags": [
       "spreads",
@@ -2247,6 +2337,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25773 : Series 3 GreenLight Exam on\nPursuant to NFA regulations, bucketing is a violation of its ethical standards. Which of the following best details the practice of bucketing?\nA. It is a practice of holding back orders that result in a large number of orders being executed at once\nB. It is a practice of holding back orders that result in a large number orders being reported at once\nC. It is a practice of holding back orders that result in a large number of orders not being executed\nD. It is a practice of holding back orders that result in a large number of orders not being reported\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: A\nBucketing is a practice of holding back orders that result in a large number of orders not being executed. It is an unethical practice to hold back orders. This practice may be used to protect traders from loss or to profit unduly using\nthe orders it is holding back.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "It is a practice of holding back orders that result in a large number of orders not being executed",
+    "yourAnswerText": "It is a practice of holding back orders that result in a large number of orders being executed at once",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -2291,6 +2383,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25771 : Series 3 GreenLightExam ron\nJim is a long tenured AP at FastTrade Commodities, a registered FCM. Jim's brother in-law just opened his own FCM and would like Jim to work at his new firm. Jim is not ready to leave his current firm, but is considering assisting his\nbrother in-law at his new firm. Which of the following is correct?\nA. Dual registration is not allowed for associated persons\nB. Dual registration is allowed for associated persons if authorized by the NFA\nC. Dual registration is allowed for associated persons if authorized by the CFTC\nD. Dual registration is allowed for associated persons if the NFA is notified\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: B\nAn AP may be registered with more than one firm provided both firms agree and the NFA is notified. Permission is not required and the CFTC is not involved.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Dual registration is allowed for associated persons if the NFA is notified",
+    "yourAnswerText": "Dual registration is allowed for associated persons if authorized by the NFA",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -2335,6 +2429,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25740 : Series 3 GreenLight Exam on\nA speculator who has no interest in the underlying commodity would be subject to the most risk, if:\nA. the speculator was long a contract subject to a standard delivery notice past the first notice day\nB. the speculator was short a contract subject to a standard delivery notice past the first notice day\nC. the speculator was long a contract subject to a stopped delivery notice past the first notice day\nD. the speculator was short a contract subject to a stopped delivery notice past the first notice day\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: A\nA speculator who is long a contract past the first notice day is subject to far more risk than a speculator who is short past the first notice day. Remember the short contract position files the notice of intent to deliver. Therefore, a\nspeculator who is long a contract with a stopped delivery notice past the first notice day is subject to the most risk.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "the speculator was long a contract subject to a stopped delivery notice past the first notice day",
+    "yourAnswerText": "the speculator was long a contract subject to a standard delivery notice past the first notice day",
     "category": "Delivery & Settlement",
     "tags": [
       "rates"
@@ -2381,6 +2477,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25754 : Series 3 GreenLight Exam on\nA U.S watch maker needs to purchase components for its watches from a Swiss manufacturer. The order is to be paid for in I million Swiss Francs, 9 months from now. The spot rate is 1.03 and the 9 month futures are 1.07. If the U.S\nwatch maker established a hedge based on these current prices, and offsets the hedge when the spot rate for Swiss Francs is 1.05 and the futures are 1.06, what was the net result of the hedge? Each contract covers 10,000 Swiss\nFrancs.\nA. The effect purchase price was\nB. The effective purchase price was $1,060,000\nC. The effective purchase price was $1,070,000\nD. The effective purchase price was $1,050,000\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: A\nIn this case the hedge did not work and the cost ended up increasing. The company purchased the francs in the spot market at 1.05 and offset the futures hedge at 1.07. The hedge actually went against the company and fell from 1.07\nto 1.06. The hedge increased the cost from 1.05 to 1.06. The total cost for 1,000,000 is therefore, $1,060,000.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The effective purchase price was $1,060,000",
+    "yourAnswerText": "The effect purchase price was",
     "category": "Currencies",
     "tags": [
       "hedging"
@@ -2425,6 +2523,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25772 : Series 3 GreenLightExam ron\nAn AP has had his registration revoked by the NFA for numerous alleged infractions. The AP is extremely upset and vigorously contents the allegations. The AP wishes to pursue relief and attempts to have his registration reinstated.\nWhich of the following is correct ?\nA. The AP must appeal to the CFTC within 30 days\nB. The AP must appeal to the Business Committee of the NFA within 30 days\nC. Findings by the NFA Hearing Panel are final binding\nD. The AP must appeal to the Business Committee of the NFA within 45 days\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: C\nIf an associated person has their registration revoked by the NFA, the AP is required to appeal that action to the CFTC within 30 days of the action should the AP wish to seek reinstatement.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The AP must appeal to the CFTC within 30 days",
+    "yourAnswerText": "Findings by the NFA Hearing Panel are final binding",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -2469,6 +2569,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25745 : Series 3 GreenLight Exam on\nWhich of the following parties would not be a short hedger?\nA. A long only portfolio manager concerned about current market conditions\nB. An investor in Eurodollars worried about a change in credit quality\nC. A corporate borrower seeking to raise capital to build a new plant\nD. A fund manager long bonds maturing in 3 months who is looking to roll the proceeds into new bonds\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: C\nIf a portfolio manager is looking to purchase bonds in the future, the manage would be a long hedger. In this case the manager will be receiving the principal payment in 3 months from the maturing bonds. At that point the manger\nwants to buy bonds, so the manger would go long bond futures to protect from a fall in interest rates.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "A fund manager long bonds maturing in 3 months who is looking to roll the proceeds into new bonds",
+    "yourAnswerText": "A corporate borrower seeking to raise capital to build a new plant",
     "category": "Rates & Bonds",
     "tags": [
       "hedging",
@@ -2483,10 +2585,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25722",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25722 : Series 3 GreenLight Exam",
       "A new process has just come into use for a given agricultural commodity. This process has increased the yield for farmers by 8 percent. This increase in productivity would have a market impact similar to which of the following ?"
     ],
-    "prompt": "QUESTION ID 25722 : Series 3 GreenLight Exam\nA new process has just come into use for a given agricultural commodity. This process has increased the yield for farmers by 8 percent. This increase in productivity would have a market impact similar to which of the following ?",
+    "prompt": "A new process has just come into use for a given agricultural commodity. This process has increased the yield for farmers by 8 percent. This increase in productivity would have a market impact similar to which of the following ?",
     "choices": [
       {
         "label": "A",
@@ -2514,6 +2615,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25722 : Series 3 GreenLight Exam\nA new process has just come into use for a given agricultural commodity. This process has increased the yield for farmers by 8 percent. This increase in productivity would have a market impact similar to which of the following ?\nA. An increase in acreage control\nB. A decrease in tariffs\nC. An decrease in storage charges\nD. A change in the basis\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: C\nWhen new technology increases the production of a commodity it will increase supply. A decrease in tariffs would also result in an increase in the supply for a commodity. An increase in acreage control would reduce supply.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "A decrease in tariffs",
+    "yourAnswerText": "An decrease in storage charges",
     "category": "Rates & Bonds",
     "tags": []
   },
@@ -2556,6 +2659,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25671 : Series 3 GreenLight Exam\nAs it relates to the TED spread which of the following is not correct ?\nA. It is an inter-commodity spread\nB. It is quoted in basis points\nC. As the spread increases the economy is expanding\nD. As SOFR increases perceived risk is increasing\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nThe question asks, which of the choices are not correct relating to the TED spread. As the spread widens it indicates that credit conditions are falling and that the economy is entering into a recession. Therefore, the choice that\nindicates the opposite of this fact is incorrect. The TED spread is an inter-commodity spread based on T-bills and Eurodollar futures. As SOFR increases the risk associated with making loans is increasing.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "As the spread increases the economy is expanding",
+    "yourAnswerText": "It is quoted in basis points",
     "category": "Rates & Bonds",
     "tags": [
       "spreads",
@@ -2571,10 +2676,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25784",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25784 : Series 3 GreenLight Exam on",
       "As it relates to a CTA which of the following choices is not correct ?"
     ],
-    "prompt": "QUESTION ID 25784 : Series 3 GreenLight Exam on\nAs it relates to a CTA which of the following choices is not correct ?",
+    "prompt": "As it relates to a CTA which of the following choices is not correct ?",
     "choices": [
       {
         "label": "A",
@@ -2603,6 +2707,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wr g)\nQUESTION ID 25784 : Series 3 GreenLight Exam on\nAs it relates to a CTA which of the following choices is not correct ?\nA. A CTA may hold customer assets if also registered as commodities broker\nB. An adviser in the spot market is not required to register\nC. A leveraged transaction merchant is exempt from registering as a CTA\nD. A CTA who has given advice to 15 people during the last year is exempt from registration\nCORRECT ANSWER IS: A\nYOUR ANSWER IS: C\nA CTA advises on commodities transactions, it does not hold customer assets. Only FCMs not brokers hold customer assets. Any entity who exclusively advises on spot market transactions is exempt from registration, as no futures\nare involved.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "A CTA may hold customer assets if also registered as commodities broker",
+    "yourAnswerText": "A leveraged transaction merchant is exempt from registering as a CTA",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -2651,6 +2757,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25723 : Series 3 GreenLight Exam\nThe amount of supply for a given commodity stored and available for delivery can impact the price for the commodity. Which of the following commodities would not be considered to be storable for long periods of time?\nI. Soybeans\nII. Live cattle\nIII. Soy meal\nIV. Rbob\nA. I and III\nB. II and IV\nC. II and III\nD. I and IV\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nLive cattle require feed to keep them alive. The longer a live cattle is kept on the farm the larger the losses will be for a cattle grower. Also as cattle age the quality begins to fall. Soy meal tends to spoil after a period of time. Gasoline\nand soybeans can be stored for longer periods of time.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "II and III",
+    "yourAnswerText": "II and IV",
     "category": "Delivery & Settlement",
     "tags": []
   },
@@ -2662,11 +2770,10 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25731",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25731 : Series 3 GreenLight Exam",
       "A refinery in Texas is looking to ramp up production as the summer driving season begins. To meet the gasoline demand of its customers, the refinery needs to secure 2,100,000 gallons of oil. June crude is trading at 53.20 per barrel.",
       "Each contract covers 1,000 42 gallon barrels of oil. Which of the following actions should the refinery take ?"
     ],
-    "prompt": "QUESTION ID 25731 : Series 3 GreenLight Exam\nA refinery in Texas is looking to ramp up production as the summer driving season begins. To meet the gasoline demand of its customers, the refinery needs to secure 2,100,000 gallons of oil. June crude is trading at 53.20 per barrel.\nEach contract covers 1,000 42 gallon barrels of oil. Which of the following actions should the refinery take ?",
+    "prompt": "A refinery in Texas is looking to ramp up production as the summer driving season begins. To meet the gasoline demand of its customers, the refinery needs to secure 2,100,000 gallons of oil. June crude is trading at 53.20 per barrel.\nEach contract covers 1,000 42 gallon barrels of oil. Which of the following actions should the refinery take ?",
     "choices": [
       {
         "label": "A",
@@ -2695,6 +2802,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "(wrong)\nQUESTION ID 25731 : Series 3 GreenLight Exam\nA refinery in Texas is looking to ramp up production as the summer driving season begins. To meet the gasoline demand of its customers, the refinery needs to secure 2,100,000 gallons of oil. June crude is trading at 53.20 per barrel.\nEach contract covers 1,000 42 gallon barrels of oil. Which of the following actions should the refinery take ?\nA. Purchase 21 June crude futures\nB. Purchase 210 June crude futures\nC. Purchase 50 June crude futures\nD. purchase 500 June crude futures\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: A\nEach barrel of oil contains 42 gallons and each contract covers 1,000 barrels of oil. Therefore, the total number of barrels for each contract is 42,000. to determine how many contracts the refiner would need in this situation, you must\ndivide 2,100,000 by 42,000 — 50 futures contracts.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Purchase 50 June crude futures",
+    "yourAnswerText": "Purchase 21 June crude futures",
     "category": "Agriculture & Energy",
     "tags": []
   },
@@ -2736,6 +2845,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25778 : Series 3 GreenLightExam ron\nAn introducing broker received promotional material from its FCM. As it relates to the use of the material, which of the following is correct?\nA. If the 1B is guaranteed by the FCM it is only the responsibility of the FCM\nB. The preparing FCM has sole responsibility for the content of the material in all cases\nC. The 1B and the FCM are both responsible for the material only if the FCM does not guarantee the FCM\nD. The 1B and the FCM are both responsible for the material\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: A\nShould an FCM provide advertising or promotional material to an introducing broker, both the FCM and 1B are responsible the the content contained in the material.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "The 1B and the FCM are both responsible for the material",
+    "yourAnswerText": "If the 1B is guaranteed by the FCM it is only the responsibility of the FCM",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -2780,6 +2891,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25746 : Series 3 GreenLight Exam\nAssume that all of the parties in the choices listed below need to establish an anticipatory hedge. Upon review, which is not a long hedger?\nA. A lender seeking to make a loan to a corporation in the future\nB. An investor seeking to invest money in NASDAQ stocks in 3 months\nC. A pension manager seeking to buy bonds\nD. A refiner who is creating gasoline\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: B\nOf the choice listed, the refiner who is producing gasoline would be a short hedger. Producers of refined products must sell futures to hedge against a fall in the price of the refined product, in this case gasoline. A lender looking to\nmake a loan in the future is effectively going to buy bonds and would be a long hedger.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "A refiner who is creating gasoline",
+    "yourAnswerText": "An investor seeking to invest money in NASDAQ stocks in 3 months",
     "category": "Hedging",
     "tags": [
       "hedging",
@@ -2826,6 +2939,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25763 : Series 3 GreenLight Exam\nAn investor sells 2 December T' bond 104 put options to open at 1-12, when December T'bonds are at 103-21. The investor will breakeven excluding transactions costs at:\nEach Tbond contract covers $100,000 par value\nA. 102-09\nB. 102-20\nc. 102-26\nD. 102-19\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nOptions on Tbonds are priced in 64ths. Therefore, you must convert the price of the option into 32nds to determine the breakeven price for the bonds. 1-12/64 = 1-6/32. Subtract the premium from the strike price of 104 and you get 102\n-26.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "102-26",
+    "yourAnswerText": "102-20",
     "category": "Options",
     "tags": [
       "options",
@@ -2871,6 +2986,8 @@ window.SERIES3_QUESTIONS = [
     "ocrText": "QUESTION ID 25724 : Series 3 GreenLight Exam Ovronö\nInflation has been rising over the last year, as interest rates increase in the face of inflation, which of the following choices would be false?\nA. Money market funds become more attractive\nB. Holding inventory becomes more attractive as prices for finished products rise\nC. Raw materials and commodity prices increase\nD. Imports become more attractive\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: D\nAs interest rates increase the the dollar will become stronger making imports more attractive. Higher interest rates will also make money market funds more attractive as they offer higher interest rates. Holding inventory will not be\nmore attractive as the interest costs to hold the inventory will become more expensive as interest rates increase.",
     "isWrong": true,
     "isUnanswered": false,
+    "correctAnswerText": "Holding inventory becomes more attractive as prices for finished products rise",
+    "yourAnswerText": "Imports become more attractive",
     "category": "Rates & Bonds",
     "tags": [
       "rates"
@@ -2907,7 +3024,7 @@ window.SERIES3_QUESTIONS = [
       }
     ],
     "correctAnswer": "C",
-    "yourAnswer": "[[NONE]I",
+    "yourAnswer": "",
     "explanationLines": [
       "The transfer of a customer's account takes 5 days to complete. The firm that is losing the account will receive the written transfer instructions and must validate those instructions within 2 days. The firm then has 3 days to complete",
       "the transfer of the customer's account."
@@ -2915,7 +3032,9 @@ window.SERIES3_QUESTIONS = [
     "explanation": "The transfer of a customer's account takes 5 days to complete. The firm that is losing the account will receive the written transfer instructions and must validate those instructions within 2 days. The firm then has 3 days to complete the transfer of the customer's account.",
     "ocrText": "QUESTION ID 25776 : Series 3 GreenLightExam ron\nJill has a diversified portfolio containing many investments. Jill is looking to consolidate some of her accounts and is going to transfer her commodities account from CheapTrades FCM to TradeFast FCM. She wants to know how long\nthe whole process will take. As her AP, you should tell her:\nA. 3 days\nB. 2 days\nC. 5 days\nD. 4 days\nCORRECT ANSWER IS: C\nYOUR ANSWER Is: [[NONE]I\nThe transfer of a customer's account takes 5 days to complete. The firm that is losing the account will receive the written transfer instructions and must validate those instructions within 2 days. The firm then has 3 days to complete\nthe transfer of the customer's account.",
     "isWrong": true,
-    "isUnanswered": false,
+    "isUnanswered": true,
+    "correctAnswerText": "5 days",
+    "yourAnswerText": "",
     "category": "Compliance",
     "tags": []
   },
@@ -2927,14 +3046,13 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25725",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25725 : Series 3 GreenLight Exam",
       "Which of the following sets of commodities would not be considered to be substitute commodities?",
       "I. Corn and Oats",
       "II. Beef and Pork",
       "III. Silver and gold",
       "IV. Soybeans and Soy meal"
     ],
-    "prompt": "QUESTION ID 25725 : Series 3 GreenLight Exam\nWhich of the following sets of commodities would not be considered to be substitute commodities?\nI. Corn and Oats\nII. Beef and Pork\nIII. Silver and gold\nIV. Soybeans and Soy meal",
+    "prompt": "Which of the following sets of commodities would not be considered to be substitute commodities?\nI. Corn and Oats\nII. Beef and Pork\nIII. Silver and gold\nIV. Soybeans and Soy meal",
     "choices": [
       {
         "label": "A",
@@ -2954,7 +3072,7 @@ window.SERIES3_QUESTIONS = [
       }
     ],
     "correctAnswer": "C",
-    "yourAnswer": "[[NONE]I",
+    "yourAnswer": "",
     "explanationLines": [
       "A substitute commodity is one that can serve the same or similar function as another. Gold and silver while both precious metals do not serve the same function. Silver has an industrial use while gold has little industrial use.",
       "Soybeans are the raw commodity and soy meal is the refined product. Raw and refined products are not substitutes for one another."
@@ -2962,7 +3080,9 @@ window.SERIES3_QUESTIONS = [
     "explanation": "A substitute commodity is one that can serve the same or similar function as another. Gold and silver while both precious metals do not serve the same function. Silver has an industrial use while gold has little industrial use. Soybeans are the raw commodity and soy meal is the refined product. Raw and refined products are not substitutes for one another.",
     "ocrText": "(wrong)\nQUESTION ID 25725 : Series 3 GreenLight Exam\nWhich of the following sets of commodities would not be considered to be substitute commodities?\nI. Corn and Oats\nII. Beef and Pork\nIII. Silver and gold\nIV. Soybeans and Soy meal\nA. I and II\nB. II and III\nC. III and IV\nD. I and IV\nCORRECT ANSWER IS: C\nYOUR ANSWER Is: [[NONE]I\nA substitute commodity is one that can serve the same or similar function as another. Gold and silver while both precious metals do not serve the same function. Silver has an industrial use while gold has little industrial use.\nSoybeans are the raw commodity and soy meal is the refined product. Raw and refined products are not substitutes for one another.",
     "isWrong": true,
-    "isUnanswered": false,
+    "isUnanswered": true,
+    "correctAnswerText": "III and IV",
+    "yourAnswerText": "",
     "category": "Agriculture & Energy",
     "tags": []
   },
@@ -2996,7 +3116,7 @@ window.SERIES3_QUESTIONS = [
       }
     ],
     "correctAnswer": "C",
-    "yourAnswer": "[[NONE]I",
+    "yourAnswer": "",
     "explanationLines": [
       "If an FCM develops promotional material and would like to seek comment from the NFA regarding its content, it should submit the material 21 days prior to use. The FCM is not required to submit the material, but may choose to if it is",
       "unsure if the material is within NFA guidelines."
@@ -3004,7 +3124,9 @@ window.SERIES3_QUESTIONS = [
     "explanation": "If an FCM develops promotional material and would like to seek comment from the NFA regarding its content, it should submit the material 21 days prior to use. The FCM is not required to submit the material, but may choose to if it is unsure if the material is within NFA guidelines.",
     "ocrText": "QUESTION ID 25779 : Series 3 GreenLight Exam (wrong)\nA long standing FCM has developed a new promotional campaign and it is unsure if it falls in-line with NFA standards. Which of the following is correct ?\nA. The FCM must submit the material to the NFA for comment 21 days prior to use\nB. The FCM must submit the material to the NFA for comment 30 days prior to use\nC. The FCM is not required to submit the material to the NFA, but if it chooses to seek comment it should be submitted 21 days prior to use\nD. The FCM is not required to submit the material to the NFA, but if it chooses to seek comment it should be submitted 30 days prior to use\nCORRECT ANSWER IS: C\nYOUR ANSWER Is: [[NONE]I\nIf an FCM develops promotional material and would like to seek comment from the NFA regarding its content, it should submit the material 21 days prior to use. The FCM is not required to submit the material, but may choose to if it is\nunsure if the material is within NFA guidelines.",
     "isWrong": true,
-    "isUnanswered": false,
+    "isUnanswered": true,
+    "correctAnswerText": "The FCM is not required to submit the material to the NFA, but if it chooses to seek comment it should be submitted 21 days prior to use",
+    "yourAnswerText": "",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -3018,10 +3140,9 @@ window.SERIES3_QUESTIONS = [
     "title": "Question 25720",
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
-      "QUESTION ID 25720 : Series 3 GreenLight Exam",
       "When preparing literature for distribution at a seminar where options trading on futures is to be highlighted, which of the following is correct?"
     ],
-    "prompt": "QUESTION ID 25720 : Series 3 GreenLight Exam\nWhen preparing literature for distribution at a seminar where options trading on futures is to be highlighted, which of the following is correct?",
+    "prompt": "When preparing literature for distribution at a seminar where options trading on futures is to be highlighted, which of the following is correct?",
     "choices": [
       {
         "label": "A",
@@ -3041,14 +3162,16 @@ window.SERIES3_QUESTIONS = [
       }
     ],
     "correctAnswer": "D",
-    "yourAnswer": "[[NONE]I",
+    "yourAnswer": "",
     "explanationLines": [
       "The key here is that only certain option positions will have a limited loss potential. It would be a violation to say options trading is subject to limited losses. The seller of a naked call is subjected to the potential for unlimited losses."
     ],
     "explanation": "The key here is that only certain option positions will have a limited loss potential. It would be a violation to say options trading is subject to limited losses. The seller of a naked call is subjected to the potential for unlimited losses.",
     "ocrText": "(wrong)\nQUESTION ID 25720 : Series 3 GreenLight Exam\nWhen preparing literature for distribution at a seminar where options trading on futures is to be highlighted, which of the following is correct?\nA. Options unlike futures are not subject to margin calls and have limited risk\nB. Trading options on futures, just like trading the underlying contracts, obligates both parties to perform\nC. An option that is exercised during the delivery period will automatically result in the delivery of the basis grade\nD. Establishing certain option positions can increase an investor's return on investment and will only be subjected to limited losses\nCORRECT ANSWER IS: D\nYOUR ANSWER Is: [[NONE]I\nThe key here is that only certain option positions will have a limited loss potential. It would be a violation to say options trading is subject to limited losses. The seller of a naked call is subjected to the potential for unlimited losses.",
     "isWrong": true,
-    "isUnanswered": false,
+    "isUnanswered": true,
+    "correctAnswerText": "Establishing certain option positions can increase an investor's return on investment and will only be subjected to limited losses",
+    "yourAnswerText": "",
     "category": "Options",
     "tags": [
       "options"

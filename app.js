@@ -30,6 +30,13 @@ function titleCase(value) {
   return value.replace(/\b\w/g, (match) => match.toUpperCase());
 }
 
+function formatAnswerLine(question, label) {
+  if (!label) return "Not answered";
+
+  const answerText = question.choices.find((choice) => choice.label === label)?.text;
+  return answerText ? `${label}. ${answerText}` : label;
+}
+
 function getCategories() {
   return [...new Set(questions.map((question) => question.category))].sort((a, b) =>
     a.localeCompare(b)
@@ -116,7 +123,7 @@ function renderCategoryFilter() {
 }
 
 function getSnippet(question) {
-  return question.promptLines.slice(0, 3).join(" ");
+  return question.promptLines[0] || question.prompt || "Question text unavailable";
 }
 
 function renderResults() {
@@ -157,8 +164,8 @@ function renderResults() {
           <p class="question-snippet">${escapeHtml(getSnippet(question))}</p>
 
           <div class="answer-strip">
-            <span class="answer-pill correct">Correct: ${escapeHtml(question.correctAnswer)}</span>
-            <span class="answer-pill user">Yours: ${escapeHtml(question.yourAnswer || "—")}</span>
+            <span class="answer-pill correct">Right: ${escapeHtml(formatAnswerLine(question, question.correctAnswer))}</span>
+            <span class="answer-pill ${question.isUnanswered ? "neutral" : "user"}">Selected: ${escapeHtml(formatAnswerLine(question, question.yourAnswer))}</span>
           </div>
 
           <p class="meta-row">${escapeHtml(titleCase(question.tags.join(" • ") || "review"))}</p>
@@ -206,6 +213,15 @@ function renderChoiceList(question) {
   `;
 }
 
+function renderAnswerCard(title, value, tone = "neutral") {
+  return `
+    <article class="answer-card answer-card-${tone}">
+      <span class="answer-card-label">${escapeHtml(title)}</span>
+      <strong class="answer-card-value">${escapeHtml(value)}</strong>
+    </article>
+  `;
+}
+
 function renderPromptLines(lines) {
   return `
     <div class="prompt-lines">
@@ -244,8 +260,8 @@ function renderDetail() {
         <p class="detail-subtitle">${escapeHtml(question.category)}</p>
       </div>
       <div class="pill-row">
-        <span class="answer-pill correct">Correct: ${escapeHtml(question.correctAnswer)}</span>
-        <span class="answer-pill user">Your answer: ${escapeHtml(question.yourAnswer || "—")}</span>
+        <span class="answer-pill correct">Right answer: ${escapeHtml(question.correctAnswer || "—")}</span>
+        <span class="answer-pill ${question.isUnanswered ? "neutral" : "user"}">Selected answer: ${escapeHtml(question.yourAnswer || "—")}</span>
       </div>
     </div>
 
@@ -256,13 +272,21 @@ function renderDetail() {
     </div>
 
     <div class="detail-block">
-      <h3>Prompt</h3>
+      <h3>Question</h3>
       ${renderPromptLines(question.promptLines)}
     </div>
 
     <div class="detail-block">
-      <h3>Choices</h3>
+      <h3>Offered Answers</h3>
       ${renderChoiceList(question)}
+    </div>
+
+    <div class="detail-block">
+      <h3>Answer Review</h3>
+      <div class="answer-summary-grid">
+        ${renderAnswerCard("Selected answer", formatAnswerLine(question, question.yourAnswer), question.isUnanswered ? "neutral" : "user")}
+        ${renderAnswerCard("Right answer", formatAnswerLine(question, question.correctAnswer), "correct")}
+      </div>
     </div>
 
     <div class="detail-block">

@@ -369,6 +369,47 @@ h1 {
   gap: 12px;
 }
 
+.answer-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.answer-card {
+  padding: 16px 18px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(16, 37, 50, 0.04);
+}
+
+.answer-card-correct {
+  background: rgba(31, 127, 130, 0.1);
+  border-color: rgba(31, 127, 130, 0.28);
+}
+
+.answer-card-user {
+  background: rgba(185, 73, 54, 0.08);
+  border-color: rgba(185, 73, 54, 0.24);
+}
+
+.answer-card-neutral {
+  background: rgba(16, 37, 50, 0.06);
+}
+
+.answer-card-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.answer-card-value {
+  display: block;
+  line-height: 1.5;
+}
+
 .choice-item {
   padding: 14px 16px;
   border-radius: 16px;
