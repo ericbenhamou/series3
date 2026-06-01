@@ -5,6 +5,7 @@ const state = {
   category: "all",
   answerState: "all",
   selectedId: null,
+  jumpSearch: "",
 };
 
 const MOBILE_BREAKPOINT = 1100;
@@ -17,6 +18,12 @@ const elements = {
   resultsCount: document.querySelector("#results-count"),
   resultsList: document.querySelector("#results-list"),
   detailPanel: document.querySelector("#detail-panel"),
+  jumpButton: document.querySelector("#jump-button"),
+  jumpOverlay: document.querySelector("#jump-overlay"),
+  jumpClose: document.querySelector("#jump-close"),
+  jumpSearch: document.querySelector("#jump-search"),
+  jumpList: document.querySelector("#jump-list"),
+  jumpSheetText: document.querySelector("#jump-sheet-text"),
 };
 
 function escapeHtml(value) {
@@ -134,6 +141,18 @@ function renderCategoryFilter() {
 
 function getSnippet(question) {
   return question.promptLines[0] || question.prompt || "Question text unavailable";
+}
+
+function getJumpQuestions() {
+  const term = state.jumpSearch.trim().toLowerCase();
+  const visible = getVisibleQuestions();
+
+  if (!term) return visible;
+
+  return visible.filter((question) => {
+    const haystack = [question.questionId, getSnippet(question)].join(" ").toLowerCase();
+    return haystack.includes(term);
+  });
 }
 
 function renderChoiceList(question) {
@@ -270,6 +289,82 @@ function renderDetailMarkup(question, options = {}) {
   `;
 }
 
+function openJumpOverlay() {
+  elements.jumpOverlay.hidden = false;
+  document.body.classList.add("overlay-open");
+  renderJumpList();
+  window.setTimeout(() => elements.jumpSearch.focus(), 0);
+}
+
+function closeJumpOverlay() {
+  elements.jumpOverlay.hidden = true;
+  document.body.classList.remove("overlay-open");
+}
+
+function scrollToQuestion(questionId) {
+  const target = document.querySelector(`#question-${questionId}`);
+  if (!target) return;
+
+  target.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+}
+
+function selectQuestion(questionId, options = {}) {
+  const { shouldScroll = true } = options;
+  state.selectedId = questionId;
+  renderResults();
+  renderDetail();
+  renderJumpList();
+  window.location.hash = state.selectedId;
+
+  if (shouldScroll) {
+    window.requestAnimationFrame(() => {
+      scrollToQuestion(questionId);
+    });
+  }
+}
+
+function renderJumpList() {
+  const visibleCount = getVisibleQuestions().length;
+  const jumpQuestions = getJumpQuestions();
+
+  elements.jumpSheetText.textContent = `${jumpQuestions.length} of ${visibleCount} visible questions`;
+
+  if (!jumpQuestions.length) {
+    elements.jumpList.innerHTML = `
+      <div class="empty-state jump-empty">
+        <p>No visible questions match this jump search.</p>
+      </div>
+    `;
+    return;
+  }
+
+  elements.jumpList.innerHTML = jumpQuestions
+    .map((question) => {
+      const isActive = question.questionId === state.selectedId;
+      return `
+        <button
+          type="button"
+          class="jump-item ${isActive ? "is-active" : ""}"
+          data-jump-question-id="${escapeHtml(question.questionId)}"
+        >
+          <span class="jump-item-id">Q${escapeHtml(question.questionId)}</span>
+          <span class="jump-item-text">${escapeHtml(getSnippet(question))}</span>
+        </button>
+      `;
+    })
+    .join("");
+
+  elements.jumpList.querySelectorAll("[data-jump-question-id]").forEach((button) => {
+    button.addEventListener("click", () => {
+      closeJumpOverlay();
+      selectQuestion(button.dataset.jumpQuestionId);
+    });
+  });
+}
+
 function renderResults() {
   const visible = getVisibleQuestions();
   const mobile = isMobileLayout();
@@ -301,7 +396,9 @@ function renderResults() {
         : "";
 
       return `
-        <article class="question-entry ${isActive ? "is-active" : ""}">
+        <article class="question-entry ${isActive ? "is-active" : ""}" id="question-${escapeHtml(
+          question.questionId
+        )}">
           <button type="button" class="question-card ${isActive ? "is-active" : ""}" data-question-id="${escapeHtml(
             question.questionId
           )}">
@@ -327,10 +424,7 @@ function renderResults() {
 
   elements.resultsList.querySelectorAll(".question-card[data-question-id]").forEach((button) => {
     button.addEventListener("click", () => {
-      state.selectedId = button.dataset.questionId;
-      renderResults();
-      renderDetail();
-      window.location.hash = state.selectedId;
+      selectQuestion(button.dataset.questionId, { shouldScroll: false });
     });
   });
 }
@@ -363,6 +457,7 @@ function bindEvents() {
     renderStats();
     renderResults();
     renderDetail();
+    renderJumpList();
   });
 
   elements.categoryFilter.addEventListener("change", (event) => {
@@ -370,6 +465,7 @@ function bindEvents() {
     renderStats();
     renderResults();
     renderDetail();
+    renderJumpList();
   });
 
   elements.answerFilter.addEventListener("change", (event) => {
@@ -377,17 +473,47 @@ function bindEvents() {
     renderStats();
     renderResults();
     renderDetail();
+    renderJumpList();
+  });
+
+  elements.jumpButton.addEventListener("click", () => {
+    state.jumpSearch = "";
+    elements.jumpSearch.value = "";
+    openJumpOverlay();
+  });
+
+  elements.jumpClose.addEventListener("click", () => {
+    closeJumpOverlay();
+  });
+
+  elements.jumpOverlay.addEventListener("click", (event) => {
+    if (event.target === elements.jumpOverlay) {
+      closeJumpOverlay();
+    }
+  });
+
+  elements.jumpSearch.addEventListener("input", (event) => {
+    state.jumpSearch = event.target.value;
+    renderJumpList();
   });
 
   window.addEventListener("hashchange", () => {
     syncStateFromHash();
     renderResults();
     renderDetail();
+    renderJumpList();
   });
 
   window.addEventListener("resize", () => {
     renderResults();
     renderDetail();
+    renderJumpList();
+  });
+
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !elements.jumpOverlay.hidden) {
+      closeJumpOverlay();
+    }
   });
 }
 
@@ -408,6 +534,7 @@ function init() {
   renderStats();
   renderResults();
   renderDetail();
+  renderJumpList();
   bindEvents();
 }
 

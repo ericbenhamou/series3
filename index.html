@@ -57,6 +57,16 @@
         </label>
       </section>
 
+      <section class="quick-jump">
+        <div class="quick-jump-copy">
+          <p class="quick-jump-label">Fast Navigation</p>
+          <p class="quick-jump-text">
+            Open a compact question picker and jump directly to any visible item.
+          </p>
+        </div>
+        <button type="button" class="jump-button" id="jump-button">Jump To Question</button>
+      </section>
+
       <main class="content-grid">
         <section class="results-panel">
           <div class="results-header">
@@ -72,6 +82,32 @@
           </div>
         </section>
       </main>
+
+      <div class="jump-overlay" id="jump-overlay" hidden>
+        <div class="jump-sheet" role="dialog" aria-modal="true" aria-labelledby="jump-title">
+          <div class="jump-sheet-header">
+            <div>
+              <p class="quick-jump-label">Question Picker</p>
+              <h2 id="jump-title">Jump To A Question</h2>
+              <p class="jump-sheet-text" id="jump-sheet-text"></p>
+            </div>
+            <button type="button" class="jump-close" id="jump-close" aria-label="Close question picker">
+              Close
+            </button>
+          </div>
+
+          <label class="jump-search">
+            <span>Find inside visible questions</span>
+            <input
+              id="jump-search"
+              type="search"
+              placeholder="Search by question number or first line"
+            />
+          </label>
+
+          <div class="jump-list" id="jump-list"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
