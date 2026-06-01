@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Series 3 Wrong Questions</title>
+    <meta
+      name="description"
+      content="OCR-powered review site for Series 3 GreenLight questions you missed."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="data/questions.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">OCR Study Build</p>
+          <h1>Series 3 Wrong Question Review</h1>
+          <p class="hero-text">
+            A searchable review board built from the GreenLight screenshots. Each question keeps
+            the OCR text, the original screenshot, and a clean side-by-side view of your answer
+            versus the correct one.
+          </p>
+        </div>
+        <div class="hero-note">
+          <p>Minor OCR artifacts can appear on a few entries.</p>
+          <p>Use the screenshot panel anytime you want the original wording.</p>
+        </div>
+      </header>
+
+      <section class="stats" id="stats"></section>
+
+      <section class="controls">
+        <label class="search">
+          <span>Search</span>
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Search by question id, topic, prompt, or explanation"
+          />
+        </label>
+
+        <label class="select-wrap">
+          <span>Category</span>
+          <select id="category-filter"></select>
+        </label>
+
+        <label class="select-wrap">
+          <span>Answer State</span>
+          <select id="answer-filter">
+            <option value="all">All wrong questions</option>
+            <option value="answered">Answered incorrectly</option>
+            <option value="unanswered">Left unanswered</option>
+          </select>
+        </label>
+      </section>
+
+      <main class="content-grid">
+        <section class="results-panel">
+          <div class="results-header">
+            <h2>Question Bank</h2>
+            <p id="results-count"></p>
+          </div>
+          <div class="results-list" id="results-list"></div>
+        </section>
+
+        <section class="detail-panel" id="detail-panel">
+          <div class="detail-empty">
+            <p>Select a question to inspect the OCR text and screenshot.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
