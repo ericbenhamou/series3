@@ -7,6 +7,8 @@ const state = {
   selectedId: null,
 };
 
+const MOBILE_BREAKPOINT = 1100;
+
 const elements = {
   stats: document.querySelector("#stats"),
   searchInput: document.querySelector("#search-input"),
@@ -28,6 +30,14 @@ function escapeHtml(value) {
 
 function titleCase(value) {
   return value.replace(/\b\w/g, (match) => match.toUpperCase());
+}
+
+function isMobileLayout() {
+  if (typeof window.matchMedia === "function") {
+    return window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches;
+  }
+
+  return window.innerWidth <= MOBILE_BREAKPOINT;
 }
 
 function formatAnswerLine(question, label) {
@@ -126,64 +136,6 @@ function getSnippet(question) {
   return question.promptLines[0] || question.prompt || "Question text unavailable";
 }
 
-function renderResults() {
-  const visible = getVisibleQuestions();
-  elements.resultsCount.textContent = `${visible.length} matching questions`;
-
-  if (!visible.length) {
-    elements.resultsList.innerHTML = `
-      <div class="empty-state">
-        <p>No questions match this filter set yet.</p>
-      </div>
-    `;
-    elements.detailPanel.innerHTML = `
-      <div class="detail-empty">
-        <p>Adjust the filters or search terms to bring a question back into view.</p>
-      </div>
-    `;
-    return;
-  }
-
-  if (!visible.some((question) => question.questionId === state.selectedId)) {
-    state.selectedId = visible[0].questionId;
-  }
-
-  elements.resultsList.innerHTML = visible
-    .map((question) => {
-      const isActive = question.questionId === state.selectedId;
-
-      return `
-        <button class="question-card ${isActive ? "is-active" : ""}" data-question-id="${escapeHtml(
-          question.questionId
-        )}">
-          <div class="question-topline">
-            <span class="question-id">Q${escapeHtml(question.questionId)}</span>
-            <span class="category-pill">${escapeHtml(question.category)}</span>
-          </div>
-
-          <p class="question-snippet">${escapeHtml(getSnippet(question))}</p>
-
-          <div class="answer-strip">
-            <span class="answer-pill correct">Right: ${escapeHtml(formatAnswerLine(question, question.correctAnswer))}</span>
-            <span class="answer-pill ${question.isUnanswered ? "neutral" : "user"}">Selected: ${escapeHtml(formatAnswerLine(question, question.yourAnswer))}</span>
-          </div>
-
-          <p class="meta-row">${escapeHtml(titleCase(question.tags.join(" • ") || "review"))}</p>
-        </button>
-      `;
-    })
-    .join("");
-
-  elements.resultsList.querySelectorAll("[data-question-id]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.selectedId = button.dataset.questionId;
-      renderResults();
-      renderDetail();
-      window.location.hash = state.selectedId;
-    });
-  });
-}
-
 function renderChoiceList(question) {
   if (!question.choices.length) {
     return `<p class="meta-row">This entry did not include standard A-D choices in the OCR output.</p>`;
@@ -222,6 +174,12 @@ function renderAnswerCard(title, value, tone = "neutral") {
   `;
 }
 
+function renderTagPills(question) {
+  return question.tags
+    .map((tag) => `<span class="tag-pill category-pill">${escapeHtml(tag)}</span>`)
+    .join("");
+}
+
 function renderPromptLines(lines) {
   return `
     <div class="prompt-lines">
@@ -240,6 +198,143 @@ function renderExplanation(lines) {
   `;
 }
 
+function renderDetailMarkup(question, options = {}) {
+  const { inline = false } = options;
+
+  return `
+    <div class="detail-stack ${inline ? "detail-stack-inline" : ""}">
+      <div class="detail-header">
+        <div>
+          <p class="detail-kicker">${escapeHtml(question.examLabel)}</p>
+          <h2 class="detail-title">Question ${escapeHtml(question.questionId)}</h2>
+          <p class="detail-subtitle">${escapeHtml(question.category)}</p>
+        </div>
+        <div class="pill-row">
+          <span class="answer-pill correct">Right answer: ${escapeHtml(question.correctAnswer || "—")}</span>
+          <span class="answer-pill ${question.isUnanswered ? "neutral" : "user"}">Selected answer: ${escapeHtml(question.yourAnswer || "—")}</span>
+        </div>
+      </div>
+
+      <div class="pill-row">
+        ${renderTagPills(question)}
+      </div>
+
+      <div class="detail-block">
+        <h3>Question</h3>
+        ${renderPromptLines(question.promptLines)}
+      </div>
+
+      <div class="detail-block">
+        <h3>Offered Answers</h3>
+        ${renderChoiceList(question)}
+      </div>
+
+      <div class="detail-block">
+        <h3>Answer Review</h3>
+        <div class="answer-summary-grid">
+          ${renderAnswerCard("Selected answer", formatAnswerLine(question, question.yourAnswer), question.isUnanswered ? "neutral" : "user")}
+          ${renderAnswerCard("Right answer", formatAnswerLine(question, question.correctAnswer), "correct")}
+        </div>
+      </div>
+
+      <div class="detail-block">
+        <h3>Explanation</h3>
+        ${renderExplanation(question.explanationLines)}
+      </div>
+
+      <div class="detail-block">
+        <details ${inline ? "" : "open"}>
+          <summary>Original screenshot</summary>
+          <div class="screenshot-wrap">
+            <img src="${escapeHtml(question.localImage)}" alt="Screenshot for question ${escapeHtml(
+              question.questionId
+            )}" loading="lazy" />
+            <div class="link-row">
+              <a class="image-link" href="${escapeHtml(question.localImage)}" target="_blank" rel="noreferrer">
+                Open image directly
+              </a>
+            </div>
+          </div>
+        </details>
+      </div>
+
+      <div class="detail-block">
+        <details>
+          <summary>Raw OCR text</summary>
+          <div class="ocr-wrap">
+            <pre>${escapeHtml(question.ocrText)}</pre>
+          </div>
+        </details>
+      </div>
+    </div>
+  `;
+}
+
+function renderResults() {
+  const visible = getVisibleQuestions();
+  const mobile = isMobileLayout();
+  elements.resultsCount.textContent = `${visible.length} matching questions`;
+
+  if (!visible.length) {
+    elements.resultsList.innerHTML = `
+      <div class="empty-state">
+        <p>No questions match this filter set yet.</p>
+      </div>
+    `;
+    elements.detailPanel.innerHTML = `
+      <div class="detail-empty">
+        <p>Adjust the filters or search terms to bring a question back into view.</p>
+      </div>
+    `;
+    return;
+  }
+
+  if (!visible.some((question) => question.questionId === state.selectedId)) {
+    state.selectedId = visible[0].questionId;
+  }
+
+  elements.resultsList.innerHTML = visible
+    .map((question) => {
+      const isActive = question.questionId === state.selectedId;
+      const inlineDetail = mobile && isActive
+        ? `<div class="mobile-detail">${renderDetailMarkup(question, { inline: true })}</div>`
+        : "";
+
+      return `
+        <article class="question-entry ${isActive ? "is-active" : ""}">
+          <button type="button" class="question-card ${isActive ? "is-active" : ""}" data-question-id="${escapeHtml(
+            question.questionId
+          )}">
+            <div class="question-topline">
+              <span class="question-id">Q${escapeHtml(question.questionId)}</span>
+              <span class="category-pill">${escapeHtml(question.category)}</span>
+            </div>
+
+            <p class="question-snippet">${escapeHtml(getSnippet(question))}</p>
+
+            <div class="answer-strip">
+              <span class="answer-pill correct">Right: ${escapeHtml(formatAnswerLine(question, question.correctAnswer))}</span>
+              <span class="answer-pill ${question.isUnanswered ? "neutral" : "user"}">Selected: ${escapeHtml(formatAnswerLine(question, question.yourAnswer))}</span>
+            </div>
+
+            <p class="meta-row">${escapeHtml(titleCase(question.tags.join(" • ") || "review"))}</p>
+          </button>
+          ${inlineDetail}
+        </article>
+      `;
+    })
+    .join("");
+
+  elements.resultsList.querySelectorAll(".question-card[data-question-id]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.selectedId = button.dataset.questionId;
+      renderResults();
+      renderDetail();
+      window.location.hash = state.selectedId;
+    });
+  });
+}
+
 function renderDetail() {
   const question = questions.find((entry) => entry.questionId === state.selectedId);
 
@@ -252,73 +347,7 @@ function renderDetail() {
     return;
   }
 
-  elements.detailPanel.innerHTML = `
-    <div class="detail-header">
-      <div>
-        <p class="detail-kicker">${escapeHtml(question.examLabel)}</p>
-        <h2 class="detail-title">Question ${escapeHtml(question.questionId)}</h2>
-        <p class="detail-subtitle">${escapeHtml(question.category)}</p>
-      </div>
-      <div class="pill-row">
-        <span class="answer-pill correct">Right answer: ${escapeHtml(question.correctAnswer || "—")}</span>
-        <span class="answer-pill ${question.isUnanswered ? "neutral" : "user"}">Selected answer: ${escapeHtml(question.yourAnswer || "—")}</span>
-      </div>
-    </div>
-
-    <div class="pill-row">
-      ${question.tags
-        .map((tag) => `<span class="tag-pill category-pill">${escapeHtml(tag)}</span>`)
-        .join("")}
-    </div>
-
-    <div class="detail-block">
-      <h3>Question</h3>
-      ${renderPromptLines(question.promptLines)}
-    </div>
-
-    <div class="detail-block">
-      <h3>Offered Answers</h3>
-      ${renderChoiceList(question)}
-    </div>
-
-    <div class="detail-block">
-      <h3>Answer Review</h3>
-      <div class="answer-summary-grid">
-        ${renderAnswerCard("Selected answer", formatAnswerLine(question, question.yourAnswer), question.isUnanswered ? "neutral" : "user")}
-        ${renderAnswerCard("Right answer", formatAnswerLine(question, question.correctAnswer), "correct")}
-      </div>
-    </div>
-
-    <div class="detail-block">
-      <h3>Explanation</h3>
-      ${renderExplanation(question.explanationLines)}
-    </div>
-
-    <div class="detail-block">
-      <details open>
-        <summary>Original screenshot</summary>
-        <div class="screenshot-wrap">
-          <img src="${escapeHtml(question.localImage)}" alt="Screenshot for question ${escapeHtml(
-            question.questionId
-          )}" loading="lazy" />
-          <div class="link-row">
-            <a class="image-link" href="${escapeHtml(question.localImage)}" target="_blank" rel="noreferrer">
-              Open image directly
-            </a>
-          </div>
-        </div>
-      </details>
-    </div>
-
-    <div class="detail-block">
-      <details>
-        <summary>Raw OCR text</summary>
-        <div class="ocr-wrap">
-          <pre>${escapeHtml(question.ocrText)}</pre>
-        </div>
-      </details>
-    </div>
-  `;
+  elements.detailPanel.innerHTML = isMobileLayout() ? "" : renderDetailMarkup(question);
 }
 
 function syncStateFromHash() {
@@ -352,6 +381,11 @@ function bindEvents() {
 
   window.addEventListener("hashchange", () => {
     syncStateFromHash();
+    renderResults();
+    renderDetail();
+  });
+
+  window.addEventListener("resize", () => {
     renderResults();
     renderDetail();
   });

@@ -27,6 +27,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  overflow-x: hidden;
   color: var(--ink);
   background:
     radial-gradient(circle at top left, rgba(223, 141, 38, 0.18), transparent 32%),
@@ -113,6 +114,17 @@ h1 {
 .empty-state,
 .detail-empty {
   color: var(--muted);
+}
+
+.hero-text,
+.hero-note p,
+.question-snippet,
+.answer-pill,
+.answer-card-value,
+.prompt-line,
+.choice-item,
+.explanation-text p {
+  overflow-wrap: anywhere;
 }
 
 .hero-text {
@@ -232,6 +244,11 @@ h1 {
   gap: 14px;
 }
 
+.question-entry {
+  display: grid;
+  gap: 12px;
+}
+
 .question-card {
   width: 100%;
   text-align: left;
@@ -308,6 +325,10 @@ h1 {
 
 .meta-row {
   font-size: 0.9rem;
+}
+
+.mobile-detail {
+  display: none;
 }
 
 .detail-panel {
@@ -408,6 +429,14 @@ h1 {
 .answer-card-value {
   display: block;
   line-height: 1.5;
+}
+
+.detail-stack-inline {
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(255, 253, 248, 0.92);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 28px rgba(16, 37, 50, 0.08);
 }
 
 .choice-item {
@@ -515,8 +544,16 @@ summary {
   }
 
   .detail-panel {
-    position: static;
-    min-height: auto;
+    display: none;
+  }
+
+  .mobile-detail {
+    display: block;
+  }
+
+  .question-card:hover,
+  .question-card.is-active {
+    transform: none;
   }
 }
 
@@ -538,5 +575,26 @@ summary {
   .results-panel,
   .detail-panel {
     padding: 18px;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 10vw, 2.7rem);
+    line-height: 0.96;
+  }
+
+  .hero-text {
+    font-size: 0.98rem;
+  }
+
+  .question-card {
+    padding: 16px;
+  }
+
+  .detail-stack-inline {
+    padding: 16px;
+  }
+
+  .answer-summary-grid {
+    grid-template-columns: 1fr;
   }
 }
