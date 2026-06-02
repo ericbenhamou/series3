@@ -171,7 +171,7 @@ window.SERIES3_QUESTIONS = [
       },
       {
         "label": "D",
-        "text": "l, II, III,"
+        "text": "I, II, III, IV"
       }
     ],
     "correctAnswer": "C",
@@ -181,11 +181,11 @@ window.SERIES3_QUESTIONS = [
       "going long the input and short the output, the trader who sells the spread to the processor is effectively speculating against the processors ability to operate profitably."
     ],
     "explanation": "All of the choices are correct except a processor is considered to be a bona fide hedger and would be subject to hedge margin requirements not spread margin requirements. When a processor establishes a spread as a hedge by going long the input and short the output, the trader who sells the spread to the processor is effectively speculating against the processors ability to operate profitably.",
-    "ocrText": "(wr g)\nQUESTION ID 25715 : Series 3 GreenLight Exam on.\nAs it relates to processors and spreaders which of the following are considered correct ?\nI. The processor sells the output\nII. The processor is subject to spread margin\nIII. The spreader sells the input\nIV. The spreader is speculating against the processor\nA. I and II\nB. III and IV\nC. l, III and IV\nD. l, II, III,\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nAll of the choices are correct except a processor is considered to be a bona fide hedger and would be subject to hedge margin requirements not spread margin requirements. When a processor establishes a spread as a hedge by\ngoing long the input and short the output, the trader who sells the spread to the processor is effectively speculating against the processors ability to operate profitably.",
+    "ocrText": "(wr g)\nQUESTION ID 25715 : Series 3 GreenLight Exam on.\nAs it relates to processors and spreaders which of the following are considered correct ?\nI. The processor sells the output\nII. The processor is subject to spread margin\nIII. The spreader sells the input\nIV. The spreader is speculating against the processor\nA. I and II\nB. III and IV\nC. l, III and IV\nD. I, II, III, IV\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nAll of the choices are correct except a processor is considered to be a bona fide hedger and would be subject to hedge margin requirements not spread margin requirements. When a processor establishes a spread as a hedge by\ngoing long the input and short the output, the trader who sells the spread to the processor is effectively speculating against the processors ability to operate profitably.",
     "isWrong": true,
     "isUnanswered": false,
     "correctAnswerText": "l, III and IV",
-    "yourAnswerText": "l, II, III,",
+    "yourAnswerText": "I, II, III, IV",
     "category": "Hedging",
     "tags": [
       "hedging",
@@ -322,7 +322,7 @@ window.SERIES3_QUESTIONS = [
       },
       {
         "label": "D",
-        "text": "l, II, III,"
+        "text": "I, II, III, IV"
       }
     ],
     "correctAnswer": "C",
@@ -332,11 +332,11 @@ window.SERIES3_QUESTIONS = [
       "regarding stock stock splits. Choice three is not correct as it states that the disclosure regarding day trading would only be given if the person was going to day trade."
     ],
     "explanation": "Both the NFA and FNRA require that the risk disclosure document be given to customers who open accounts to trade single stock futures. The disclosure will contain both the severe risks of day trading and detailed informatior regarding stock stock splits. Choice three is not correct as it states that the disclosure regarding day trading would only be given if the person was going to day trade.",
-    "ocrText": "(wrong)\nQUESTION ID 25752 : Series 3 GreenLight Exam\nWhich of the following is correct about the risk disclosure document given to an investor who is seeking to trade single stock futures ?\nI. It is required by the NFA\nII. It must contain detailed information relating to stock splits\nIII. If the customer is going to day trade futures, the customer must be given a disclosure for day trading\nIV. It is required by FINRA\nA. I and II\nB. I and III\nC. l, II and IV\nD. l, II, III,\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nBoth the NFA and FNRA require that the risk disclosure document be given to customers who open accounts to trade single stock futures. The disclosure will contain both the severe risks of day trading and detailed informatior\nregarding stock stock splits. Choice three is not correct as it states that the disclosure regarding day trading would only be given if the person was going to day trade.",
+    "ocrText": "(wrong)\nQUESTION ID 25752 : Series 3 GreenLight Exam\nWhich of the following is correct about the risk disclosure document given to an investor who is seeking to trade single stock futures ?\nI. It is required by the NFA\nII. It must contain detailed information relating to stock splits\nIII. If the customer is going to day trade futures, the customer must be given a disclosure for day trading\nIV. It is required by FINRA\nA. I and II\nB. I and III\nC. l, II and IV\nD. I, II, III, IV\nCORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nBoth the NFA and FNRA require that the risk disclosure document be given to customers who open accounts to trade single stock futures. The disclosure will contain both the severe risks of day trading and detailed informatior\nregarding stock stock splits. Choice three is not correct as it states that the disclosure regarding day trading would only be given if the person was going to day trade.",
     "isWrong": true,
     "isUnanswered": false,
     "correctAnswerText": "l, II and IV",
-    "yourAnswerText": "l, II, III,",
+    "yourAnswerText": "I, II, III, IV",
     "category": "Compliance",
     "tags": [
       "regulation"
@@ -424,7 +424,7 @@ window.SERIES3_QUESTIONS = [
       },
       {
         "label": "D",
-        "text": "l, II, III,"
+        "text": "I, II, III, IV"
       }
     ],
     "correctAnswer": "D",
@@ -434,10 +434,10 @@ window.SERIES3_QUESTIONS = [
       "bid price equals the MIT price."
     ],
     "explanation": "MIT, market if touched orders will be executed if the quote is equal to the MIT price or if the contract trades at the MIT price. An MIT order to buy will be executed if the offer equals the MIT price. An MIT order to sell will be executed if the bid price equals the MIT price.",
-    "ocrText": "QUESTION ID 25733 : Series 3 GreenLightExam ron\nA trader is seeking to establish a position in the market for a specific commodity. The trader would like to enter orders to both establish and offset the contracts. As it relates to MIT, market if touched orders, which of the following are\ntrue ?\nI. An MIT order to buy will be executed if the contract is offered at the MIT price, with no trades taking place at the MIT price\nII. An MIT order to buy will be executed if the contract trades at the MIT price\nIII. An MIT order to sell will be executed if the contract is bid at the MIT price, with no trades taking place at the MIT price\nIV. An MIT order to sell will be executed if the contract trades at the MIT price\nA. II and IV\nB. I and III\nC. I and II\nD. l, II, III,\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: A\nMIT, market if touched orders will be executed if the quote is equal to the MIT price or if the contract trades at the MIT price. An MIT order to buy will be executed if the offer equals the MIT price. An MIT order to sell will be executed if the\nbid price equals the MIT price.",
+    "ocrText": "QUESTION ID 25733 : Series 3 GreenLightExam ron\nA trader is seeking to establish a position in the market for a specific commodity. The trader would like to enter orders to both establish and offset the contracts. As it relates to MIT, market if touched orders, which of the following are\ntrue ?\nI. An MIT order to buy will be executed if the contract is offered at the MIT price, with no trades taking place at the MIT price\nII. An MIT order to buy will be executed if the contract trades at the MIT price\nIII. An MIT order to sell will be executed if the contract is bid at the MIT price, with no trades taking place at the MIT price\nIV. An MIT order to sell will be executed if the contract trades at the MIT price\nA. II and IV\nB. I and III\nC. I and II\nD. I, II, III, IV\nCORRECT ANSWER IS: D\nYOUR ANSWER IS: A\nMIT, market if touched orders will be executed if the quote is equal to the MIT price or if the contract trades at the MIT price. An MIT order to buy will be executed if the offer equals the MIT price. An MIT order to sell will be executed if the\nbid price equals the MIT price.",
     "isWrong": true,
     "isUnanswered": false,
-    "correctAnswerText": "l, II, III,",
+    "correctAnswerText": "I, II, III, IV",
     "yourAnswerText": "II and IV",
     "category": "General Review",
     "tags": []
@@ -491,10 +491,10 @@ window.SERIES3_QUESTIONS = [
     "examLabel": "Series 3 GreenLight Exam",
     "promptLines": [
       "ABC Machine and Manufacturing has just placed an order with a German industrial company for the purchase of new equipment for their factory. The purchase order calls for ABC to pay for the equipment 9 months from now in",
-      "Euros. The contract price is 12,500,000 Euros. At the time the order is placed the spot price for the Euro is $1.10 and the 9 month futures contract is 1.1235. ABC purchases IO of the 9 month Euro futures contracts at the current price. If the",
+      "Euros. The contract price is 12,500,000 Euros. At the time the order is placed the spot price for the Euro is $1.10 and the 9 month futures contract is 1.1235. ABC purchases 10 of the 9 month Euro futures contracts at the current price. If the",
       "basis increases by .0025, what is the net effect of the change to ABC? Each contract covers 125,000 Euros."
     ],
-    "prompt": "ABC Machine and Manufacturing has just placed an order with a German industrial company for the purchase of new equipment for their factory. The purchase order calls for ABC to pay for the equipment 9 months from now in\nEuros. The contract price is 12,500,000 Euros. At the time the order is placed the spot price for the Euro is $1.10 and the 9 month futures contract is 1.1235. ABC purchases IO of the 9 month Euro futures contracts at the current price. If the\nbasis increases by .0025, what is the net effect of the change to ABC? Each contract covers 125,000 Euros.",
+    "prompt": "ABC Machine and Manufacturing has just placed an order with a German industrial company for the purchase of new equipment for their factory. The purchase order calls for ABC to pay for the equipment 9 months from now in\nEuros. The contract price is 12,500,000 Euros. At the time the order is placed the spot price for the Euro is $1.10 and the 9 month futures contract is 1.1235. ABC purchases 10 of the 9 month Euro futures contracts at the current price. If the\nbasis increases by .0025, what is the net effect of the change to ABC? Each contract covers 125,000 Euros.",
     "choices": [
       {
         "label": "A",
@@ -515,15 +515,20 @@ window.SERIES3_QUESTIONS = [
     ],
     "correctAnswer": "B",
     "yourAnswer": "A",
-    "explanationLines": [],
-    "explanation": "",
-    "ocrText": "QUESTION ID 25718 : Series 3 GreenLight Exam\nABC Machine and Manufacturing has just placed an order with a German industrial company for the purchase of new equipment for their factory. The purchase order calls for ABC to pay for the equipment 9 months from now in\nEuros. The contract price is 12,500,000 Euros. At the time the order is placed the spot price for the Euro is $1.10 and the 9 month futures contract is 1.1235. ABC purchases IO of the 9 month Euro futures contracts at the current price. If the\nbasis increases by .0025, what is the net effect of the change to ABC? Each contract covers 125,000 Euros.\nA. An increase in cost of $3,125\nB. An increase in cost of $31,250\nC. A decrease in cost of $3,125\nD. A decrease in cost of $31,250\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: A",
+    "explanationLines": [
+      "As ABC is short the basis and needs to purchase Euros to pay for the equipment, ABC is a long hedger. The only way to answer the question is to know that when the basis increases, that it has a negative impact for the long hedger",
+      "as it increases costs. The basis increased by .0025 per Euro. .0025 x 125,000 Euros = $312.50 per contract in increased cost. Since ABC needs to pay 12,500,000 Euros we must multiply $312.50 x 100 which results in an increased cost to",
+      "ABC of $31,250."
+    ],
+    "explanation": "As ABC is short the basis and needs to purchase Euros to pay for the equipment, ABC is a long hedger. The only way to answer the question is to know that when the basis increases, that it has a negative impact for the long hedger as it increases costs. The basis increased by .0025 per Euro. .0025 x 125,000 Euros = $312.50 per contract in increased cost. Since ABC needs to pay 12,500,000 Euros we must multiply $312.50 x 100 which results in an increased cost to ABC of $31,250.",
+    "ocrText": "QUESTION ID 25718 : Series 3 GreenLight Exam\nABC Machine and Manufacturing has just placed an order with a German industrial company for the purchase of new equipment for their factory. The purchase order calls for ABC to pay for the equipment 9 months from now in\nEuros. The contract price is 12,500,000 Euros. At the time the order is placed the spot price for the Euro is $1.10 and the 9 month futures contract is 1.1235. ABC purchases 10 of the 9 month Euro futures contracts at the current price. If the\nbasis increases by .0025, what is the net effect of the change to ABC? Each contract covers 125,000 Euros.\nA. An increase in cost of $3,125\nB. An increase in cost of $31,250\nC. A decrease in cost of $3,125\nD. A decrease in cost of $31,250\nCORRECT ANSWER IS: B\nYOUR ANSWER IS: A\nAs ABC is short the basis and needs to purchase Euros to pay for the equipment, ABC is a long hedger. The only way to answer the question is to know that when the basis increases, that it has a negative impact for the long hedger\nas it increases costs. The basis increased by .0025 per Euro. .0025 x 125,000 Euros = $312.50 per contract in increased cost. Since ABC needs to pay 12,500,000 Euros we must multiply $312.50 x 100 which results in an increased cost to\nABC of $31,250.",
     "isWrong": true,
     "isUnanswered": false,
     "correctAnswerText": "An increase in cost of $31,250",
     "yourAnswerText": "An increase in cost of $3,125",
     "category": "Options",
     "tags": [
+      "hedging",
       "spreads",
       "currency"
     ]
