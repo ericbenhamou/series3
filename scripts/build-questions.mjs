@@ -4,9 +4,21 @@ import url from "node:url";
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
-const rawPath = path.join(rootDir, "data", "raw-ocr.json");
-const jsonPath = path.join(rootDir, "data", "questions.json");
-const jsPath = path.join(rootDir, "data", "questions.js");
+
+function resolveArg(flag, fallback) {
+  const index = process.argv.indexOf(flag);
+  if (index < 0 || index === process.argv.length - 1) return fallback;
+  return process.argv[index + 1];
+}
+
+function resolveWorkspacePath(filePath) {
+  if (path.isAbsolute(filePath)) return filePath;
+  return path.join(rootDir, filePath);
+}
+
+const rawPath = resolveWorkspacePath(resolveArg("--raw", path.join("data", "raw-ocr.json")));
+const jsonPath = resolveWorkspacePath(resolveArg("--json", path.join("data", "questions.json")));
+const jsPath = resolveWorkspacePath(resolveArg("--js", path.join("data", "questions.js")));
 
 if (!fs.existsSync(rawPath)) {
   throw new Error(`Missing OCR source file: ${rawPath}`);
@@ -15,9 +27,9 @@ if (!fs.existsSync(rawPath)) {
 const rawEntries = JSON.parse(fs.readFileSync(rawPath, "utf8").replace(/^\uFEFF/, ""));
 
 const choicePattern = /^([A-D])[\.\)]\s*(.*)$/i;
-const headerPattern = /^QUESTION ID\s+(\d+)/i;
-const correctPattern = /^CORRECT ANSWER IS:\s*(.+)$/i;
-const yourPattern = /^YOUR ANSWER IS:\s*(.+)$/i;
+const headerPattern = /^QUESTION ID\s+(\d+)\s*:\s*(.+)$/i;
+const correctPattern = /^[»>\s]*CORRECT ANSWER IS:\s*(.+)$/i;
+const yourPattern = /^[»>\s]*YOUR ANSWER IS:\s*(.+)$/i;
 const trueFalsePattern = /^\(?\s*true\s*\/\s*false\s*\)?\.?$/i;
 
 const categoryRules = [
@@ -116,6 +128,16 @@ function cleanPromptLines(questionId, promptLines) {
     .filter((line) => line && !new RegExp(`^QUESTION ID\\s+${questionId}\\b`, "i").test(line));
 }
 
+function cleanExamLabel(headerLine) {
+  const label = headerLine.match(headerPattern)?.[2] || "Series 3 Review";
+
+  return label
+    .replace(/\s*\((?:wrong|correct)\)\s*$/i, "")
+    .replace(/\s+on\.?$/i, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 function buildFallbackChoices(promptLines, correctAnswer, yourAnswer) {
   const promptHasTrueFalse = promptLines.some((line) => trueFalsePattern.test(line)) ||
     promptLines.some((line) => /true\s*\/\s*false/i.test(line));
@@ -168,6 +190,7 @@ function parseEntry(entry) {
   const headerIndex = lines.findIndex((line) => headerPattern.test(line));
   const headerLine = lines.find((line) => headerPattern.test(line)) || "";
   const questionId = headerLine.match(headerPattern)?.[1] || String(entry.order);
+  const examLabel = cleanExamLabel(headerLine);
 
   const correctIndex = lines.findIndex((line) => correctPattern.test(line));
   const yourIndex = lines.findIndex((line) => yourPattern.test(line));
@@ -212,7 +235,7 @@ function parseEntry(entry) {
     localImage: entry.localImage,
     questionId,
     title: `Question ${questionId}`,
-    examLabel: "Series 3 GreenLight Exam",
+    examLabel,
     promptLines: cleanedPromptLines,
     prompt: cleanedPromptLines.join("\n"),
     choices: finalChoices,

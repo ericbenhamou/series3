@@ -1,0 +1,1077 @@
+window.SERIES3_QUESTIONS = [
+  {
+    "order": 1,
+    "fileName": "error-1.png",
+    "localImage": "screenshots/second-exam-results/error-1.png",
+    "questionId": "19092",
+    "title": "Question 19092",
+    "examLabel": "Series 3 - Futures & Forwards",
+    "promptLines": [
+      "The main feature of a forward contract that makes it difficult to offset is:"
+    ],
+    "prompt": "The main feature of a forward contract that makes it difficult to offset is:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "lack of interest in the commodity"
+      },
+      {
+        "label": "B",
+        "text": "lack of liquidity in the spot market"
+      },
+      {
+        "label": "C",
+        "text": "specialized terms"
+      },
+      {
+        "label": "D",
+        "text": "high carrying costs"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "Because the terms and conditions for each forward contract is negotiated on an individual basis it is extremely difficult to find another party to take over the obligation under the contract should circumstances change between the",
+      "contract date and the delivery date."
+    ],
+    "explanation": "Because the terms and conditions for each forward contract is negotiated on an individual basis it is extremely difficult to find another party to take over the obligation under the contract should circumstances change between the contract date and the delivery date.",
+    "ocrText": "QUESTION ID 19092 : Series 3 - Futures & Forwards\nThe main feature of a forward contract that makes it difficult to offset is:\nA. lack of interest in the commodity\nB. lack of liquidity in the spot market\nC. specialized terms\nD. high carrying costs\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nBecause the terms and conditions for each forward contract is negotiated on an individual basis it is extremely difficult to find another party to take over the obligation under the contract should circumstances change between the\ncontract date and the delivery date.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "specialized terms",
+    "yourAnswerText": "lack of interest in the commodity",
+    "category": "Delivery & Settlement",
+    "tags": [
+      "spreads"
+    ]
+  },
+  {
+    "order": 2,
+    "fileName": "error-2.png",
+    "localImage": "screenshots/second-exam-results/error-2.png",
+    "questionId": "19089",
+    "title": "Question 19089",
+    "examLabel": "Series 3 - Futures & Forwards",
+    "promptLines": [
+      "As it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?",
+      "I. The contracts are for a stated amount of the commodity",
+      "Il. The contracts obligate each party to perform",
+      "III. The obligation may be easily offset",
+      "IV. The contracts are between users and producers of the commodity"
+    ],
+    "prompt": "As it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nIl. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity",
+    "choices": [
+      {
+        "label": "A",
+        "text": "I and IV"
+      },
+      {
+        "label": "B",
+        "text": "I and Il"
+      },
+      {
+        "label": "C",
+        "text": "l, Il and IV"
+      },
+      {
+        "label": "D",
+        "text": "III and IV"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "All of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract."
+    ],
+    "explanation": "All of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract.",
+    "ocrText": "QUESTION ID 19089 : Series 3 - Futures & Forwards (wrong)\nAs it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nIl. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity\nA. I and IV\nB. I and Il\nC. l, Il and IV\nD. III and IV\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nAll of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "l, Il and IV",
+    "yourAnswerText": "I and IV",
+    "category": "General Review",
+    "tags": []
+  },
+  {
+    "order": 3,
+    "fileName": "error-3.png",
+    "localImage": "screenshots/second-exam-results/error-3.png",
+    "questionId": "19089",
+    "title": "Question 19089",
+    "examLabel": "Series 3 - Futures & Forwards",
+    "promptLines": [
+      "As it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?",
+      "I. The contracts are for a stated amount of the commodity",
+      "Il. The contracts obligate each party to perform",
+      "III. The obligation may be easily offset",
+      "IV. The contracts are between users and producers of the commodity"
+    ],
+    "prompt": "As it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nIl. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity",
+    "choices": [
+      {
+        "label": "A",
+        "text": "I and IV"
+      },
+      {
+        "label": "B",
+        "text": "I and Il"
+      },
+      {
+        "label": "C",
+        "text": "l, Il and IV"
+      },
+      {
+        "label": "D",
+        "text": "III and IV"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "All of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract."
+    ],
+    "explanation": "All of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract.",
+    "ocrText": "QUESTION ID 19089 : Series 3 - Futures & Forwards\nAs it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nIl. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity\nA. I and IV\nB. I and Il\nC. l, Il and IV\nD. III and IV\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nAll of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "l, Il and IV",
+    "yourAnswerText": "I and IV",
+    "category": "General Review",
+    "tags": []
+  },
+  {
+    "order": 4,
+    "fileName": "error-4.png",
+    "localImage": "screenshots/second-exam-results/error-4.png",
+    "questionId": "19100",
+    "title": "Question 19100",
+    "examLabel": "Series 3 - Futures & Forwards",
+    "promptLines": [
+      "Which of the following sets the rules for trading futures on the floor of the exchange and will resolve trading disputes between members?"
+    ],
+    "prompt": "Which of the following sets the rules for trading futures on the floor of the exchange and will resolve trading disputes between members?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The floor committee"
+      },
+      {
+        "label": "B",
+        "text": "NFA"
+      },
+      {
+        "label": "C",
+        "text": "CFTC"
+      },
+      {
+        "label": "D",
+        "text": "Floor official"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "The exchange's floor committee sets the rules for trading futures on the floor of the exchange and will resolve trading disputes between members"
+    ],
+    "explanation": "The exchange's floor committee sets the rules for trading futures on the floor of the exchange and will resolve trading disputes between members",
+    "ocrText": "QUESTION ID 19100 : Series 3 - Futures & Forwards\nWhich of the following sets the rules for trading futures on the floor of the exchange and will resolve trading disputes between members?\nA. The floor committee\nB. NFA\nC. CFTC\nD. Floor official\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: B\nThe exchange's floor committee sets the rules for trading futures on the floor of the exchange and will resolve trading disputes between members",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "The floor committee",
+    "yourAnswerText": "NFA",
+    "category": "Compliance",
+    "tags": [
+      "options"
+    ]
+  },
+  {
+    "order": 5,
+    "fileName": "error-5.png",
+    "localImage": "screenshots/second-exam-results/error-5.png",
+    "questionId": "19124",
+    "title": "Question 19124",
+    "examLabel": "Series 3 - Futures & Forwards",
+    "promptLines": [
+      "If the price of the futures contract moves against the member firm the amount of their margin deposit will be reduced. Should the contract move sufficiently against the firm causing the deposit to fall below the minimum",
+      "maintenance level:"
+    ],
+    "prompt": "If the price of the futures contract moves against the member firm the amount of their margin deposit will be reduced. Should the contract move sufficiently against the firm causing the deposit to fall below the minimum\nmaintenance level:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "the exchange will call for new margin"
+      },
+      {
+        "label": "B",
+        "text": "the exchange will call for variation margin"
+      },
+      {
+        "label": "C",
+        "text": "the clearinghouse will call for new margin"
+      },
+      {
+        "label": "D",
+        "text": "the clearinghouse will call for variation margin"
+      }
+    ],
+    "correctAnswer": "D",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "If the price of the futures contract moves against the member firm the amount of their margin deposit will be reduced. Should the contract move sufficiently against the firm causing the deposit to fall below the minimum",
+      "maintenance level, the clearing house will issue a call for additional or variation margin"
+    ],
+    "explanation": "If the price of the futures contract moves against the member firm the amount of their margin deposit will be reduced. Should the contract move sufficiently against the firm causing the deposit to fall below the minimum maintenance level, the clearing house will issue a call for additional or variation margin",
+    "ocrText": "(wrong)\nQUESTION ID 19124 : Series 3 - Futures & Forwards\nIf the price of the futures contract moves against the member firm the amount of their margin deposit will be reduced. Should the contract move sufficiently against the firm causing the deposit to fall below the minimum\nmaintenance level:\nA. the exchange will call for new margin\nB. the exchange will call for variation margin\nC. the clearinghouse will call for new margin\nD. the clearinghouse will call for variation margin\n» CORRECT ANSWER IS: D\n» YOUR ANSWER IS: B\nIf the price of the futures contract moves against the member firm the amount of their margin deposit will be reduced. Should the contract move sufficiently against the firm causing the deposit to fall below the minimum\nmaintenance level, the clearing house will issue a call for additional or variation margin",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "the clearinghouse will call for variation margin",
+    "yourAnswerText": "the exchange will call for variation margin",
+    "category": "Options",
+    "tags": [
+      "options"
+    ]
+  },
+  {
+    "order": 6,
+    "fileName": "error-6.png",
+    "localImage": "screenshots/second-exam-results/error-6.png",
+    "questionId": "19127",
+    "title": "Question 19127",
+    "examLabel": "Series 3 - Futures & Forwards",
+    "promptLines": [
+      "Futures exchanges will allow for the delivery of a substitute grade to settle a contract in order to:"
+    ],
+    "prompt": "Futures exchanges will allow for the delivery of a substitute grade to settle a contract in order to:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "allow producers with premium grades to charge a premium"
+      },
+      {
+        "label": "B",
+        "text": "allow producers with lower quality grades to hedge using futures"
+      },
+      {
+        "label": "C",
+        "text": "to help ensure no one can corner the market for a given commodity"
+      },
+      {
+        "label": "D",
+        "text": "to ensure adequate supply is available to settle contracts during bad crop years"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "Futures exchanges will allow for the delivery of a substitute grade to settle a contract to help ensure that no one corners the market in any given commodity."
+    ],
+    "explanation": "Futures exchanges will allow for the delivery of a substitute grade to settle a contract to help ensure that no one corners the market in any given commodity.",
+    "ocrText": "QUESTION ID 19127 : Series 3 - Futures & Forwards\nFutures exchanges will allow for the delivery of a substitute grade to settle a contract in order to:\nA. allow producers with premium grades to charge a premium\nB. allow producers with lower quality grades to hedge using futures\nC. to help ensure no one can corner the market for a given commodity\nD. to ensure adequate supply is available to settle contracts during bad crop years\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: B\nFutures exchanges will allow for the delivery of a substitute grade to settle a contract to help ensure that no one corners the market in any given commodity.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "to help ensure no one can corner the market for a given commodity",
+    "yourAnswerText": "allow producers with lower quality grades to hedge using futures",
+    "category": "Hedging",
+    "tags": []
+  },
+  {
+    "order": 7,
+    "fileName": "error-7.png",
+    "localImage": "screenshots/second-exam-results/error-7.png",
+    "questionId": "19152",
+    "title": "Question 19152",
+    "examLabel": "Series 3 - Futures Pricing ron",
+    "promptLines": [
+      "The maximum amount by which the value of the contract may change during a trading session is based on:"
+    ],
+    "prompt": "The maximum amount by which the value of the contract may change during a trading session is based on:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "the price set during the opening range"
+      },
+      {
+        "label": "B",
+        "text": "the average weighted price during the trading session"
+      },
+      {
+        "label": "C",
+        "text": "the previous settlement"
+      },
+      {
+        "label": "D",
+        "text": "the price per unit covered under the contract"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "D",
+    "explanationLines": [
+      "The maximum amount by which the value of the contract may change during a trading session is set based on the previous day's settlement price for the contract"
+    ],
+    "explanation": "The maximum amount by which the value of the contract may change during a trading session is set based on the previous day's settlement price for the contract",
+    "ocrText": "QUESTION ID 19152 : Series 3 - Futures Pricing ron\nThe maximum amount by which the value of the contract may change during a trading session is based on:\nA. the price set during the opening range\nB. the average weighted price during the trading session\nC. the previous settlement\nD. the price per unit covered under the contract\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: D\nThe maximum amount by which the value of the contract may change during a trading session is set based on the previous day's settlement price for the contract",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "the previous settlement",
+    "yourAnswerText": "the price per unit covered under the contract",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 8,
+    "fileName": "error-8.png",
+    "localImage": "screenshots/second-exam-results/error-8.png",
+    "questionId": "38135",
+    "title": "Question 38135",
+    "examLabel": "Series 3 - Futures Pricing",
+    "promptLines": [
+      "ln the overnight session on Globex, strong foreign demand has caused the price of a commodity trading on the CBOT to enter a state of lock limit up. The commodity is about to open for the domestic session, which of the following is",
+      "correct?"
+    ],
+    "prompt": "ln the overnight session on Globex, strong foreign demand has caused the price of a commodity trading on the CBOT to enter a state of lock limit up. The commodity is about to open for the domestic session, which of the following is\ncorrect?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "At the open the exchange will increase the daily price limit only"
+      },
+      {
+        "label": "B",
+        "text": "At the open the exchange will increase the daily price limit and the margin requirement"
+      },
+      {
+        "label": "C",
+        "text": "At the open the exchange will increase the margin requirement only"
+      },
+      {
+        "label": "D",
+        "text": "The exchange will only increase the daily price limit and the margin requirement if the commodity remains in a state of limit up at the close of the domestic session"
+      }
+    ],
+    "correctAnswer": "D",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "At the opening of trading for the commodity the exchange will not take any action. The Exchange will only increase the daily price limit and the margin requirement if the commodity remains in a state of limit up at the close of the",
+      "domestic session."
+    ],
+    "explanation": "At the opening of trading for the commodity the exchange will not take any action. The Exchange will only increase the daily price limit and the margin requirement if the commodity remains in a state of limit up at the close of the domestic session.",
+    "ocrText": "QUESTION ID 38135 : Series 3 - Futures Pricing (wrong)\nln the overnight session on Globex, strong foreign demand has caused the price of a commodity trading on the CBOT to enter a state of lock limit up. The commodity is about to open for the domestic session, which of the following is\ncorrect?\nA. At the open the exchange will increase the daily price limit only\nB. At the open the exchange will increase the daily price limit and the margin requirement\nC. At the open the exchange will increase the margin requirement only\nD. The exchange will only increase the daily price limit and the margin requirement if the commodity remains in a state of limit up at the close of the domestic session\n» CORRECT ANSWER IS: D\n» YOUR ANSWER IS: B\nAt the opening of trading for the commodity the exchange will not take any action. The Exchange will only increase the daily price limit and the margin requirement if the commodity remains in a state of limit up at the close of the\ndomestic session.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "The exchange will only increase the daily price limit and the margin requirement if the commodity remains in a state of limit up at the close of the domestic session",
+    "yourAnswerText": "At the open the exchange will increase the daily price limit and the margin requirement",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 9,
+    "fileName": "error-9.png",
+    "localImage": "screenshots/second-exam-results/error-9.png",
+    "questionId": "25495",
+    "title": "Question 25495",
+    "examLabel": "Series 3 - Futures Pricing",
+    "promptLines": [
+      "With the demand for beef and beef products relatively stable and with little to no known supply concerns, in this environment the pricing and market structure for feeder cattle relative to the front month contract, will be:"
+    ],
+    "prompt": "With the demand for beef and beef products relatively stable and with little to no known supply concerns, in this environment the pricing and market structure for feeder cattle relative to the front month contract, will be:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "higher"
+      },
+      {
+        "label": "B",
+        "text": "lower"
+      },
+      {
+        "label": "C",
+        "text": "in contango"
+      },
+      {
+        "label": "D",
+        "text": "inverted"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "C",
+    "explanationLines": [
+      "ln a normal market, the price of feeder cattle will trade at a discount or lower than the price of the front month contract. Feeder cattle are the input used to produce live cattle, the final commodity or product. Contango is not correct",
+      "because the question concerns the relationship between the cash price and a single futures contract, not the relationship between different delivery months.\""
+    ],
+    "explanation": "ln a normal market, the price of feeder cattle will trade at a discount or lower than the price of the front month contract. Feeder cattle are the input used to produce live cattle, the final commodity or product. Contango is not correct because the question concerns the relationship between the cash price and a single futures contract, not the relationship between different delivery months.\"",
+    "ocrText": "QUESTION ID 25495 : Series 3 - Futures Pricing\nWith the demand for beef and beef products relatively stable and with little to no known supply concerns, in this environment the pricing and market structure for feeder cattle relative to the front month contract, will be:\nA. higher\nB. lower\nC. in contango\nD. inverted\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: C\nln a normal market, the price of feeder cattle will trade at a discount or lower than the price of the front month contract. Feeder cattle are the input used to produce live cattle, the final commodity or product. Contango is not correct\nbecause the question concerns the relationship between the cash price and a single futures contract, not the relationship between different delivery months.\"",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "lower",
+    "yourAnswerText": "in contango",
+    "category": "Delivery & Settlement",
+    "tags": [
+      "options",
+      "spreads"
+    ]
+  },
+  {
+    "order": 10,
+    "fileName": "error-10.png",
+    "localImage": "screenshots/second-exam-results/error-10.png",
+    "questionId": "19890",
+    "title": "Question 19890",
+    "examLabel": "Series 3 - Options and Spreads",
+    "promptLines": [
+      "An investor has sold short 5 June crude at 79.12 and sold 5 June crude 80 puts at 4.05. Each crude oil contract covers 1,000 barrels of oil. What is the investor's maximum gain ?"
+    ],
+    "prompt": "An investor has sold short 5 June crude at 79.12 and sold 5 June crude 80 puts at 4.05. Each crude oil contract covers 1,000 barrels of oil. What is the investor's maximum gain ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Unlimited"
+      },
+      {
+        "label": "B",
+        "text": "$31,700"
+      },
+      {
+        "label": "C",
+        "text": "$15,850"
+      },
+      {
+        "label": "D",
+        "text": "$3,170"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "The investor has sold the crude short at 79.12 and sold the 80 puts against the position at 4.05 for a total of 83.17 per barrel. If crude oil declines the investor will be put the 5 June crude oil contracts at 80. Therefore their maximum gain",
+      "is 3.17 per barrel X 5,000 barrels — $15,850 for the entire position."
+    ],
+    "explanation": "The investor has sold the crude short at 79.12 and sold the 80 puts against the position at 4.05 for a total of 83.17 per barrel. If crude oil declines the investor will be put the 5 June crude oil contracts at 80. Therefore their maximum gain is 3.17 per barrel X 5,000 barrels — $15,850 for the entire position.",
+    "ocrText": "QUESTION ID 19890 : Series 3 - Options and Spreads (wrong)\nAn investor has sold short 5 June crude at 79.12 and sold 5 June crude 80 puts at 4.05. Each crude oil contract covers 1,000 barrels of oil. What is the investor's maximum gain ?\nA. Unlimited\nB. $31,700\nc. $15,850\nD. $3,170\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nThe investor has sold the crude short at 79.12 and sold the 80 puts against the position at 4.05 for a total of 83.17 per barrel. If crude oil declines the investor will be put the 5 June crude oil contracts at 80. Therefore their maximum gain\nis 3.17 per barrel X 5,000 barrels — $15,850 for the entire position.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "$15,850",
+    "yourAnswerText": "Unlimited",
+    "category": "Options",
+    "tags": [
+      "options"
+    ]
+  },
+  {
+    "order": 11,
+    "fileName": "error-11.png",
+    "localImage": "screenshots/second-exam-results/error-11.png",
+    "questionId": "19834",
+    "title": "Question 19834",
+    "examLabel": "Series 3 - options and spreads ro",
+    "promptLines": [
+      "You bought",
+      "10 August feeder cattle 75 calls at .14",
+      "10 August feeder cattle 75 puts at .IO",
+      "Each feeder cattle futures contract covers 50,000 pounds, your maximum gain is:"
+    ],
+    "prompt": "You bought\n10 August feeder cattle 75 calls at .14\n10 August feeder cattle 75 puts at .IO\nEach feeder cattle futures contract covers 50,000 pounds, your maximum gain is:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "$50,OOO"
+      },
+      {
+        "label": "B",
+        "text": "$120,OOO"
+      },
+      {
+        "label": "C",
+        "text": "Unlimited"
+      },
+      {
+        "label": "D",
+        "text": "$20,OOO"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "With a long straddle the maximum gain is unlimited because the investor owns the calls."
+    ],
+    "explanation": "With a long straddle the maximum gain is unlimited because the investor owns the calls.",
+    "ocrText": "(w ns)\nQUESTION ID 19834 : Series 3 - options and spreads ro\nYou bought\n10 August feeder cattle 75 calls at .14\n10 August feeder cattle 75 puts at .IO\nEach feeder cattle futures contract covers 50,000 pounds, your maximum gain is:\nA. $50,OOO\nB. $120,OOO\nC. Unlimited\nD. $20,OOO\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: B\nWith a long straddle the maximum gain is unlimited because the investor owns the calls.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "Unlimited",
+    "yourAnswerText": "$120,OOO",
+    "category": "Options",
+    "tags": [
+      "options"
+    ]
+  },
+  {
+    "order": 12,
+    "fileName": "error-12.png",
+    "localImage": "screenshots/second-exam-results/error-12.png",
+    "questionId": "19971",
+    "title": "Question 19971",
+    "examLabel": "Series 3 - options and spreads",
+    "promptLines": [
+      "An option investor would have a risk reward profile most like that of an investor who is short futures if they establish which of the following positions?"
+    ],
+    "prompt": "An option investor would have a risk reward profile most like that of an investor who is short futures if they establish which of the following positions?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Long puts, short calls"
+      },
+      {
+        "label": "B",
+        "text": "Long puts, long calls"
+      },
+      {
+        "label": "C",
+        "text": "Short puts, short calls"
+      },
+      {
+        "label": "D",
+        "text": "Short puts, long calls"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "D",
+    "explanationLines": [
+      "An option investor would have a risk reward profile most like an investor who is short futures if they were long puts and short calls. The investor's risk to the upside is unlimited and the investor will profit from a decline in the futures",
+      "contract."
+    ],
+    "explanation": "An option investor would have a risk reward profile most like an investor who is short futures if they were long puts and short calls. The investor's risk to the upside is unlimited and the investor will profit from a decline in the futures contract.",
+    "ocrText": "(wrg)\nQUESTION ID 19971 : Series 3 - options and spreads on\nAn option investor would have a risk reward profile most like that of an investor who is short futures if they establish which of the following positions?\nA. Long puts, short calls\nB. Long puts, long calls\nC. Short puts, short calls\nD. Short puts, long calls\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: D\nAn option investor would have a risk reward profile most like an investor who is short futures if they were long puts and short calls. The investor's risk to the upside is unlimited and the investor will profit from a decline in the futures\ncontract.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "Long puts, short calls",
+    "yourAnswerText": "Short puts, long calls",
+    "category": "Options",
+    "tags": [
+      "options"
+    ]
+  },
+  {
+    "order": 13,
+    "fileName": "error-13.png",
+    "localImage": "screenshots/second-exam-results/error-13.png",
+    "questionId": "19895",
+    "title": "Question 19895",
+    "examLabel": "Series 3 - options and spreads",
+    "promptLines": [
+      "An investor purchases 10 March wheat contracts at 509 and purchases IO 500 puts on March wheat at .14. If March wheat falls to 4.93 at expiration and the investor exercises the puts to close out the position, the investor will realize:",
+      "Each wheat contract covers 5,000 bushels of wheat."
+    ],
+    "prompt": "An investor purchases 10 March wheat contracts at 509 and purchases IO 500 puts on March wheat at .14. If March wheat falls to 4.93 at expiration and the investor exercises the puts to close out the position, the investor will realize:\nEach wheat contract covers 5,000 bushels of wheat.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A loss of $l,500"
+      },
+      {
+        "label": "B",
+        "text": "A loss of $15,OOO"
+      },
+      {
+        "label": "C",
+        "text": "A loss of S7,ooo"
+      },
+      {
+        "label": "D",
+        "text": "A loss of $11,500"
+      }
+    ],
+    "correctAnswer": "D",
+    "yourAnswer": "",
+    "explanationLines": [],
+    "explanation": "",
+    "ocrText": "QUESTION ID 19895 : Series 3 - options and spreads\nAn investor purchases 10 March wheat contracts at 509 and purchases IO 500 puts on March wheat at .14. If March wheat falls to 4.93 at expiration and the investor exercises the puts to close out the position, the investor will realize:\nEach wheat contract covers 5,000 bushels of wheat.\nA. A loss of $l,500\nB. A loss of $15,OOO\nC. A loss of S7,ooo\nD. A loss of $11,500\n» CORRECT ANSWER IS: D\n» YOUR ANSWER ls: [[NONE]I\nTo determine the investor's breakeven add the puts premium to the purchase price the investor paid for the futures contract . ln this case 509 + .14 = 523„ The investor exercises the 500 put and sells the futures contract at 500. The\ninvestor loses 23 cents per bushel or $11,500 for the entire position. Found as follows 23 cents X 50,000 bushels - $11,500",
+    "isWrong": true,
+    "isUnanswered": true,
+    "correctAnswerText": "A loss of $11,500",
+    "yourAnswerText": "",
+    "category": "Options",
+    "tags": [
+      "options"
+    ]
+  },
+  {
+    "order": 14,
+    "fileName": "error-14.png",
+    "localImage": "screenshots/second-exam-results/error-14.png",
+    "questionId": "19935",
+    "title": "Question 19935",
+    "examLabel": "Series 3 - options and spreads",
+    "promptLines": [
+      "The US Treasury Department has just released a report showing that the US economy is growing strongly. An option investor would be most likely to execute which of the following trades?",
+      "I. Sell puts on Index futures",
+      "Il. Purchase call options on S & P 500 futures",
+      "III. Sell a straddle on S & P 500 futures",
+      "IV. Purchase puts Yen futures"
+    ],
+    "prompt": "The US Treasury Department has just released a report showing that the US economy is growing strongly. An option investor would be most likely to execute which of the following trades?\nI. Sell puts on Index futures\nIl. Purchase call options on S & P 500 futures\nIII. Sell a straddle on S & P 500 futures\nIV. Purchase puts Yen futures",
+    "choices": [
+      {
+        "label": "A",
+        "text": "I and Il"
+      },
+      {
+        "label": "B",
+        "text": "l, III, and IV"
+      },
+      {
+        "label": "C",
+        "text": "l, Il, and IV"
+      },
+      {
+        "label": "D",
+        "text": "Il and III"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "If the economy is growing strongly an investor may want to execute all of the trades listed except selling a straddle on the S & P 500 Futures. With a short straddle the investor takes on upside risk. If the economy is doing well the stock",
+      "market and the US Dollar will most likely rally."
+    ],
+    "explanation": "If the economy is growing strongly an investor may want to execute all of the trades listed except selling a straddle on the S & P 500 Futures. With a short straddle the investor takes on upside risk. If the economy is doing well the stock market and the US Dollar will most likely rally.",
+    "ocrText": "QUESTION ID 19935 : Series 3 - options and spreads\nThe US Treasury Department has just released a report showing that the US economy is growing strongly. An option investor would be most likely to execute which of the following trades?\nI. Sell puts on Index futures\nIl. Purchase call options on S & P 500 futures\nIII. Sell a straddle on S & P 500 futures\nIV. Purchase puts Yen futures\nA. I and Il\nB. l, III, and IV\nC. l, Il, and IV\nD. Il and III\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nIf the economy is growing strongly an investor may want to execute all of the trades listed except selling a straddle on the S & P 500 Futures. With a short straddle the investor takes on upside risk. If the economy is doing well the stock\nmarket and the US Dollar will most likely rally.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "l, Il, and IV",
+    "yourAnswerText": "I and Il",
+    "category": "Options",
+    "tags": [
+      "options",
+      "currency"
+    ]
+  },
+  {
+    "order": 15,
+    "fileName": "error-15.png",
+    "localImage": "screenshots/second-exam-results/error-15.png",
+    "questionId": "19852",
+    "title": "Question 19852",
+    "examLabel": "Series 3 - Options and Spreads",
+    "promptLines": [
+      "An investor who exercises a June crude 85 put option must make delivery of 1,000 barrels of crude oil to an approved location during the delivery period.",
+      "( True/False )"
+    ],
+    "prompt": "An investor who exercises a June crude 85 put option must make delivery of 1,000 barrels of crude oil to an approved location during the delivery period.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "An investor who exercises a put option on June crude is obligated to deliver the June crude futures contract, not the underlying commodity."
+    ],
+    "explanation": "An investor who exercises a put option on June crude is obligated to deliver the June crude futures contract, not the underlying commodity.",
+    "ocrText": "QUESTION ID 19852 : Series 3 - Options and Spreads\nAn investor who exercises a June crude 85 put option must make delivery of 1,000 barrels of crude oil to an approved location during the delivery period.\n( True/False )\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: A\nAn investor who exercises a put option on June crude is obligated to deliver the June crude futures contract, not the underlying commodity.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
+    "category": "Options",
+    "tags": [
+      "options"
+    ]
+  },
+  {
+    "order": 16,
+    "fileName": "error-16.png",
+    "localImage": "screenshots/second-exam-results/error-16.png",
+    "questionId": "19304",
+    "title": "Question 19304",
+    "examLabel": "Series 3 - Speculation & Hedging",
+    "promptLines": [
+      "An investor who establishes a position in a soybean contract is liable for which of the following ?"
+    ],
+    "prompt": "An investor who establishes a position in a soybean contract is liable for which of the following ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "the initial margin only"
+      },
+      {
+        "label": "B",
+        "text": "the initial margin plus any variation margin"
+      },
+      {
+        "label": "C",
+        "text": "the full value of the contract"
+      },
+      {
+        "label": "D",
+        "text": "all carrying charges"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "When an investor establishes a position in a futures contract either long or short that investor is liable for the full value of the underlying contract. The margin deposit is only a good faith deposit to ensure the investor can make or",
+      "take delivery."
+    ],
+    "explanation": "When an investor establishes a position in a futures contract either long or short that investor is liable for the full value of the underlying contract. The margin deposit is only a good faith deposit to ensure the investor can make or take delivery.",
+    "ocrText": "QUESTION ID 19304 : Series 3 - Speculation & Hedging (wrong)\nAn investor who establishes a position in a soybean contract is liable for which of the following ?\nA. the initial margin only\nB. the initial margin plus any variation margin\nC. the full value of the contract\nD. all carrying charges\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: B\nWhen an investor establishes a position in a futures contract either long or short that investor is liable for the full value of the underlying contract. The margin deposit is only a good faith deposit to ensure the investor can make or\ntake delivery.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "the full value of the contract",
+    "yourAnswerText": "the initial margin plus any variation margin",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 17,
+    "fileName": "error-17.png",
+    "localImage": "screenshots/second-exam-results/error-17.png",
+    "questionId": "19315",
+    "title": "Question 19315",
+    "examLabel": "Series 3 - Speculation & Hedging",
+    "promptLines": [
+      "A farmer who grows wheat has 500,000 bushels of wheat growing on his farm. The spot price of wheat is 4.70 per bushel. The farmer hedges his crop by selling 100 September Wheat at 4.81. If during the time of the harvest wheat has",
+      "increased to 4.85 and the futures have increased to 490,the basis has become stronger.",
+      "( True/False )"
+    ],
+    "prompt": "A farmer who grows wheat has 500,000 bushels of wheat growing on his farm. The spot price of wheat is 4.70 per bushel. The farmer hedges his crop by selling 100 September Wheat at 4.81. If during the time of the harvest wheat has\nincreased to 4.85 and the futures have increased to 490,the basis has become stronger.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "The price of the cash crop increased by 15 cents and the price of the short futures contract increased by only 9 cents. The basis has become less negative and. The basis increased from 11 under to 5 under."
+    ],
+    "explanation": "The price of the cash crop increased by 15 cents and the price of the short futures contract increased by only 9 cents. The basis has become less negative and. The basis increased from 11 under to 5 under.",
+    "ocrText": "QUESTION ID 19315 : Series 3 - Speculation & Hedging (wrong)\nA farmer who grows wheat has 500,000 bushels of wheat growing on his farm. The spot price of wheat is 4.70 per bushel. The farmer hedges his crop by selling 100 September Wheat at 4.81. If during the time of the harvest wheat has\nincreased to 4.85 and the futures have increased to 490,the basis has become stronger.\n( True/False )\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: B\nThe price of the cash crop increased by 15 cents and the price of the short futures contract increased by only 9 cents. The basis has become less negative and. The basis increased from 11 under to 5 under.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "True",
+    "yourAnswerText": "False",
+    "category": "Agriculture & Energy",
+    "tags": [
+      "hedging",
+      "spreads"
+    ]
+  },
+  {
+    "order": 18,
+    "fileName": "error-18.png",
+    "localImage": "screenshots/second-exam-results/error-18.png",
+    "questionId": "25531",
+    "title": "Question 25531",
+    "examLabel": "Series 3 - Speculation & Hedging",
+    "promptLines": [
+      "StoreDry Grain, Inc is a large elevator operator and regularly owns and stores millions of bushels of wheat. To protect from falling prices StoreDry often sells a substantial number of wheat futures contracts. Prior to exceeding the",
+      "position limit, StoreDry must give:"
+    ],
+    "prompt": "StoreDry Grain, Inc is a large elevator operator and regularly owns and stores millions of bushels of wheat. To protect from falling prices StoreDry often sells a substantial number of wheat futures contracts. Prior to exceeding the\nposition limit, StoreDry must give:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "30 days notice to the CFTC"
+      },
+      {
+        "label": "B",
+        "text": "10 days notice to the exchange"
+      },
+      {
+        "label": "C",
+        "text": "10 days notice to the CFTC"
+      },
+      {
+        "label": "D",
+        "text": "30 days notice to the exchange"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "A bona fide hedger must give 30 days notice to the CFTC prior to establishing a position that would exceed the position limit."
+    ],
+    "explanation": "A bona fide hedger must give 30 days notice to the CFTC prior to establishing a position that would exceed the position limit.",
+    "ocrText": "QUESTION ID 25531 : Series 3 - Speculation & Hedging (wrong)\nStoreDry Grain, Inc is a large elevator operator and regularly owns and stores millions of bushels of wheat. To protect from falling prices StoreDry often sells a substantial number of wheat futures contracts. Prior to exceeding the\nposition limit, StoreDry must give:\nA. 30 days notice to the CFTC\nB. 10 days notice to the exchange\nC. 10 days notice to the CFTC\nD. 30 days notice to the exchange\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: B\nA bona fide hedger must give 30 days notice to the CFTC prior to establishing a position that would exceed the position limit.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "30 days notice to the CFTC",
+    "yourAnswerText": "10 days notice to the exchange",
+    "category": "Compliance",
+    "tags": [
+      "hedging",
+      "regulation"
+    ]
+  },
+  {
+    "order": 19,
+    "fileName": "error-19.png",
+    "localImage": "screenshots/second-exam-results/error-19.png",
+    "questionId": "19309",
+    "title": "Question 19309",
+    "examLabel": "Series 3 - Speculation & Hedging",
+    "promptLines": [
+      "Which of the following would cause an investor to purchase March wheat futures ?"
+    ],
+    "prompt": "Which of the following would cause an investor to purchase March wheat futures ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "They are a farmer looking to hedge production"
+      },
+      {
+        "label": "B",
+        "text": "They are an elevator operator with wheat in storage"
+      },
+      {
+        "label": "C",
+        "text": "They are a baking company"
+      },
+      {
+        "label": "D",
+        "text": "They are long the basis"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "All of the choices listed would be short hedgers or sellers of wheat futures except the baking company who is a user of wheat and would need to secure supply and protect against the rise in the price of wheat."
+    ],
+    "explanation": "All of the choices listed would be short hedgers or sellers of wheat futures except the baking company who is a user of wheat and would need to secure supply and protect against the rise in the price of wheat.",
+    "ocrText": "QUESTION ID 19309 : Series 3 - Speculation & Hedging (wrong)\nWhich of the following would cause an investor to purchase March wheat futures ?\nA. They are a farmer looking to hedge production\nB. They are an elevator operator with wheat in storage\nC. They are a baking company\nD. They are long the basis\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: B\nAll of the choices listed would be short hedgers or sellers of wheat futures except the baking company who is a user of wheat and would need to secure supply and protect against the rise in the price of wheat.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "They are a baking company",
+    "yourAnswerText": "They are an elevator operator with wheat in storage",
+    "category": "Hedging",
+    "tags": [
+      "hedging"
+    ]
+  },
+  {
+    "order": 20,
+    "fileName": "error-20.png",
+    "localImage": "screenshots/second-exam-results/error-20.png",
+    "questionId": "19314",
+    "title": "Question 19314",
+    "examLabel": "Series 3 - Speculation & Hedging",
+    "promptLines": [
+      "ABC grain brokerage, a business that exports wheat to Europe, has just entered into a contract to deliver 500,000 bushels of wheat to a European food producer. Delivery of the wheat is due in 6 months. As it relates to ABC which of",
+      "the following is / are true ?",
+      "I. ABC is long the basis",
+      "Il. ABC should sell futures",
+      "III. ABC is short the basis",
+      "IV. ABC should buy futures"
+    ],
+    "prompt": "ABC grain brokerage, a business that exports wheat to Europe, has just entered into a contract to deliver 500,000 bushels of wheat to a European food producer. Delivery of the wheat is due in 6 months. As it relates to ABC which of\nthe following is / are true ?\nI. ABC is long the basis\nIl. ABC should sell futures\nIII. ABC is short the basis\nIV. ABC should buy futures",
+    "choices": [
+      {
+        "label": "A",
+        "text": "III and IV"
+      },
+      {
+        "label": "B",
+        "text": "I and Il"
+      },
+      {
+        "label": "C",
+        "text": "Il only"
+      },
+      {
+        "label": "D",
+        "text": "IV only"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "ABC grain brokerage has entered into an unconditional contract to deliver the 500,000 bushels of wheat. ABC as a broker is not a producer and is not long the underlying commodity. Therefore, ABC is short the basis as they are",
+      "obligated to deliver the commodity and do not own it. ABC should buy wheat futures."
+    ],
+    "explanation": "ABC grain brokerage has entered into an unconditional contract to deliver the 500,000 bushels of wheat. ABC as a broker is not a producer and is not long the underlying commodity. Therefore, ABC is short the basis as they are obligated to deliver the commodity and do not own it. ABC should buy wheat futures.",
+    "ocrText": "QUESTION ID 19314 : Series 3 - Speculation & Hedging (wrong)\nABC grain brokerage, a business that exports wheat to Europe, has just entered into a contract to deliver 500,000 bushels of wheat to a European food producer. Delivery of the wheat is due in 6 months. As it relates to ABC which of\nthe following is / are true ?\nI. ABC is long the basis\nIl. ABC should sell futures\nIII. ABC is short the basis\nIV. ABC should buy futures\nA. III and IV\nB. I and Il\nC. Il only\nD. IV only\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: B\nABC grain brokerage has entered into an unconditional contract to deliver the 500,000 bushels of wheat. ABC as a broker is not a producer and is not long the underlying commodity. Therefore, ABC is short the basis as they are\nobligated to deliver the commodity and do not own it. ABC should buy wheat futures.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "III and IV",
+    "yourAnswerText": "I and Il",
+    "category": "Compliance",
+    "tags": [
+      "spreads",
+      "currency"
+    ]
+  },
+  {
+    "order": 21,
+    "fileName": "error-21.png",
+    "localImage": "screenshots/second-exam-results/error-21.png",
+    "questionId": "19250",
+    "title": "Question 19250",
+    "examLabel": "Series 3 - Speculation & Hedging (wron",
+    "promptLines": [
+      "Gold has been in a 20 point trading range for the last few sessions. All of the following would be reasons to purchase gold futures, except:"
+    ],
+    "prompt": "Gold has been in a 20 point trading range for the last few sessions. All of the following would be reasons to purchase gold futures, except:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "An increase in the consumer price index"
+      },
+      {
+        "label": "B",
+        "text": "A weaker dollar"
+      },
+      {
+        "label": "C",
+        "text": "Volatility in the stock markets"
+      },
+      {
+        "label": "D",
+        "text": "A conservative government comes to power in the middle east"
+      }
+    ],
+    "correctAnswer": "D",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "All of the reasons listed would be reasons to purchase gold except the election of a conservative government in the middle east. When political tensions subside this tends to be bearish for gold. A weaker dollar, volatility in the stock",
+      "market and inflation as noted by an increase in the consumer price index are all reasons to purchase gold."
+    ],
+    "explanation": "All of the reasons listed would be reasons to purchase gold except the election of a conservative government in the middle east. When political tensions subside this tends to be bearish for gold. A weaker dollar, volatility in the stock market and inflation as noted by an increase in the consumer price index are all reasons to purchase gold.",
+    "ocrText": "QUESTION ID 19250 : Series 3 - Speculation & Hedging (wron\nGold has been in a 20 point trading range for the last few sessions. All of the following would be reasons to purchase gold futures, except:\nA. An increase in the consumer price index\nB. A weaker dollar\nC. Volatility in the stock markets\nD. A conservative government comes to power in the middle east\n» CORRECT ANSWER IS: D\n» YOUR ANSWER IS: A\nAll of the reasons listed would be reasons to purchase gold except the election of a conservative government in the middle east. When political tensions subside this tends to be bearish for gold. A weaker dollar, volatility in the stock\nmarket and inflation as noted by an increase in the consumer price index are all reasons to purchase gold.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "A conservative government comes to power in the middle east",
+    "yourAnswerText": "An increase in the consumer price index",
+    "category": "Macro & Market Theory",
+    "tags": []
+  },
+  {
+    "order": 22,
+    "fileName": "error-22.png",
+    "localImage": "screenshots/second-exam-results/error-22.png",
+    "questionId": "19237",
+    "title": "Question 19237",
+    "examLabel": "Series 3 - speculation & Hedging",
+    "promptLines": [
+      "The open trade equity is calculated based on the initial margin deposit plus or minus any unrealized profit or loss on the open contract position.",
+      "( True/False )"
+    ],
+    "prompt": "The open trade equity is calculated based on the initial margin deposit plus or minus any unrealized profit or loss on the open contract position.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "The open trade equity is calculated based on the initial margin deposit plus or minus any unrealized profit or loss on the open contract position."
+    ],
+    "explanation": "The open trade equity is calculated based on the initial margin deposit plus or minus any unrealized profit or loss on the open contract position.",
+    "ocrText": "(wr g)\nQUESTION ID 19237 : Series 3 - speculation & Hedging on\nThe open trade equity is calculated based on the initial margin deposit plus or minus any unrealized profit or loss on the open contract position.\n( True/False )\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: B\nThe open trade equity is calculated based on the initial margin deposit plus or minus any unrealized profit or loss on the open contract position.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "True",
+    "yourAnswerText": "False",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 23,
+    "fileName": "error-23.png",
+    "localImage": "screenshots/second-exam-results/error-23.png",
+    "questionId": "20974",
+    "title": "Question 20974",
+    "examLabel": "Series 3 - price Forecasting",
+    "promptLines": [
+      "Resistance is created at the point to which the commodity falls and attracts buyers. The new buyers that are brought into the market provide support for the price of the commodity.",
+      "( True/False )"
+    ],
+    "prompt": "Resistance is created at the point to which the commodity falls and attracts buyers. The new buyers that are brought into the market provide support for the price of the commodity.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "Resistance is created at the point to which the commodity appreciates and attracts sellers. The new sellers that are brought into the market, because of the higher price, create supply for the commodity and prevent it from rising",
+      "any further."
+    ],
+    "explanation": "Resistance is created at the point to which the commodity appreciates and attracts sellers. The new sellers that are brought into the market, because of the higher price, create supply for the commodity and prevent it from rising any further.",
+    "ocrText": "QUESTION ID 20974 : Series 3 - price Forecasting\nResistance is created at the point to which the commodity falls and attracts buyers. The new buyers that are brought into the market provide support for the price of the commodity.\n( True/False )\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: A\nResistance is created at the point to which the commodity appreciates and attracts sellers. The new sellers that are brought into the market, because of the higher price, create supply for the commodity and prevent it from rising\nany further.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
+    "category": "Macro & Market Theory",
+    "tags": []
+  },
+  {
+    "order": 24,
+    "fileName": "error-24.png",
+    "localImage": "screenshots/second-exam-results/error-24.png",
+    "questionId": "20996",
+    "title": "Question 20996",
+    "examLabel": "Series 3 - price Forecasting r n",
+    "promptLines": [
+      "A trader who believes that the economy has bottomed out and feels that construction spending is about to pick up is looking to establish a long position in May copper. Copper has been coming off a 12 month low and open interest",
+      "is increasing. The action in May copper:"
+    ],
+    "prompt": "A trader who believes that the economy has bottomed out and feels that construction spending is about to pick up is looking to establish a long position in May copper. Copper has been coming off a 12 month low and open interest\nis increasing. The action in May copper:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "confirms that a long position should be established"
+      },
+      {
+        "label": "B",
+        "text": "cannot confirm that a long position should be established"
+      },
+      {
+        "label": "C",
+        "text": "suggests that copper will remain near the 12 month low"
+      },
+      {
+        "label": "D",
+        "text": "must be confirmed in other commodities before a long position should be established"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "As the price of copper is rising off a 12 month low, the open interest is increasing and is a sign the new positions are being established and that the buying pressure is stronger than the selling pressure. The market for May copper is",
+      "strong and a long position should be established."
+    ],
+    "explanation": "As the price of copper is rising off a 12 month low, the open interest is increasing and is a sign the new positions are being established and that the buying pressure is stronger than the selling pressure. The market for May copper is strong and a long position should be established.",
+    "ocrText": "QUESTION ID 20996 : Series 3 - price Forecasting r n\nA trader who believes that the economy has bottomed out and feels that construction spending is about to pick up is looking to establish a long position in May copper. Copper has been coming off a 12 month low and open interest\nis increasing. The action in May copper:\nA. confirms that a long position should be established\nB. cannot confirm that a long position should be established\nC. suggests that copper will remain near the 12 month low\nD. must be confirmed in other commodities before a long position should be established\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: B\nAs the price of copper is rising off a 12 month low, the open interest is increasing and is a sign the new positions are being established and that the buying pressure is stronger than the selling pressure. The market for May copper is\nstrong and a long position should be established.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "confirms that a long position should be established",
+    "yourAnswerText": "cannot confirm that a long position should be established",
+    "category": "General Review",
+    "tags": [
+      "rates"
+    ]
+  }
+];

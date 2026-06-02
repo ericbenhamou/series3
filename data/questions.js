@@ -348,7 +348,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-8.png",
     "questionId": "25747",
     "title": "Question 25747",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLight Exam ron",
     "promptLines": [
       "As it relates to the carrying charges for a stock index futures contract, which of the following is not considered ?",
       "I. Safekeeping of securities",
@@ -399,7 +399,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-9.png",
     "questionId": "25733",
     "title": "Question 25733",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLightExam ron",
     "promptLines": [
       "A trader is seeking to establish a position in the market for a specific commodity. The trader would like to enter orders to both establish and offset the contracts. As it relates to MIT, market if touched orders, which of the following are",
       "true ?",
@@ -585,7 +585,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-13.png",
     "questionId": "25767",
     "title": "Question 25767",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLightExam ron",
     "promptLines": [
       "As it relates to the NFA which of the follow are correct ?",
       "I. The NFA regulates off floor activities",
@@ -909,7 +909,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-20.png",
     "questionId": "25686",
     "title": "Question 25686",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLight Exam ro",
     "promptLines": [
       "An associated person is speaking to a potential new client on the telephone. The potential new client is a high net worth individual who was referred to the AP by an existing client. The potential new client only has 15 minutes to speak",
       "to the AP between meetings and is asking about how futures trading can be used to diversify his investments and to enhance his overall return. The AP explains how the futures markets work and how futures can be used to meet his",
@@ -1418,7 +1418,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-31.png",
     "questionId": "25774",
     "title": "Question 25774",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLight Exam ron",
     "promptLines": [
       "A member or associate who would like to share directly or indirectly in the performance of customer accounts:"
     ],
@@ -2208,7 +2208,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-48.png",
     "questionId": "25683",
     "title": "Question 25683",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLightExam rom",
     "promptLines": [
       "A trader of debt is looking at the futures market and reviewing rates and credit conditions. The current T'bill futures contract is quoted at a price equal to 1.05 percent and the equivalent Eurodollar futures contract is quoted at a price",
       "equal to 1.22 percent. If the quote on the T'bill contract goes to 1.18 percent and the quote on the Eurodollar contract goes to 1.28 percent, a trader would assume which of the following?",
@@ -2355,7 +2355,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-51.png",
     "questionId": "25771",
     "title": "Question 25771",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLightExam ron",
     "promptLines": [
       "Jim is a long tenured AP at FastTrade Commodities, a registered FCM. Jim's brother in-law just opened his own FCM and would like Jim to work at his new firm. Jim is not ready to leave his current firm, but is considering assisting his",
       "brother in-law at his new firm. Which of the following is correct?"
@@ -2495,7 +2495,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-54.png",
     "questionId": "25772",
     "title": "Question 25772",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLightExam ron",
     "promptLines": [
       "An AP has had his registration revoked by the NFA for numerous alleged infractions. The AP is extremely upset and vigorously contents the allegations. The AP wishes to pursue relief and attempts to have his registration reinstated.",
       "Which of the following is correct ?"
@@ -2818,7 +2818,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-61.png",
     "questionId": "25778",
     "title": "Question 25778",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLightExam ron",
     "promptLines": [
       "An introducing broker received promotional material from its FCM. As it relates to the use of the material, which of the following is correct?"
     ],
@@ -2958,7 +2958,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-64.png",
     "questionId": "25724",
     "title": "Question 25724",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLight Exam Ovronö",
     "promptLines": [
       "Inflation has been rising over the last year, as interest rates increase in the face of inflation, which of the following choices would be false?"
     ],
@@ -3004,7 +3004,7 @@ window.SERIES3_QUESTIONS = [
     "localImage": "screenshots/error-65.png",
     "questionId": "25776",
     "title": "Question 25776",
-    "examLabel": "Series 3 GreenLight Exam",
+    "examLabel": "Series 3 GreenLightExam ron",
     "promptLines": [
       "Jill has a diversified portfolio containing many investments. Jill is looking to consolidate some of her accounts and is going to transfer her commodities account from CheapTrades FCM to TradeFast FCM. She wants to know how long",
       "the whole process will take. As her AP, you should tell her:"

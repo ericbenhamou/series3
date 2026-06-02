@@ -54,6 +54,62 @@ body::before {
   padding: 32px 0 48px;
 }
 
+.exam-switcher {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.exam-link-card {
+  display: grid;
+  gap: 6px;
+  padding: 18px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(16px);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.exam-link-card:hover,
+.exam-link-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 28px 52px rgba(26, 35, 40, 0.16);
+}
+
+.exam-link-card:focus-visible {
+  outline: 2px solid rgba(31, 127, 130, 0.35);
+  outline-offset: 2px;
+}
+
+.exam-link-card.is-active {
+  border-color: rgba(31, 127, 130, 0.38);
+  background:
+    linear-gradient(135deg, rgba(31, 127, 130, 0.16), rgba(255, 252, 245, 0.95) 48%),
+    var(--surface);
+}
+
+.exam-link-kicker {
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--accent-strong);
+}
+
+.exam-link-title {
+  font-size: 1.1rem;
+}
+
+.exam-link-text {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .hero,
 .stats,
 .controls,
@@ -709,6 +765,7 @@ body.overlay-open {
 }
 
 @media (max-width: 1100px) {
+  .exam-switcher,
   .stats,
   .controls,
   .quick-jump,
@@ -735,6 +792,11 @@ body.overlay-open {
   .page-shell {
     width: min(100vw - 20px, 100%);
     padding: 18px 0 calc(104px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .exam-link-card {
+    padding: 16px 18px;
+    border-radius: 18px;
   }
 
   .hero,

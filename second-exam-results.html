@@ -3,44 +3,44 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Series 3 Wrong Questions</title>
+    <title>Series 3 Second Exam Results</title>
     <meta
       name="description"
-      content="OCR-powered review site for Series 3 GreenLight questions you missed."
+      content="OCR-powered review site for the second simulated Series 3 exam questions you missed."
     />
     <link rel="stylesheet" href="styles.css" />
-    <script defer src="data/questions.js"></script>
+    <script defer src="data/questions-second-exam.js"></script>
     <script defer src="app.js"></script>
   </head>
   <body>
     <div class="page-shell">
       <section class="exam-switcher" aria-label="Exam review navigation">
-        <a class="exam-link-card is-active" href="./index.html" aria-current="page">
+        <a class="exam-link-card" href="./index.html">
           <span class="exam-link-kicker">Exam 1</span>
           <strong class="exam-link-title">GreenLight Wrong Questions</strong>
-          <span class="exam-link-text">Review the original 68-question GreenLight missed set.</span>
+          <span class="exam-link-text">Return to the original 68-question GreenLight review set.</span>
         </a>
 
-        <a class="exam-link-card" href="./second-exam-results.html">
+        <a class="exam-link-card is-active" href="./second-exam-results.html" aria-current="page">
           <span class="exam-link-kicker">Exam 2</span>
           <strong class="exam-link-title">Second Exam Results</strong>
-          <span class="exam-link-text">Open the new 24 missed questions from the simulated exam.</span>
+          <span class="exam-link-text">Study the new 24-question simulated exam miss list.</span>
         </a>
       </section>
 
       <header class="hero">
         <div class="hero-copy">
           <p class="eyebrow">OCR Study Build</p>
-          <h1>GreenLight Wrong Question Review</h1>
+          <h1>Second Exam Results</h1>
           <p class="hero-text">
-            A searchable review board built from the GreenLight screenshots. Each question keeps
-            the OCR text, the original screenshot, and a clean side-by-side view of your answer
-            versus the correct one.
+            A searchable review board built from the second simulated exam screenshots. Each
+            question keeps the OCR text, the original screenshot, and a clean side-by-side view
+            of your answer versus the correct one.
           </p>
         </div>
         <div class="hero-note">
-          <p>Minor OCR artifacts can appear on a few entries.</p>
-          <p>Use the screenshot panel anytime you want the original wording.</p>
+          <p>This page holds the newer 24 missed questions from the simulated exam batch.</p>
+          <p>Use the exam links above anytime you want to switch back to the GreenLight review.</p>
         </div>
       </header>
 
@@ -105,7 +105,12 @@
               <h2 id="jump-title">Jump To A Question</h2>
               <p class="jump-sheet-text" id="jump-sheet-text"></p>
             </div>
-            <button type="button" class="jump-close" id="jump-close" aria-label="Close question picker">
+            <button
+              type="button"
+              class="jump-close"
+              id="jump-close"
+              aria-label="Close question picker"
+            >
               Close
             </button>
           </div>

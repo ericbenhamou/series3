@@ -8,6 +8,7 @@ $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
 $workspaceRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
+$screenshotDirInput = $ScreenshotDir
 
 if (-not [System.IO.Path]::IsPathRooted($RawOutput)) {
     $RawOutput = Join-Path $workspaceRoot $RawOutput
@@ -15,6 +16,14 @@ if (-not [System.IO.Path]::IsPathRooted($RawOutput)) {
 
 if (-not [System.IO.Path]::IsPathRooted($ScreenshotDir)) {
     $ScreenshotDir = Join-Path $workspaceRoot $ScreenshotDir
+}
+
+if (-not [System.IO.Path]::IsPathRooted($screenshotDirInput)) {
+    $relativeScreenshotDir = $screenshotDirInput.Replace("\", "/")
+} else {
+    $workspaceUri = [System.Uri]::new(((Resolve-Path $workspaceRoot).Path.TrimEnd("\") + "\"))
+    $screenshotUri = [System.Uri]::new(((Resolve-Path $ScreenshotDir).Path.TrimEnd("\") + "\"))
+    $relativeScreenshotDir = $workspaceUri.MakeRelativeUri($screenshotUri).ToString().TrimEnd("/")
 }
 
 Add-Type -AssemblyName System.Runtime.WindowsRuntime
@@ -105,7 +114,7 @@ $records = foreach ($file in $files) {
         order      = [int](($file.BaseName -replace "[^\d]", ""))
         fileName   = $file.Name
         sourcePath = $file.FullName
-        localImage = ("screenshots/{0}" -f $file.Name)
+        localImage = ("{0}/{1}" -f $relativeScreenshotDir, $file.Name)
         lines      = $lines
         text       = ($lines -join "`n")
     }
