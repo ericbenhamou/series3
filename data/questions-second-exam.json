@@ -55,11 +55,11 @@
     "promptLines": [
       "As it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?",
       "I. The contracts are for a stated amount of the commodity",
-      "Il. The contracts obligate each party to perform",
+      "II. The contracts obligate each party to perform",
       "III. The obligation may be easily offset",
       "IV. The contracts are between users and producers of the commodity"
     ],
-    "prompt": "As it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nIl. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity",
+    "prompt": "As it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nII. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity",
     "choices": [
       {
         "label": "A",
@@ -67,11 +67,11 @@
       },
       {
         "label": "B",
-        "text": "I and Il"
+        "text": "I and II"
       },
       {
         "label": "C",
-        "text": "l, Il and IV"
+        "text": "l, II and IV"
       },
       {
         "label": "D",
@@ -84,10 +84,10 @@
       "All of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract."
     ],
     "explanation": "All of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract.",
-    "ocrText": "QUESTION ID 19089 : Series 3 - Futures & Forwards (wrong)\nAs it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nIl. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity\nA. I and IV\nB. I and Il\nC. l, Il and IV\nD. III and IV\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nAll of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract.",
+    "ocrText": "QUESTION ID 19089 : Series 3 - Futures & Forwards (wrong)\nAs it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nII. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity\nA. I and IV\nB. I and II\nC. l, II and IV\nD. III and IV\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nAll of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract.",
     "isWrong": true,
     "isUnanswered": false,
-    "correctAnswerText": "l, Il and IV",
+    "correctAnswerText": "l, II and IV",
     "yourAnswerText": "I and IV",
     "category": "General Review",
     "tags": []
@@ -102,11 +102,11 @@
     "promptLines": [
       "As it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?",
       "I. The contracts are for a stated amount of the commodity",
-      "Il. The contracts obligate each party to perform",
+      "II. The contracts obligate each party to perform",
       "III. The obligation may be easily offset",
       "IV. The contracts are between users and producers of the commodity"
     ],
-    "prompt": "As it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nIl. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity",
+    "prompt": "As it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nII. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity",
     "choices": [
       {
         "label": "A",
@@ -114,11 +114,11 @@
       },
       {
         "label": "B",
-        "text": "I and Il"
+        "text": "I and II"
       },
       {
         "label": "C",
-        "text": "l, Il and IV"
+        "text": "l, II and IV"
       },
       {
         "label": "D",
@@ -131,10 +131,10 @@
       "All of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract."
     ],
     "explanation": "All of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract.",
-    "ocrText": "QUESTION ID 19089 : Series 3 - Futures & Forwards\nAs it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nIl. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity\nA. I and IV\nB. I and Il\nC. l, Il and IV\nD. III and IV\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nAll of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract.",
+    "ocrText": "QUESTION ID 19089 : Series 3 - Futures & Forwards\nAs it relates to forward contracts to purchase and sell agricultural commodities which of the following is / are true?\nI. The contracts are for a stated amount of the commodity\nII. The contracts obligate each party to perform\nIII. The obligation may be easily offset\nIV. The contracts are between users and producers of the commodity\nA. I and IV\nB. I and II\nC. l, II and IV\nD. III and IV\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nAll of the choices listed are true relating to forward contracts except that the forward contract does not allow either party to easily offset their obligation under the contract.",
     "isWrong": true,
     "isUnanswered": false,
-    "correctAnswerText": "l, Il and IV",
+    "correctAnswerText": "l, II and IV",
     "yourAnswerText": "I and IV",
     "category": "General Review",
     "tags": []
@@ -603,15 +603,15 @@
     "promptLines": [
       "The US Treasury Department has just released a report showing that the US economy is growing strongly. An option investor would be most likely to execute which of the following trades?",
       "I. Sell puts on Index futures",
-      "Il. Purchase call options on S & P 500 futures",
+      "II. Purchase call options on S & P 500 futures",
       "III. Sell a straddle on S & P 500 futures",
       "IV. Purchase puts Yen futures"
     ],
-    "prompt": "The US Treasury Department has just released a report showing that the US economy is growing strongly. An option investor would be most likely to execute which of the following trades?\nI. Sell puts on Index futures\nIl. Purchase call options on S & P 500 futures\nIII. Sell a straddle on S & P 500 futures\nIV. Purchase puts Yen futures",
+    "prompt": "The US Treasury Department has just released a report showing that the US economy is growing strongly. An option investor would be most likely to execute which of the following trades?\nI. Sell puts on Index futures\nII. Purchase call options on S & P 500 futures\nIII. Sell a straddle on S & P 500 futures\nIV. Purchase puts Yen futures",
     "choices": [
       {
         "label": "A",
-        "text": "I and Il"
+        "text": "I and II"
       },
       {
         "label": "B",
@@ -619,11 +619,11 @@
       },
       {
         "label": "C",
-        "text": "l, Il, and IV"
+        "text": "l, II, and IV"
       },
       {
         "label": "D",
-        "text": "Il and III"
+        "text": "II and III"
       }
     ],
     "correctAnswer": "C",
@@ -633,11 +633,11 @@
       "market and the US Dollar will most likely rally."
     ],
     "explanation": "If the economy is growing strongly an investor may want to execute all of the trades listed except selling a straddle on the S & P 500 Futures. With a short straddle the investor takes on upside risk. If the economy is doing well the stock market and the US Dollar will most likely rally.",
-    "ocrText": "QUESTION ID 19935 : Series 3 - options and spreads\nThe US Treasury Department has just released a report showing that the US economy is growing strongly. An option investor would be most likely to execute which of the following trades?\nI. Sell puts on Index futures\nIl. Purchase call options on S & P 500 futures\nIII. Sell a straddle on S & P 500 futures\nIV. Purchase puts Yen futures\nA. I and Il\nB. l, III, and IV\nC. l, Il, and IV\nD. Il and III\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nIf the economy is growing strongly an investor may want to execute all of the trades listed except selling a straddle on the S & P 500 Futures. With a short straddle the investor takes on upside risk. If the economy is doing well the stock\nmarket and the US Dollar will most likely rally.",
+    "ocrText": "QUESTION ID 19935 : Series 3 - options and spreads\nThe US Treasury Department has just released a report showing that the US economy is growing strongly. An option investor would be most likely to execute which of the following trades?\nI. Sell puts on Index futures\nII. Purchase call options on S & P 500 futures\nIII. Sell a straddle on S & P 500 futures\nIV. Purchase puts Yen futures\nA. I and II\nB. l, III, and IV\nC. l, II, and IV\nD. II and III\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nIf the economy is growing strongly an investor may want to execute all of the trades listed except selling a straddle on the S & P 500 Futures. With a short straddle the investor takes on upside risk. If the economy is doing well the stock\nmarket and the US Dollar will most likely rally.",
     "isWrong": true,
     "isUnanswered": false,
-    "correctAnswerText": "l, Il, and IV",
-    "yourAnswerText": "I and Il",
+    "correctAnswerText": "l, II, and IV",
+    "yourAnswerText": "I and II",
     "category": "Options",
     "tags": [
       "options",
@@ -869,11 +869,11 @@
       "ABC grain brokerage, a business that exports wheat to Europe, has just entered into a contract to deliver 500,000 bushels of wheat to a European food producer. Delivery of the wheat is due in 6 months. As it relates to ABC which of",
       "the following is / are true ?",
       "I. ABC is long the basis",
-      "Il. ABC should sell futures",
+      "II. ABC should sell futures",
       "III. ABC is short the basis",
       "IV. ABC should buy futures"
     ],
-    "prompt": "ABC grain brokerage, a business that exports wheat to Europe, has just entered into a contract to deliver 500,000 bushels of wheat to a European food producer. Delivery of the wheat is due in 6 months. As it relates to ABC which of\nthe following is / are true ?\nI. ABC is long the basis\nIl. ABC should sell futures\nIII. ABC is short the basis\nIV. ABC should buy futures",
+    "prompt": "ABC grain brokerage, a business that exports wheat to Europe, has just entered into a contract to deliver 500,000 bushels of wheat to a European food producer. Delivery of the wheat is due in 6 months. As it relates to ABC which of\nthe following is / are true ?\nI. ABC is long the basis\nII. ABC should sell futures\nIII. ABC is short the basis\nIV. ABC should buy futures",
     "choices": [
       {
         "label": "A",
@@ -881,11 +881,11 @@
       },
       {
         "label": "B",
-        "text": "I and Il"
+        "text": "I and II"
       },
       {
         "label": "C",
-        "text": "Il only"
+        "text": "II only"
       },
       {
         "label": "D",
@@ -899,11 +899,11 @@
       "obligated to deliver the commodity and do not own it. ABC should buy wheat futures."
     ],
     "explanation": "ABC grain brokerage has entered into an unconditional contract to deliver the 500,000 bushels of wheat. ABC as a broker is not a producer and is not long the underlying commodity. Therefore, ABC is short the basis as they are obligated to deliver the commodity and do not own it. ABC should buy wheat futures.",
-    "ocrText": "QUESTION ID 19314 : Series 3 - Speculation & Hedging (wrong)\nABC grain brokerage, a business that exports wheat to Europe, has just entered into a contract to deliver 500,000 bushels of wheat to a European food producer. Delivery of the wheat is due in 6 months. As it relates to ABC which of\nthe following is / are true ?\nI. ABC is long the basis\nIl. ABC should sell futures\nIII. ABC is short the basis\nIV. ABC should buy futures\nA. III and IV\nB. I and Il\nC. Il only\nD. IV only\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: B\nABC grain brokerage has entered into an unconditional contract to deliver the 500,000 bushels of wheat. ABC as a broker is not a producer and is not long the underlying commodity. Therefore, ABC is short the basis as they are\nobligated to deliver the commodity and do not own it. ABC should buy wheat futures.",
+    "ocrText": "QUESTION ID 19314 : Series 3 - Speculation & Hedging (wrong)\nABC grain brokerage, a business that exports wheat to Europe, has just entered into a contract to deliver 500,000 bushels of wheat to a European food producer. Delivery of the wheat is due in 6 months. As it relates to ABC which of\nthe following is / are true ?\nI. ABC is long the basis\nII. ABC should sell futures\nIII. ABC is short the basis\nIV. ABC should buy futures\nA. III and IV\nB. I and II\nC. II only\nD. IV only\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: B\nABC grain brokerage has entered into an unconditional contract to deliver the 500,000 bushels of wheat. ABC as a broker is not a producer and is not long the underlying commodity. Therefore, ABC is short the basis as they are\nobligated to deliver the commodity and do not own it. ABC should buy wheat futures.",
     "isWrong": true,
     "isUnanswered": false,
     "correctAnswerText": "III and IV",
-    "yourAnswerText": "I and Il",
+    "yourAnswerText": "I and II",
     "category": "Compliance",
     "tags": [
       "spreads",

@@ -1,0 +1,478 @@
+[
+    {
+        "order":  1,
+        "fileName":  "error-1.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-1.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-1.png",
+        "lines":  [
+                      "QUESTION ID 19057 : series 3 - CFTC / NFA Regulations",
+                      "Original jurisdiction disciplinary actions taken by the NFA against and NFA member falls to:",
+                      "A. hearing panel",
+                      "B. national business conduct committee",
+                      "C. NFA director",
+                      "D. local business conduct committee",
+                      "correct Answer: A",
+                      "your Answer: C",
+                      "If a matter is referred to the regional business conduct committee and formal complaint is issued, the hearing panel will have original jurisdiction to impose penalties."
+                  ],
+        "text":  "QUESTION ID 19057 : series 3 - CFTC / NFA Regulations\nOriginal jurisdiction disciplinary actions taken by the NFA against and NFA member falls to:\nA. hearing panel\nB. national business conduct committee\nC. NFA director\nD. local business conduct committee\ncorrect Answer: A\nyour Answer: C\nIf a matter is referred to the regional business conduct committee and formal complaint is issued, the hearing panel will have original jurisdiction to impose penalties."
+    },
+    {
+        "order":  2,
+        "fileName":  "error-2.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-2.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-2.png",
+        "lines":  [
+                      "QUESTION ID 19012 series 3 - CFTC 1\u0027 NFA Regulations",
+                      "A Commodity pool operator or CPO is an organization which invests money contributed by a group of participants in numerous accounts for the purpose of advising",
+                      "customers on how to invest in futures.",
+                      "( True/False)",
+                      "correct Answer: B",
+                      "your Answer: A",
+                      "A Commodity Pool Operator or CPO is an organization which invests money contributed by a group of participants to a single account for the purpose of investing the money",
+                      "in futures. A CPO does not advise customers on how to invest money in their accounts, but rather manages a single account on a discretionary basis for the benefit of all",
+                      "participants."
+                  ],
+        "text":  "QUESTION ID 19012 series 3 - CFTC 1\u0027 NFA Regulations\nA Commodity pool operator or CPO is an organization which invests money contributed by a group of participants in numerous accounts for the purpose of advising\ncustomers on how to invest in futures.\n( True/False)\ncorrect Answer: B\nyour Answer: A\nA Commodity Pool Operator or CPO is an organization which invests money contributed by a group of participants to a single account for the purpose of investing the money\nin futures. A CPO does not advise customers on how to invest money in their accounts, but rather manages a single account on a discretionary basis for the benefit of all\nparticipants."
+    },
+    {
+        "order":  3,
+        "fileName":  "error-3.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-3.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-3.png",
+        "lines":  [
+                      "QUESTION ID 19111 series 3 - Futures \u0026 Forwards",
+                      "Which of the following is I are true of futures exchanges?",
+                      "l. Futures exchanges are SROS",
+                      "Il. The exchanges set the margin requirements for contracts",
+                      "Ill. Violations by members must be referred to the CFTC for action",
+                      "IV. a local is a producer of the commodity with a facility in the area that can deliver the commodity easily to the warehouse",
+                      "A. I and Il",
+                      "B. Il and Ill",
+                      "C. I and Ill",
+                      "D. l, Il, Ill, IV",
+                      "correct Answer: A",
+                      "your Answer: D"
+                  ],
+        "text":  "QUESTION ID 19111 series 3 - Futures \u0026 Forwards\nWhich of the following is I are true of futures exchanges?\nl. Futures exchanges are SROS\nIl. The exchanges set the margin requirements for contracts\nIll. Violations by members must be referred to the CFTC for action\nIV. a local is a producer of the commodity with a facility in the area that can deliver the commodity easily to the warehouse\nA. I and Il\nB. Il and Ill\nC. I and Ill\nD. l, Il, Ill, IV\ncorrect Answer: A\nyour Answer: D"
+    },
+    {
+        "order":  4,
+        "fileName":  "error-4.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-4.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-4.png",
+        "lines":  [
+                      "QUESTION ID 19084 : series 3 - Futures \u0026 Forwards",
+                      "ln the spot market the producer of the commodity would bring his crop to the marketplace and sell the wheat or corn to buyers who would pay for the commodity within",
+                      "3 days",
+                      "( True/False)",
+                      "correct Answer: B",
+                      "your Answer: A",
+                      "ln the spot market the producer of the commodity would bring his crop to the marketplace and sell the wheat or corn to any buyer with cash in hand."
+                  ],
+        "text":  "QUESTION ID 19084 : series 3 - Futures \u0026 Forwards\nln the spot market the producer of the commodity would bring his crop to the marketplace and sell the wheat or corn to buyers who would pay for the commodity within\n3 days\n( True/False)\ncorrect Answer: B\nyour Answer: A\nln the spot market the producer of the commodity would bring his crop to the marketplace and sell the wheat or corn to any buyer with cash in hand."
+    },
+    {
+        "order":  5,
+        "fileName":  "error-5.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-5.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-5.png",
+        "lines":  [
+                      "QUESTION ID Ig118 : Series 3 • Futures \u0026 Forwords (wrong)",
+                      "As it relates to the clearinghouse, which of the following is I are true ?",
+                      "l. The clearinghouse will net the purchases and sales for all transactions executed during the trading session",
+                      "Il. The clearinghouse will calculate the original margin requirement",
+                      "Ill. The clearinghouse will settle futures trades no later than 2 business days",
+                      "IV. The clearinghouse requires members to deposit margin by the opening of trading on the second business day",
+                      "A. I and Il",
+                      "B. Il and Ill",
+                      "C. Ill and IV",
+                      "D. l, Il, Ill, IV",
+                      "» Correct Answer. A",
+                      "» Your Answer: D",
+                      "The statements that the clearinghouse will net the purchases and sales for all transactions executed during the trading session and the clearinghouse will calculate the original margin requirement",
+                      "are true. The clearinghouse requires all margin deposits to be made by the opening of trading the next business day and all trades in futures contracts settle the next business day."
+                  ],
+        "text":  "QUESTION ID Ig118 : Series 3 • Futures \u0026 Forwords (wrong)\nAs it relates to the clearinghouse, which of the following is I are true ?\nl. The clearinghouse will net the purchases and sales for all transactions executed during the trading session\nIl. The clearinghouse will calculate the original margin requirement\nIll. The clearinghouse will settle futures trades no later than 2 business days\nIV. The clearinghouse requires members to deposit margin by the opening of trading on the second business day\nA. I and Il\nB. Il and Ill\nC. Ill and IV\nD. l, Il, Ill, IV\n» Correct Answer. A\n» Your Answer: D\nThe statements that the clearinghouse will net the purchases and sales for all transactions executed during the trading session and the clearinghouse will calculate the original margin requirement\nare true. The clearinghouse requires all margin deposits to be made by the opening of trading the next business day and all trades in futures contracts settle the next business day."
+    },
+    {
+        "order":  6,
+        "fileName":  "error-6.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-6.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-6.png",
+        "lines":  [
+                      "QUESTION ID 19118 series3 Futures \u0026 Forwards (wrong)",
+                      "AS it relates to the clearinghouse, which of the following is I are true ?",
+                      "l. The clearinghouse will net the purchases and sales for all transactions executed during the trading session",
+                      "Il. The clearinghouse will calculate the original margin requirement",
+                      "Ill. The clearinghouse will settle futures trades no later than 2 business days",
+                      "IV. The clearinghouse requires members to deposit margin by the opening of trading on the second business day",
+                      "A. I and Il",
+                      "B. Il and Ill",
+                      "C. Ill and IV",
+                      "D. l, Il, Ill, IV",
+                      "correct Answer: A",
+                      "your Answer: D"
+                  ],
+        "text":  "QUESTION ID 19118 series3 Futures \u0026 Forwards (wrong)\nAS it relates to the clearinghouse, which of the following is I are true ?\nl. The clearinghouse will net the purchases and sales for all transactions executed during the trading session\nIl. The clearinghouse will calculate the original margin requirement\nIll. The clearinghouse will settle futures trades no later than 2 business days\nIV. The clearinghouse requires members to deposit margin by the opening of trading on the second business day\nA. I and Il\nB. Il and Ill\nC. Ill and IV\nD. l, Il, Ill, IV\ncorrect Answer: A\nyour Answer: D"
+    },
+    {
+        "order":  7,
+        "fileName":  "error-7.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-7.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-7.png",
+        "lines":  [
+                      "QUESTION ID 19108 : series 3 - Futures \u0026 Forwards",
+                      "A delivery notice received by a futures trader which requires the trader to accept delivery of the underlying commodity, is known as:",
+                      "A. a firm notice",
+                      "B. a stopped notice",
+                      "C. a forced notice",
+                      "D. a hard notice",
+                      "correct Answer: B",
+                      "your Answer: A",
+                      "A delivery notice received by a futures trader which requires the trader to accept delivery of the underlying commodity, is known as a stopped notice. With a stopped notice",
+                      "the trader may not offset the requirement to accept delivery by selling the contract."
+                  ],
+        "text":  "QUESTION ID 19108 : series 3 - Futures \u0026 Forwards\nA delivery notice received by a futures trader which requires the trader to accept delivery of the underlying commodity, is known as:\nA. a firm notice\nB. a stopped notice\nC. a forced notice\nD. a hard notice\ncorrect Answer: B\nyour Answer: A\nA delivery notice received by a futures trader which requires the trader to accept delivery of the underlying commodity, is known as a stopped notice. With a stopped notice\nthe trader may not offset the requirement to accept delivery by selling the contract."
+    },
+    {
+        "order":  8,
+        "fileName":  "error-8.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-8.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-8.png",
+        "lines":  [
+                      "QUESTION ID 19094 : series 3 - Futures \u0026 Forwards",
+                      "Family Farms, grows and produces corn in Iowa. Family Farms has entered into a contract with a local user of corn to sell a significant portion of this year\u0027s crop to the",
+                      "local user. Which of the following is not true?",
+                      "A. Family Farms may more efficiently operate its business",
+                      "B. The local user has not taken on any performance risk",
+                      "C. Family Farms has counterparty risk",
+                      "D. This is a forward contract",
+                      "correct Answer: B",
+                      "your Answer: D",
+                      "All of the choices are true except the local user has taken on performance risk. If Family Farms cannot deliver the agreed upon amount of corn, the local user will have to",
+                      "obtain it elsewhere and may have to pay a higher price for the corn."
+                  ],
+        "text":  "QUESTION ID 19094 : series 3 - Futures \u0026 Forwards\nFamily Farms, grows and produces corn in Iowa. Family Farms has entered into a contract with a local user of corn to sell a significant portion of this year\u0027s crop to the\nlocal user. Which of the following is not true?\nA. Family Farms may more efficiently operate its business\nB. The local user has not taken on any performance risk\nC. Family Farms has counterparty risk\nD. This is a forward contract\ncorrect Answer: B\nyour Answer: D\nAll of the choices are true except the local user has taken on performance risk. If Family Farms cannot deliver the agreed upon amount of corn, the local user will have to\nobtain it elsewhere and may have to pay a higher price for the corn."
+    },
+    {
+        "order":  9,
+        "fileName":  "error-9.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-9.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-9.png",
+        "lines":  [
+                      "QUESTION ID 19149 : series3 Futures Pricing",
+                      "One point in the S \u0026 P 500 futures contract is worth:",
+                      "A. $25",
+                      "B. $250",
+                      "c. $50",
+                      "D. $100",
+                      "correct Answer: B",
+                      "your Answer: A",
+                      "One point in the S \u0026 P 500 futures contract is worth $250."
+                  ],
+        "text":  "QUESTION ID 19149 : series3 Futures Pricing\nOne point in the S \u0026 P 500 futures contract is worth:\nA. $25\nB. $250\nc. $50\nD. $100\ncorrect Answer: B\nyour Answer: A\nOne point in the S \u0026 P 500 futures contract is worth $250."
+    },
+    {
+        "order":  10,
+        "fileName":  "error-10.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-10.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-10.png",
+        "lines":  [
+                      "QUESTION ID 19155 : series3 Futures Pricing",
+                      "Five contract delivery months for one commodity have closed limit up. The Chicago Board of Trade (CBOT) has expanded the daily price limit for the contract. The",
+                      "expanded price limit will remain in place for:",
+                      "A. I trading day",
+                      "B. 2 trading days",
+                      "C. 3 trading days",
+                      "D. 5 trading days",
+                      "correct Answer: C",
+                      "your Answer: A",
+                      "If the price limits are expanded by the exchange, the expanded daily price limits will remain in effect for three consecutive trading days."
+                  ],
+        "text":  "QUESTION ID 19155 : series3 Futures Pricing\nFive contract delivery months for one commodity have closed limit up. The Chicago Board of Trade (CBOT) has expanded the daily price limit for the contract. The\nexpanded price limit will remain in place for:\nA. I trading day\nB. 2 trading days\nC. 3 trading days\nD. 5 trading days\ncorrect Answer: C\nyour Answer: A\nIf the price limits are expanded by the exchange, the expanded daily price limits will remain in effect for three consecutive trading days."
+    },
+    {
+        "order":  11,
+        "fileName":  "error-11.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-11.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-11.png",
+        "lines":  [
+                      "QUESTION ID 19140 : series3 Futures Pricing",
+                      "The minimum price variation per contract is known as a tick and is set by the CFTC",
+                      "( True/False)",
+                      "correct Answer: B",
+                      "your Answer: A",
+                      "The minimum price variation per contract is known as a tick and is set by the exchange where the contract trades, not by the CFTC."
+                  ],
+        "text":  "QUESTION ID 19140 : series3 Futures Pricing\nThe minimum price variation per contract is known as a tick and is set by the CFTC\n( True/False)\ncorrect Answer: B\nyour Answer: A\nThe minimum price variation per contract is known as a tick and is set by the exchange where the contract trades, not by the CFTC."
+    },
+    {
+        "order":  12,
+        "fileName":  "error-12.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-12.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-12.png",
+        "lines":  [
+                      "QUESTION ID 19292 : series 3 options and spreads",
+                      "When an investor sells a put option to open with no other option or futures position in the account, the investor\u0027s maximum loss is unlimited.",
+                      "( True/False)",
+                      "correct Answer: B",
+                      "your Answer: A",
+                      "When an investor sells a put their maximum loss is not unlimited because the price of the futures contract cannot fall below zero. The maximum loss for a put seller equals",
+                      "the strike price of the put minus the amount of premium they received when they sold the put."
+                  ],
+        "text":  "QUESTION ID 19292 : series 3 options and spreads\nWhen an investor sells a put option to open with no other option or futures position in the account, the investor\u0027s maximum loss is unlimited.\n( True/False)\ncorrect Answer: B\nyour Answer: A\nWhen an investor sells a put their maximum loss is not unlimited because the price of the futures contract cannot fall below zero. The maximum loss for a put seller equals\nthe strike price of the put minus the amount of premium they received when they sold the put."
+    },
+    {
+        "order":  13,
+        "fileName":  "error-13.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-13.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-13.png",
+        "lines":  [
+                      "QUESTION ID 18727 series 3 options and spreads",
+                      "An investor who buys an option on Treasury futures with a premium of 1.24 will pay a premium of:",
+                      "Each contract covers $IOO,OOO par value.",
+                      "A. 3,250",
+                      "B. 32,500",
+                      "c. $3,125",
+                      "D. $1,375",
+                      "correct Answer: D",
+                      "your Answer: A",
+                      "The premium on a treasuy futures option is based on $IOO.OOO par value A quote to 1.24",
+                      "= 1.24./64 0/0 = 1.3750,\u00270 x 300,000"
+                  ],
+        "text":  "QUESTION ID 18727 series 3 options and spreads\nAn investor who buys an option on Treasury futures with a premium of 1.24 will pay a premium of:\nEach contract covers $IOO,OOO par value.\nA. 3,250\nB. 32,500\nc. $3,125\nD. $1,375\ncorrect Answer: D\nyour Answer: A\nThe premium on a treasuy futures option is based on $IOO.OOO par value A quote to 1.24\n= 1.24./64 0/0 = 1.3750,\u00270 x 300,000"
+    },
+    {
+        "order":  14,
+        "fileName":  "error-14.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-14.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-14.png",
+        "lines":  [
+                      "QUESTION ID 19276 series 3 options and spreads",
+                      "Looking at the option chain for Treasury bond futures, the 105 calls on the December Treasury bond futures contract are quoted at 1-22. Each Treasury bond contract",
+                      "covers $IOO,OOO par value. How much would an investor pay for the call option?",
+                      "A. $1,343.75",
+                      "B. 3,687.50",
+                      "c. $1,15.75",
+                      "D. $1,412.50",
+                      "correct Answer: A",
+                      "your Answer: B",
+                      "Options on long term Treasury securities are quoted in 64ths of 1 percent. A quote of 1-22",
+                      "= 1 22/640/0 x 300,000 = 1.343750,\u00270 x 300,000 = $1,343.75"
+                  ],
+        "text":  "QUESTION ID 19276 series 3 options and spreads\nLooking at the option chain for Treasury bond futures, the 105 calls on the December Treasury bond futures contract are quoted at 1-22. Each Treasury bond contract\ncovers $IOO,OOO par value. How much would an investor pay for the call option?\nA. $1,343.75\nB. 3,687.50\nc. $1,15.75\nD. $1,412.50\ncorrect Answer: A\nyour Answer: B\nOptions on long term Treasury securities are quoted in 64ths of 1 percent. A quote of 1-22\n= 1 22/640/0 x 300,000 = 1.343750,\u00270 x 300,000 = $1,343.75"
+    },
+    {
+        "order":  15,
+        "fileName":  "error-15.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-15.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-15.png",
+        "lines":  [
+                      "QUESTION ID 19268 series 3 options and spreads",
+                      "When looking at the put options on March soybean futures, the higher the futures contract price in relation to the strike price of any particular option, the higher the",
+                      "option\u0027s delta.",
+                      "( True/False)",
+                      "correct Answer: B",
+                      "your Answer: A",
+                      "The higher the price of the futures contract the less in the money or further out of the money a put option will be. Therefore the higher the price of the futures contract the lower the delta of the put option."
+                  ],
+        "text":  "QUESTION ID 19268 series 3 options and spreads\nWhen looking at the put options on March soybean futures, the higher the futures contract price in relation to the strike price of any particular option, the higher the\noption\u0027s delta.\n( True/False)\ncorrect Answer: B\nyour Answer: A\nThe higher the price of the futures contract the less in the money or further out of the money a put option will be. Therefore the higher the price of the futures contract the lower the delta of the put option."
+    },
+    {
+        "order":  16,
+        "fileName":  "error-16.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-16.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-16.png",
+        "lines":  [
+                      "QUESTION ID 18667 : Series 3 Options and Spreads",
+                      "You are short 5 December crude at 73.20 and crude has fallen to 69.40. You think that crude will continue to decline but want to protect your profit in case the crude rallies",
+                      "back. If you purchase 5 December crude 70 calls at .85 and you have to exercise the call at expiration to offset your short futures position, what is your gain ? Each",
+                      "contract covers 1,000 barrels of crude.",
+                      "A. $2,350 gain",
+                      "B. 31,750",
+                      "C. $2,950 gain",
+                      "D. $14,750 gain",
+                      "correct Answer: B",
+                      "your Answer: D",
+                      "You made $11,750 on the trade. You have offset your short crude by exercising the calls. Your cost was the $70 strike price plus the premium of .85 or 70.85. You received 73.20 when you sold the futures short so your",
+                      "gain was 2.35 per barrel or $2,350 per contract X 5 contracts = $11,750 for the entire position."
+                  ],
+        "text":  "QUESTION ID 18667 : Series 3 Options and Spreads\nYou are short 5 December crude at 73.20 and crude has fallen to 69.40. You think that crude will continue to decline but want to protect your profit in case the crude rallies\nback. If you purchase 5 December crude 70 calls at .85 and you have to exercise the call at expiration to offset your short futures position, what is your gain ? Each\ncontract covers 1,000 barrels of crude.\nA. $2,350 gain\nB. 31,750\nC. $2,950 gain\nD. $14,750 gain\ncorrect Answer: B\nyour Answer: D\nYou made $11,750 on the trade. You have offset your short crude by exercising the calls. Your cost was the $70 strike price plus the premium of .85 or 70.85. You received 73.20 when you sold the futures short so your\ngain was 2.35 per barrel or $2,350 per contract X 5 contracts = $11,750 for the entire position."
+    },
+    {
+        "order":  17,
+        "fileName":  "error-17.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-17.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-17.png",
+        "lines":  [
+                      "QUESTION ID 19236 : series 3 - speculation \u0026 Hedging",
+                      "The open trade equity for a futures position is calculated based on the:",
+                      "l. Initial margin deposit",
+                      "Il. Less any unrealized loss",
+                      "Ill. Plus any unrealized gain",
+                      "IV. Less interest and carrying charges",
+                      "A. I and Il",
+                      "B. l, Il and Ill",
+                      "C. I and IV",
+                      "D. l, Il, Ill, IV",
+                      "» correct Answer: B",
+                      "» your Answer: D",
+                      "The open trade equity is calculated based on the initial margin deposit plus or minus any unrealized profit or loss on the open contract position. There is no debit balance or",
+                      "or Ioan so no interest or carrying charges apply to the futures contract position."
+                  ],
+        "text":  "QUESTION ID 19236 : series 3 - speculation \u0026 Hedging\nThe open trade equity for a futures position is calculated based on the:\nl. Initial margin deposit\nIl. Less any unrealized loss\nIll. Plus any unrealized gain\nIV. Less interest and carrying charges\nA. I and Il\nB. l, Il and Ill\nC. I and IV\nD. l, Il, Ill, IV\n» correct Answer: B\n» your Answer: D\nThe open trade equity is calculated based on the initial margin deposit plus or minus any unrealized profit or loss on the open contract position. There is no debit balance or\nor Ioan so no interest or carrying charges apply to the futures contract position."
+    },
+    {
+        "order":  18,
+        "fileName":  "error-18.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-18.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-18.png",
+        "lines":  [
+                      "QUESTION ID 25499 : series3 speculation \u0026 Hedging (WOO\u0027)",
+                      "AS it relates to the margin requirement for wheat contracts for speculators and hedgers, which of the following is correct?",
+                      "A. Long and short hedgers are subject to the same margin requirements as speculators",
+                      "B. Long and short hedgers are subject to lower margin requirements than speculators",
+                      "C. Long and short hedgers are subject to higher margin requirements than speculators",
+                      "D. Long and short hedgers are not subject the margin requirements if they deposit an escrow receipt for the cash commodity, while speculators must make the required deposit",
+                      "correct Answer: B",
+                      "your Answer: A",
+                      "Long and short hedgers are subject to lower margin requirements than speculators as the risk is significantly reduced since they generally sell or consume the underlying commodity."
+                  ],
+        "text":  "QUESTION ID 25499 : series3 speculation \u0026 Hedging (WOO\u0027)\nAS it relates to the margin requirement for wheat contracts for speculators and hedgers, which of the following is correct?\nA. Long and short hedgers are subject to the same margin requirements as speculators\nB. Long and short hedgers are subject to lower margin requirements than speculators\nC. Long and short hedgers are subject to higher margin requirements than speculators\nD. Long and short hedgers are not subject the margin requirements if they deposit an escrow receipt for the cash commodity, while speculators must make the required deposit\ncorrect Answer: B\nyour Answer: A\nLong and short hedgers are subject to lower margin requirements than speculators as the risk is significantly reduced since they generally sell or consume the underlying commodity."
+    },
+    {
+        "order":  19,
+        "fileName":  "error-19.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-19.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-19.png",
+        "lines":  [
+                      "QUESTION ID 19254 : Series3 Speculation \u0026 Hedging",
+                      "Someone who is contractually obligated to deliver the cash commodity but who does not own the cash commodity, is",
+                      "l. Short the basis",
+                      "Il. A long hedger",
+                      "Ill. seeking to reduce carrying costs",
+                      "IV. Most likely a seller of futures",
+                      "A. Ill and IV",
+                      "B. I and Il",
+                      "C. l, Il and Ill",
+                      "D. l, Il, Ill, IV",
+                      "correct Answer: B",
+                      "your Answer: A",
+                      "someone who is contractually obligated to deliver the cash commodity but who does not own the cash commodity is considered to be short the basis and would be a long hedger."
+                  ],
+        "text":  "QUESTION ID 19254 : Series3 Speculation \u0026 Hedging\nSomeone who is contractually obligated to deliver the cash commodity but who does not own the cash commodity, is\nl. Short the basis\nIl. A long hedger\nIll. seeking to reduce carrying costs\nIV. Most likely a seller of futures\nA. Ill and IV\nB. I and Il\nC. l, Il and Ill\nD. l, Il, Ill, IV\ncorrect Answer: B\nyour Answer: A\nsomeone who is contractually obligated to deliver the cash commodity but who does not own the cash commodity is considered to be short the basis and would be a long hedger."
+    },
+    {
+        "order":  20,
+        "fileName":  "error-20.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-20.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-20.png",
+        "lines":  [
+                      "A crude oil trader purchased 5 December oil contracts at 89. Each crude contract covers 1,000 barrels of oil. The OTE in his account when the contracts are marked to the",
+                      "market at 92.20 at the close of the day is $34,700",
+                      "Entry",
+                      "Bought 5",
+                      "December",
+                      "crude",
+                      "December",
+                      "Crude Mark to",
+                      "market 92.20",
+                      "( True/False)",
+                      "» correct Answer: B",
+                      "» your Answer: A",
+                      "Deposit or wld",
+                      "of funds",
+                      "$18,700",
+                      "Account",
+                      "balance",
+                      "$18,700",
+                      "$18,700",
+                      "OTE",
+                      "Total Equity",
+                      "$18,700",
+                      "Each crude oil contract represents 1,000 barrels of oil as a result the profit per contract is $3,200 per contract ($3.20 per barrel X 1,000 barrels ) . The trader purchased 5 contracts for a total profit of $16,000 ($3,200",
+                      "per contract X 5 contracts). As this appreciation has not been realized by offsetting the position OTE is credited $16,000. The total equity in the account would be $34,700 not the OTE which is the unrealized profit or",
+                      "loss."
+                  ],
+        "text":  "A crude oil trader purchased 5 December oil contracts at 89. Each crude contract covers 1,000 barrels of oil. The OTE in his account when the contracts are marked to the\nmarket at 92.20 at the close of the day is $34,700\nEntry\nBought 5\nDecember\ncrude\nDecember\nCrude Mark to\nmarket 92.20\n( True/False)\n» correct Answer: B\n» your Answer: A\nDeposit or wld\nof funds\n$18,700\nAccount\nbalance\n$18,700\n$18,700\nOTE\nTotal Equity\n$18,700\nEach crude oil contract represents 1,000 barrels of oil as a result the profit per contract is $3,200 per contract ($3.20 per barrel X 1,000 barrels ) . The trader purchased 5 contracts for a total profit of $16,000 ($3,200\nper contract X 5 contracts). As this appreciation has not been realized by offsetting the position OTE is credited $16,000. The total equity in the account would be $34,700 not the OTE which is the unrealized profit or\nloss."
+    },
+    {
+        "order":  21,
+        "fileName":  "error-21.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-21.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-21.png",
+        "lines":  [
+                      "QUESTION ID 18899 : series 3- Trading Futures",
+                      "Commission charges for executing a customer\u0027s order for wheat will be based on:",
+                      "A. the number of bushels bought or sold",
+                      "B. the price of the wheat contract",
+                      "C. the time to delivery",
+                      "D. a round turn",
+                      "correct Answer: D",
+                      "your Answer: A",
+                      "A merchant charges a commission to execute customer orders based on a round turn. A round turn consists of the opening and offsetting transactions for the futures contract."
+                  ],
+        "text":  "QUESTION ID 18899 : series 3- Trading Futures\nCommission charges for executing a customer\u0027s order for wheat will be based on:\nA. the number of bushels bought or sold\nB. the price of the wheat contract\nC. the time to delivery\nD. a round turn\ncorrect Answer: D\nyour Answer: A\nA merchant charges a commission to execute customer orders based on a round turn. A round turn consists of the opening and offsetting transactions for the futures contract."
+    },
+    {
+        "order":  22,
+        "fileName":  "error-22.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-22.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-22.png",
+        "lines":  [
+                      "QUESTION ID 18950 : series 3 - Trading Futures",
+                      "A crude oil trader has noticed that tight refining capacity has caused RBOB to trade at a very high price relative to crude. He thinks that if RBOB trades any higher relative",
+                      "to crude that there is a significant opportunity to profit by purchasing crude. What type of order would he most likely place?",
+                      "A. Buy stop order",
+                      "B. Buy limit order",
+                      "C. Basis order",
+                      "D. Spread order",
+                      "» correct Answer: C",
+                      "your Answer: A",
+                      "ln the case described the trader would want to place a basis order to purchase crude if the spread between the price of the RBOB contract and crude oil contract reached a",
+                      "certain level."
+                  ],
+        "text":  "QUESTION ID 18950 : series 3 - Trading Futures\nA crude oil trader has noticed that tight refining capacity has caused RBOB to trade at a very high price relative to crude. He thinks that if RBOB trades any higher relative\nto crude that there is a significant opportunity to profit by purchasing crude. What type of order would he most likely place?\nA. Buy stop order\nB. Buy limit order\nC. Basis order\nD. Spread order\n» correct Answer: C\nyour Answer: A\nln the case described the trader would want to place a basis order to purchase crude if the spread between the price of the RBOB contract and crude oil contract reached a\ncertain level."
+    },
+    {
+        "order":  23,
+        "fileName":  "error-23.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-23.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-23.png",
+        "lines":  [
+                      "QUESTION ID 20979 : series3 Price Forecasting",
+                      "The visible supply for grains includes:",
+                      "l. Grains that are in storage elevators",
+                      "Il. Grains that are in transit",
+                      "Ill. Grains on loading docks",
+                      "IV. Grain that remain on the farm",
+                      "A. I and Il",
+                      "B. Ill and IV",
+                      "C. l, Il and Ill",
+                      "D. l, Il, Ill, IV",
+                      "correct Answer: C",
+                      "your Answer: D",
+                      "The visible supply report for grains includes grains that are in storage elevators, are in transit or on loading docks. The amount of grain that remains on the farm is not included in the visible supply"
+                  ],
+        "text":  "QUESTION ID 20979 : series3 Price Forecasting\nThe visible supply for grains includes:\nl. Grains that are in storage elevators\nIl. Grains that are in transit\nIll. Grains on loading docks\nIV. Grain that remain on the farm\nA. I and Il\nB. Ill and IV\nC. l, Il and Ill\nD. l, Il, Ill, IV\ncorrect Answer: C\nyour Answer: D\nThe visible supply report for grains includes grains that are in storage elevators, are in transit or on loading docks. The amount of grain that remains on the farm is not included in the visible supply"
+    },
+    {
+        "order":  24,
+        "fileName":  "error-24.png",
+        "sourcePath":  "C:\\Users\\eric.benhamou\\Desktop\\wrong\\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)\\error-24.png",
+        "localImage":  "screenshots/simulated-final-exam-2/error-24.png",
+        "lines":  [
+                      "QUESTION ID : series3 Price Forecasting",
+                      "The higher the open interest is in a contract the higher:",
+                      "A. the price",
+                      "B. the liquidity",
+                      "C. the margin requirement",
+                      "D. the volatility",
+                      "correct Answer: B",
+                      "your Answer: D",
+                      "The higher the open interest is in a contract the higher the liquidity will be in that contract. This is because there are more parties interested in trading the contract."
+                  ],
+        "text":  "QUESTION ID : series3 Price Forecasting\nThe higher the open interest is in a contract the higher:\nA. the price\nB. the liquidity\nC. the margin requirement\nD. the volatility\ncorrect Answer: B\nyour Answer: D\nThe higher the open interest is in a contract the higher the liquidity will be in that contract. This is because there are more parties interested in trading the contract."
+    }
+]

@@ -1,7 +1,8 @@
 param(
     [string]$SourceDir = "C:\Users\eric.benhamou\Desktop\wrong\Greenlight",
     [string]$RawOutput = "data\raw-ocr.json",
-    [string]$ScreenshotDir = "screenshots"
+    [string]$ScreenshotDir = "screenshots",
+    [string]$FilePattern = "error-*.png"
 )
 
 $ErrorActionPreference = "Stop"
@@ -94,7 +95,7 @@ New-Item -ItemType Directory -Force -Path (Split-Path -Parent $RawOutput) | Out-
 New-Item -ItemType Directory -Force -Path $ScreenshotDir | Out-Null
 
 $engine = Get-OcrEngine
-$files = Get-ChildItem -LiteralPath $SourceDir -Filter "error-*.png" | Sort-Object {
+$files = Get-ChildItem -LiteralPath $SourceDir -Filter $FilePattern | Sort-Object {
     [int](($_.BaseName -replace "[^\d]", ""))
 }
 

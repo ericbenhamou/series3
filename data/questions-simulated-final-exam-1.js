@@ -1,0 +1,1706 @@
+window.SERIES3_QUESTIONS = [
+  {
+    "order": 1,
+    "fileName": "failure-1.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-1.png",
+    "questionId": "25514",
+    "title": "Question 25514",
+    "examLabel": "Series 3 - CFTC / NFA Regulations",
+    "promptLines": [
+      "SteadyTrade commodities has been in business for 15 years. During the most recent quarter the firm received no customer complaints. Even though the firm received no customer",
+      "complaints, the firm is still required to file a report indicating that no customer complaints were received by the firm in the previous quarter.",
+      "( True/False )"
+    ],
+    "prompt": "SteadyTrade commodities has been in business for 15 years. During the most recent quarter the firm received no customer complaints. Even though the firm received no customer\ncomplaints, the firm is still required to file a report indicating that no customer complaints were received by the firm in the previous quarter.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "False. a firm that has no customer complaints for the previous quarter is excused from filing the quarterly report."
+    ],
+    "explanation": "False. a firm that has no customer complaints for the previous quarter is excused from filing the quarterly report.",
+    "ocrText": "Questions ln The Quiz\nQUESTION ID 25514 : Series 3 - CFTC / NFA Regulations (wrong)\nSteadyTrade commodities has been in business for 15 years. During the most recent quarter the firm received no customer complaints. Even though the firm received no customer\ncomplaints, the firm is still required to file a report indicating that no customer complaints were received by the firm in the previous quarter.\n( True/False )\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: A\nFalse. a firm that has no customer complaints for the previous quarter is excused from filing the quarterly report.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
+    "category": "General Review",
+    "tags": []
+  },
+  {
+    "order": 2,
+    "fileName": "failure-2.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-2.png",
+    "questionId": "25514",
+    "title": "Question 25514",
+    "examLabel": "Series 3 - CFTC / NFA Regulations",
+    "promptLines": [
+      "SteadyTrade commodities has been in business for 15 years. During the most recent quarter the firm received no customer complaints. Even though the firm received no customer",
+      "complaints, the firm is still required to file a report indicating that no customer complaints were received by the firm in the previous quarter.",
+      "( True/False )"
+    ],
+    "prompt": "SteadyTrade commodities has been in business for 15 years. During the most recent quarter the firm received no customer complaints. Even though the firm received no customer\ncomplaints, the firm is still required to file a report indicating that no customer complaints were received by the firm in the previous quarter.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "False. a firm that has no customer complaints for the previous quarter is excused from filing the quarterly report."
+    ],
+    "explanation": "False. a firm that has no customer complaints for the previous quarter is excused from filing the quarterly report.",
+    "ocrText": "Questions ln The Quiz\nQUESTION ID 25514 : Series 3 - CFTC / NFA Regulations (wrong)\nSteadyTrade commodities has been in business for 15 years. During the most recent quarter the firm received no customer complaints. Even though the firm received no customer\ncomplaints, the firm is still required to file a report indicating that no customer complaints were received by the firm in the previous quarter.\n( True/False )\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: A\nFalse. a firm that has no customer complaints for the previous quarter is excused from filing the quarterly report.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
+    "category": "General Review",
+    "tags": []
+  },
+  {
+    "order": 3,
+    "fileName": "failure-3.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-3.png",
+    "questionId": "18991",
+    "title": "Question 18991",
+    "examLabel": "Series 3 - CFTC / NFA Regulations",
+    "promptLines": [
+      "An FCM that clears all of their transactions on an omnibus basis with a clearing member will have customer confirmations and statements produced by the clearing member.",
+      "( True/False )"
+    ],
+    "prompt": "An FCM that clears all of their transactions on an omnibus basis with a clearing member will have customer confirmations and statements produced by the clearing member.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "If the FCM clears its trades on an omnibus basis, all transactions are cleared through one account and the clearing member does not know for whom the trade was executed. The introducing member is required to send",
+      "customer confirmations and statements if the trades clear through an omnibus account."
+    ],
+    "explanation": "If the FCM clears its trades on an omnibus basis, all transactions are cleared through one account and the clearing member does not know for whom the trade was executed. The introducing member is required to send customer confirmations and statements if the trades clear through an omnibus account.",
+    "ocrText": "QUESTION ID 18991 : Series 3 - CFTC / NFA Regulations (wrong)\nAn FCM that clears all of their transactions on an omnibus basis with a clearing member will have customer confirmations and statements produced by the clearing member.\n( True/False )\n» CORRECT ANSWER IS: B\nYOUR ANSWER IS: A\nIf the FCM clears its trades on an omnibus basis, all transactions are cleared through one account and the clearing member does not know for whom the trade was executed. The introducing member is required to send\ncustomer confirmations and statements if the trades clear through an omnibus account.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
+    "category": "Compliance",
+    "tags": [
+      "spreads"
+    ]
+  },
+  {
+    "order": 4,
+    "fileName": "failure-4.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-4.png",
+    "questionId": "19033",
+    "title": "Question 19033",
+    "examLabel": "Series 3 - CFTC / NFA Regulations ron )",
+    "promptLines": [
+      "Mr. and Mrs. Jones open a joint commodities account with Professional Commodities Inc. A commodities broker who introduces all of their trades on a fully disclosed basis to",
+      "Commodities Merchant Services, its clearing broker. Mr. Jones has placed all of the orders for the account over the last two years. One day Mrs. Jones calls in saying she has a real good",
+      "feeling about silver and wants to buy 2 October silver at the market. The AP should:"
+    ],
+    "prompt": "Mr. and Mrs. Jones open a joint commodities account with Professional Commodities Inc. A commodities broker who introduces all of their trades on a fully disclosed basis to\nCommodities Merchant Services, its clearing broker. Mr. Jones has placed all of the orders for the account over the last two years. One day Mrs. Jones calls in saying she has a real good\nfeeling about silver and wants to buy 2 October silver at the market. The AP should:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Ask the principal for approval to execute the order"
+      },
+      {
+        "label": "B",
+        "text": "Confirm the order with Mr. Jones"
+      },
+      {
+        "label": "C",
+        "text": "Execute the order at the market"
+      },
+      {
+        "label": "D",
+        "text": "Advise Mrs. Jones, that Mr. Jones must place the order since he has entered all orders in the past"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "The AP should execute the order at the market immediately. The associated person handling the account does not need to confirm instructions with both parties and either party may",
+      "enter an order at any time."
+    ],
+    "explanation": "The AP should execute the order at the market immediately. The associated person handling the account does not need to confirm instructions with both parties and either party may enter an order at any time.",
+    "ocrText": "QUESTION ID 19033 : Series 3 - CFTC / NFA Regulations ron )\nMr. and Mrs. Jones open a joint commodities account with Professional Commodities Inc. A commodities broker who introduces all of their trades on a fully disclosed basis to\nCommodities Merchant Services, its clearing broker. Mr. Jones has placed all of the orders for the account over the last two years. One day Mrs. Jones calls in saying she has a real good\nfeeling about silver and wants to buy 2 October silver at the market. The AP should:\nA. Ask the principal for approval to execute the order\nB. Confirm the order with Mr. Jones\nC. Execute the order at the market\nD. Advise Mrs. Jones, that Mr. Jones must place the order since he has entered all orders in the past\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: B\nThe AP should execute the order at the market immediately. The associated person handling the account does not need to confirm instructions with both parties and either party may\nenter an order at any time.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "Execute the order at the market",
+    "yourAnswerText": "Confirm the order with Mr. Jones",
+    "category": "Compliance",
+    "tags": [
+      "spreads"
+    ]
+  },
+  {
+    "order": 5,
+    "fileName": "failure-5.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-5.png",
+    "questionId": "19026",
+    "title": "Question 19026",
+    "examLabel": "Series 3 - CFTC / NFA Regulations on )",
+    "promptLines": [
+      "The following Risk Disclosure Statement for a CTA must be displayed:",
+      "RISK DISCLOSURE STATEMENT",
+      "THE RISK OF LOSS IN TRADING COMMODITY INTERESTS CAN BE SUBSTANTIAL. YOU SHOULD THEREFORE CAREFULLY CONSIDER WHETHER SUCH TRADING IS SUITABLE FOR YOU IN LIGHT OF YOUR",
+      "FINANCIAL CONDITION. IN CONSIDERING WHETHER TO TRADE OR TO AUTHORIZE SOMEONE ELSE TO TRADE FOR YOU, YOU SHOULD BE AWARE OF THE FOLLOWING:"
+    ],
+    "prompt": "The following Risk Disclosure Statement for a CTA must be displayed:\nRISK DISCLOSURE STATEMENT\nTHE RISK OF LOSS IN TRADING COMMODITY INTERESTS CAN BE SUBSTANTIAL. YOU SHOULD THEREFORE CAREFULLY CONSIDER WHETHER SUCH TRADING IS SUITABLE FOR YOU IN LIGHT OF YOUR\nFINANCIAL CONDITION. IN CONSIDERING WHETHER TO TRADE OR TO AUTHORIZE SOMEONE ELSE TO TRADE FOR YOU, YOU SHOULD BE AWARE OF THE FOLLOWING:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "On the cover page"
+      },
+      {
+        "label": "B",
+        "text": "On the final page"
+      },
+      {
+        "label": "C",
+        "text": "immediately after the cover page of the Document."
+      },
+      {
+        "label": "D",
+        "text": "immediately after the description of the investment strategies to be used"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "The following Risk Disclosure Statement must be prominently displayed immediately after the cover page of the Document."
+    ],
+    "explanation": "The following Risk Disclosure Statement must be prominently displayed immediately after the cover page of the Document.",
+    "ocrText": "QUESTION ID 19026 : Series 3 - CFTC / NFA Regulations on )\nThe following Risk Disclosure Statement for a CTA must be displayed:\nRISK DISCLOSURE STATEMENT\nTHE RISK OF LOSS IN TRADING COMMODITY INTERESTS CAN BE SUBSTANTIAL. YOU SHOULD THEREFORE CAREFULLY CONSIDER WHETHER SUCH TRADING IS SUITABLE FOR YOU IN LIGHT OF YOUR\nFINANCIAL CONDITION. IN CONSIDERING WHETHER TO TRADE OR TO AUTHORIZE SOMEONE ELSE TO TRADE FOR YOU, YOU SHOULD BE AWARE OF THE FOLLOWING:\nA. On the cover page\nB. On the final page\nC. immediately after the cover page of the Document.\nD. immediately after the description of the investment strategies to be used\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nThe following Risk Disclosure Statement must be prominently displayed immediately after the cover page of the Document.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "immediately after the cover page of the Document.",
+    "yourAnswerText": "On the cover page",
+    "category": "Compliance",
+    "tags": []
+  },
+  {
+    "order": 6,
+    "fileName": "failure-6.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-6.png",
+    "questionId": "52506",
+    "title": "Question 52506",
+    "examLabel": "Series 3 - CFTC / NFA Regulations on )",
+    "promptLines": [
+      "How often must an FCM review the financial condition of an IB for which it has guaranteed obligations, according to NFA rules?"
+    ],
+    "prompt": "How often must an FCM review the financial condition of an IB for which it has guaranteed obligations, according to NFA rules?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Monthly."
+      },
+      {
+        "label": "B",
+        "text": "Quarterly."
+      },
+      {
+        "label": "C",
+        "text": "Annually."
+      },
+      {
+        "label": "D",
+        "text": "Only when requested by the NFA."
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "NFA Rule 2-29 requires FCMs to review the financial condition of any IB they guarantee at least annually to ensure ongoing compliance and financial stability."
+    ],
+    "explanation": "NFA Rule 2-29 requires FCMs to review the financial condition of any IB they guarantee at least annually to ensure ongoing compliance and financial stability.",
+    "ocrText": "QUESTION ID 52506 : Series 3 - CFTC / NFA Regulations on )\nHow often must an FCM review the financial condition of an IB for which it has guaranteed obligations, according to NFA rules?\nA. Monthly.\nB. Quarterly.\nC. Annually.\nD. Only when requested by the NFA.\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: B\nNFA Rule 2-29 requires FCMs to review the financial condition of any IB they guarantee at least annually to ensure ongoing compliance and financial stability.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "Annually.",
+    "yourAnswerText": "Quarterly.",
+    "category": "Compliance",
+    "tags": [
+      "regulation"
+    ]
+  },
+  {
+    "order": 7,
+    "fileName": "failure-7.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-7.png",
+    "questionId": "25507",
+    "title": "Question 25507",
+    "examLabel": "Series 3 - CFTC / NFA Regulations wron )",
+    "promptLines": [
+      "A member firm who has received a written complaint from the Business Conduct Committee will be deemed to have committed the violation in question, if the member does not",
+      "respond, in:"
+    ],
+    "prompt": "A member firm who has received a written complaint from the Business Conduct Committee will be deemed to have committed the violation in question, if the member does not\nrespond, in:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "15 days"
+      },
+      {
+        "label": "B",
+        "text": "30 days"
+      },
+      {
+        "label": "C",
+        "text": "45 days"
+      },
+      {
+        "label": "D",
+        "text": "60 days"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "C",
+    "explanationLines": [
+      "If a member receives a written complaint from the Business Conduct Committee, that member will be found to have committed the violation in question if the member fails to respond",
+      "in 30 days."
+    ],
+    "explanation": "If a member receives a written complaint from the Business Conduct Committee, that member will be found to have committed the violation in question if the member fails to respond in 30 days.",
+    "ocrText": "QUESTION ID 25507 : Series 3 - CFTC / NFA Regulations wron )\nA member firm who has received a written complaint from the Business Conduct Committee will be deemed to have committed the violation in question, if the member does not\nrespond, in:\nA. 15 days\nB. 30 days\nC. 45 days\nD. 60 days\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: C\nIf a member receives a written complaint from the Business Conduct Committee, that member will be found to have committed the violation in question if the member fails to respond\nin 30 days.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "30 days",
+    "yourAnswerText": "45 days",
+    "category": "General Review",
+    "tags": []
+  },
+  {
+    "order": 8,
+    "fileName": "failure-8.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-8.png",
+    "questionId": "25508",
+    "title": "Question 25508",
+    "examLabel": "Series3 - CFTC / NFA Regulations wron )",
+    "promptLines": [
+      "A CTA whose clients are commodity pool operators would not be required to provide the pool with a risk disclosure statement",
+      "( True/False )"
+    ],
+    "prompt": "A CTA whose clients are commodity pool operators would not be required to provide the pool with a risk disclosure statement\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "True, A commodity pool operator is considered to be a qualified eligible purchaser and as such the risk disclosure does not need to be provided."
+    ],
+    "explanation": "True, A commodity pool operator is considered to be a qualified eligible purchaser and as such the risk disclosure does not need to be provided.",
+    "ocrText": "QUESTION ID 25508 : Series3 - CFTC / NFA Regulations wron )\nA CTA whose clients are commodity pool operators would not be required to provide the pool with a risk disclosure statement\n( True/False )\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: B\nTrue, A commodity pool operator is considered to be a qualified eligible purchaser and as such the risk disclosure does not need to be provided.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "True",
+    "yourAnswerText": "False",
+    "category": "Compliance",
+    "tags": []
+  },
+  {
+    "order": 9,
+    "fileName": "failure-9.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-9.png",
+    "questionId": "52469",
+    "title": "Question 52469",
+    "examLabel": "Series3 - CFTC / NFA Regulations ron )",
+    "promptLines": [
+      "Which of the following best describes the primary role of a Commodity Trading Adviser (CTA) in relation to customer accounts and trading activities?"
+    ],
+    "prompt": "Which of the following best describes the primary role of a Commodity Trading Adviser (CTA) in relation to customer accounts and trading activities?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A CTA provides comprehensive advice about trading strategies and market conditions, but does not directly manage customer accounts or accept customer funds, instead guiding clients to futures commission merchants (FCMs) for account management."
+      },
+      {
+        "label": "B",
+        "text": "A CTA is responsible for executing trades on behalf of clients, managing their entire trading portfolio, and ensuring compliance with all regulatory requirements, which includes handling customer funds directly to streamline the trading process."
+      },
+      {
+        "label": "C",
+        "text": "A CTA operates as a broker-dealer, facilitating trades for clients while providing investment advice, thereby allowing it to accept customer funds and carry accounts, which enables more control over client assets."
+      },
+      {
+        "label": "D",
+        "text": "A CTA functions primarily as a market maker, offering liquidity to the futures markets while also providing advisory services, which includes holding client funds and managing their trading accounts for optimized returns."
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "The primary role of a CTA is to provide advice without directly managing customer accounts or accepting customer funds. They facilitate clients' trading by guiding them to FCMs."
+    ],
+    "explanation": "The primary role of a CTA is to provide advice without directly managing customer accounts or accepting customer funds. They facilitate clients' trading by guiding them to FCMs.",
+    "ocrText": "QUESTION ID 52469 : Series3 - CFTC / NFA Regulations ron )\nWhich of the following best describes the primary role of a Commodity Trading Adviser (CTA) in relation to customer accounts and trading activities?\nA. A CTA provides comprehensive advice about trading strategies and market conditions, but does not directly manage customer accounts or accept customer funds, instead guiding\nclients to futures commission merchants (FCMs) for account management.\nB. A CTA is responsible for executing trades on behalf of clients, managing their entire trading portfolio, and ensuring compliance with all regulatory requirements, which includes\nhandling customer funds directly to streamline the trading process.\nC. A CTA operates as a broker-dealer, facilitating trades for clients while providing investment advice, thereby allowing it to accept customer funds and carry accounts, which enables\nmore control over client assets.\nD. A CTA functions primarily as a market maker, offering liquidity to the futures markets while also providing advisory services, which includes holding client funds and managing their\ntrading accounts for optimized returns.\n» CORRECT ANSWER IS: A\nYOUR ANSWER IS: B\nThe primary role of a CTA is to provide advice without directly managing customer accounts or accepting customer funds. They facilitate clients' trading by guiding them to FCMs.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "A CTA provides comprehensive advice about trading strategies and market conditions, but does not directly manage customer accounts or accept customer funds, instead guiding clients to futures commission merchants (FCMs) for account management.",
+    "yourAnswerText": "A CTA is responsible for executing trades on behalf of clients, managing their entire trading portfolio, and ensuring compliance with all regulatory requirements, which includes handling customer funds directly to streamline the trading process.",
+    "category": "Compliance",
+    "tags": []
+  },
+  {
+    "order": 10,
+    "fileName": "failure-10.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-10.png",
+    "questionId": "19021",
+    "title": "Question 19021",
+    "examLabel": "Series 3 - CFTC / NFA Regulations ron",
+    "promptLines": [
+      "Participants in commodity pool with a value of $420,000 must get statements detailing the value of the pool:"
+    ],
+    "prompt": "Participants in commodity pool with a value of $420,000 must get statements detailing the value of the pool:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "monthly"
+      },
+      {
+        "label": "B",
+        "text": "quarterly"
+      },
+      {
+        "label": "C",
+        "text": "semi annually"
+      },
+      {
+        "label": "D",
+        "text": "every 6 months with an annual audited statement"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "Participants in commodity pools must get quarterly statements if the value of the pool is less than $500,000."
+    ],
+    "explanation": "Participants in commodity pools must get quarterly statements if the value of the pool is less than $500,000.",
+    "ocrText": "QUESTION ID 19021 : Series 3 - CFTC / NFA Regulations ron\nParticipants in commodity pool with a value of $420,000 must get statements detailing the value of the pool:\nA. monthly\nB. quarterly\nC. semi annually\nD. every 6 months with an annual audited statement\n» CORRECT ANSWER IS: B\nYOUR ANSWER IS: A\nParticipants in commodity pools must get quarterly statements if the value of the pool is less than $500,000.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "quarterly",
+    "yourAnswerText": "monthly",
+    "category": "General Review",
+    "tags": []
+  },
+  {
+    "order": 11,
+    "fileName": "failure-11.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-11.png",
+    "questionId": "19132",
+    "title": "Question 19132",
+    "examLabel": "Series 3 - Futures & Forwards (yyrppè)",
+    "promptLines": [
+      "As it relates to the delivery of an underlying commodity to settle a futures contract, which of the following is / are false?",
+      "I. If more than one warehouse is approved for delivery, the buyer will choose where delivery will be made",
+      "II. Once delivery is made, the clearinghouse must inspect the delivery to ensure proper quantity and grade",
+      "III. The buyer may reject the delivery of a premium grade",
+      "IV. An investor who is short the contract may send a delivery notice starting on the first day of the delivery month"
+    ],
+    "prompt": "As it relates to the delivery of an underlying commodity to settle a futures contract, which of the following is / are false?\nI. If more than one warehouse is approved for delivery, the buyer will choose where delivery will be made\nII. Once delivery is made, the clearinghouse must inspect the delivery to ensure proper quantity and grade\nIII. The buyer may reject the delivery of a premium grade\nIV. An investor who is short the contract may send a delivery notice starting on the first day of the delivery month",
+    "choices": [
+      {
+        "label": "A",
+        "text": "II and IV"
+      },
+      {
+        "label": "B",
+        "text": "I and III"
+      },
+      {
+        "label": "C",
+        "text": "II and III"
+      },
+      {
+        "label": "D",
+        "text": "l, II, III, IV"
+      }
+    ],
+    "correctAnswer": "D",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "All of the statements in the answer are false. If the exchange has more than one approved warehouse, the seller determines where delivery will be made. The buyer has no say in the",
+      "location for delivery. The warehouse, not the clearinghouse will inspect the commodity for the buyer. A delivery notice may be given starting on the first notice day of each contract",
+      "month, not on the first day of the month. The buyer must accept delivery of an approved premium grade of the commodity."
+    ],
+    "explanation": "All of the statements in the answer are false. If the exchange has more than one approved warehouse, the seller determines where delivery will be made. The buyer has no say in the location for delivery. The warehouse, not the clearinghouse will inspect the commodity for the buyer. A delivery notice may be given starting on the first notice day of each contract month, not on the first day of the month. The buyer must accept delivery of an approved premium grade of the commodity.",
+    "ocrText": "QUESTION ID 19132 : Series 3 - Futures & Forwards (yyrppè)\nAs it relates to the delivery of an underlying commodity to settle a futures contract, which of the following is / are false?\nI. If more than one warehouse is approved for delivery, the buyer will choose where delivery will be made\nII. Once delivery is made, the clearinghouse must inspect the delivery to ensure proper quantity and grade\nIII. The buyer may reject the delivery of a premium grade\nIV. An investor who is short the contract may send a delivery notice starting on the first day of the delivery month\nA. II and IV\nB. I and III\nC. II and III\nD. l, II, III, IV\n» CORRECT ANSWER IS: D\nYOUR ANSWER IS: A\nAll of the statements in the answer are false. If the exchange has more than one approved warehouse, the seller determines where delivery will be made. The buyer has no say in the\nlocation for delivery. The warehouse, not the clearinghouse will inspect the commodity for the buyer. A delivery notice may be given starting on the first notice day of each contract\nmonth, not on the first day of the month. The buyer must accept delivery of an approved premium grade of the commodity.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "l, II, III, IV",
+    "yourAnswerText": "II and IV",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 12,
+    "fileName": "failure-12.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-12.png",
+    "questionId": "19134",
+    "title": "Question 19134",
+    "examLabel": "Series 3 - Futures & Forwards",
+    "promptLines": [
+      "Once the clearinghouse member receives the notice from the buyer of the contract, the clearinghouse must determine which customer with an established short position will be",
+      "assigned the delivery notice to take delivery of the cash commodity.",
+      "( True/False )"
+    ],
+    "prompt": "Once the clearinghouse member receives the notice from the buyer of the contract, the clearinghouse must determine which customer with an established short position will be\nassigned the delivery notice to take delivery of the cash commodity.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "Once the clearinghouse member receives the notice from the seller of the contract, the clearinghouse must determine which customer with an established long position will be",
+      "assigned the delivery notice to take delivery of the cash commodity. Investors who are short deliver the commodity, investors who are long take delivery of the commodity."
+    ],
+    "explanation": "Once the clearinghouse member receives the notice from the seller of the contract, the clearinghouse must determine which customer with an established long position will be assigned the delivery notice to take delivery of the cash commodity. Investors who are short deliver the commodity, investors who are long take delivery of the commodity.",
+    "ocrText": "rn)\nQUESTION ID 19134 : Series 3 - Futures & Forwards\nOnce the clearinghouse member receives the notice from the buyer of the contract, the clearinghouse must determine which customer with an established short position will be\nassigned the delivery notice to take delivery of the cash commodity.\n( True/False )\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: A\nOnce the clearinghouse member receives the notice from the seller of the contract, the clearinghouse must determine which customer with an established long position will be\nassigned the delivery notice to take delivery of the cash commodity. Investors who are short deliver the commodity, investors who are long take delivery of the commodity.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 13,
+    "fileName": "failure-13.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-13.png",
+    "questionId": "19131",
+    "title": "Question 19131",
+    "examLabel": "Series 3 - Futures & Forwards",
+    "promptLines": [
+      "As it relates to the delivery of an underlying commodity to settle a futures contract, which of the following is / are true?",
+      "I. If more than one warehouse is approved for delivery the seller will choose where delivery will be made",
+      "II. Once delivery is made the buyer must inspect the delivery to ensure proper quantity and grade",
+      "III. If the buyer wishes to accept delivery at another location they may submit a delivery notice to the seller",
+      "IV. An investor who is short the contract may deliver starting on the first notice day"
+    ],
+    "prompt": "As it relates to the delivery of an underlying commodity to settle a futures contract, which of the following is / are true?\nI. If more than one warehouse is approved for delivery the seller will choose where delivery will be made\nII. Once delivery is made the buyer must inspect the delivery to ensure proper quantity and grade\nIII. If the buyer wishes to accept delivery at another location they may submit a delivery notice to the seller\nIV. An investor who is short the contract may deliver starting on the first notice day",
+    "choices": [
+      {
+        "label": "A",
+        "text": "I and IV"
+      },
+      {
+        "label": "B",
+        "text": "II and III"
+      },
+      {
+        "label": "C",
+        "text": "l, II, IV"
+      },
+      {
+        "label": "D",
+        "text": "l, II, III, IV"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "D",
+    "explanationLines": [
+      "If the exchange has more than one approved warehouse the seller determines where delivery will be made. The buyer has no say in the location for delivery. The warehouse, not the",
+      "buyer will inspect the commodity for the buyer. Delivery may take place on the first notice day of each contract month."
+    ],
+    "explanation": "If the exchange has more than one approved warehouse the seller determines where delivery will be made. The buyer has no say in the location for delivery. The warehouse, not the buyer will inspect the commodity for the buyer. Delivery may take place on the first notice day of each contract month.",
+    "ocrText": "QUESTION ID 19131 : Series 3 - Futures & Forwards\nAs it relates to the delivery of an underlying commodity to settle a futures contract, which of the following is / are true?\nI. If more than one warehouse is approved for delivery the seller will choose where delivery will be made\nII. Once delivery is made the buyer must inspect the delivery to ensure proper quantity and grade\nIII. If the buyer wishes to accept delivery at another location they may submit a delivery notice to the seller\nIV. An investor who is short the contract may deliver starting on the first notice day\nA. I and IV\nB. II and III\nC. l, II, IV\nD. l, II, III, IV\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: D\nIf the exchange has more than one approved warehouse the seller determines where delivery will be made. The buyer has no say in the location for delivery. The warehouse, not the\nbuyer will inspect the commodity for the buyer. Delivery may take place on the first notice day of each contract month.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "I and IV",
+    "yourAnswerText": "l, II, III, IV",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 14,
+    "fileName": "failure-14.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-14.png",
+    "questionId": "19114",
+    "title": "Question 19114",
+    "examLabel": "Series 3 - Futures & Forwards wron )",
+    "promptLines": [
+      "The floor committee of the exchange sets which of the following?",
+      "I. Contract size",
+      "II. Margin",
+      "III. Trading rules",
+      "IV. Expiration months"
+    ],
+    "prompt": "The floor committee of the exchange sets which of the following?\nI. Contract size\nII. Margin\nIII. Trading rules\nIV. Expiration months",
+    "choices": [
+      {
+        "label": "A",
+        "text": "III only"
+      },
+      {
+        "label": "B",
+        "text": "II only"
+      },
+      {
+        "label": "C",
+        "text": "I and IV"
+      },
+      {
+        "label": "D",
+        "text": "I only"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "C",
+    "explanationLines": [
+      "The exchange's floor committee sets the rules for trading futures on the floor of the exchange and will resolve trading disputes between members."
+    ],
+    "explanation": "The exchange's floor committee sets the rules for trading futures on the floor of the exchange and will resolve trading disputes between members.",
+    "ocrText": "QUESTION ID 19114 : Series 3 - Futures & Forwards wron )\nThe floor committee of the exchange sets which of the following?\nI. Contract size\nII. Margin\nIII. Trading rules\nIV. Expiration months\nA. III only\nB. II only\nC. I and IV\nD. I only\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: C\nThe exchange's floor committee sets the rules for trading futures on the floor of the exchange and will resolve trading disputes between members.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "III only",
+    "yourAnswerText": "I and IV",
+    "category": "Delivery & Settlement",
+    "tags": [
+      "options"
+    ]
+  },
+  {
+    "order": 15,
+    "fileName": "failure-15.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-15.png",
+    "questionId": "19109",
+    "title": "Question 19109",
+    "examLabel": "Series 3 - Futures & Forwards 904)",
+    "promptLines": [
+      "Commodity speculators take on market risk not the risk that hedgers are looking to offset.",
+      "( True/False )"
+    ],
+    "prompt": "Commodity speculators take on market risk not the risk that hedgers are looking to offset.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "Speculators provide a significant level of liquidity to the market place and make it easier for producers and users to hedge their business risk in the underlying cash commodity. These",
+      "speculators are Willing to assume the risk that producers and users want to eliminate."
+    ],
+    "explanation": "Speculators provide a significant level of liquidity to the market place and make it easier for producers and users to hedge their business risk in the underlying cash commodity. These speculators are Willing to assume the risk that producers and users want to eliminate.",
+    "ocrText": "QUESTION ID 19109 : Series 3 - Futures & Forwards 904)\nCommodity speculators take on market risk not the risk that hedgers are looking to offset.\n( True/False )\n» CORRECT ANSWER IS: B\nYOUR ANSWER IS: A\nSpeculators provide a significant level of liquidity to the market place and make it easier for producers and users to hedge their business risk in the underlying cash commodity. These\nspeculators are Willing to assume the risk that producers and users want to eliminate.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
+    "category": "Hedging",
+    "tags": [
+      "hedging"
+    ]
+  },
+  {
+    "order": 16,
+    "fileName": "failure-16.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-16.png",
+    "questionId": "19118",
+    "title": "Question 19118",
+    "examLabel": "Series 3 - Futures & Forwards Oyrppè)",
+    "promptLines": [
+      "As it relates to the clearinghouse, which of the following is / are true ?",
+      "I. The clearinghouse will net the purchases and sales for all transactions executed during the trading session",
+      "II. The clearinghouse will calculate the original margin requirement",
+      "III. The clearinghouse will settle futures trades no later than 2 business days",
+      "IV. The clearinghouse requires members to deposit margin by the opening of trading on the second business day"
+    ],
+    "prompt": "As it relates to the clearinghouse, which of the following is / are true ?\nI. The clearinghouse will net the purchases and sales for all transactions executed during the trading session\nII. The clearinghouse will calculate the original margin requirement\nIII. The clearinghouse will settle futures trades no later than 2 business days\nIV. The clearinghouse requires members to deposit margin by the opening of trading on the second business day",
+    "choices": [],
+    "correctAnswer": "",
+    "yourAnswer": "",
+    "explanationLines": [],
+    "explanation": "",
+    "ocrText": "QUESTION ID 19118 : Series 3 - Futures & Forwards Oyrppè)\nAs it relates to the clearinghouse, which of the following is / are true ?\nI. The clearinghouse will net the purchases and sales for all transactions executed during the trading session\nII. The clearinghouse will calculate the original margin requirement\nIII. The clearinghouse will settle futures trades no later than 2 business days\nIV. The clearinghouse requires members to deposit margin by the opening of trading on the second business day",
+    "isWrong": false,
+    "isUnanswered": true,
+    "correctAnswerText": "",
+    "yourAnswerText": "",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 17,
+    "fileName": "failure-17.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-17.png",
+    "questionId": "19099",
+    "title": "Question 19099",
+    "examLabel": "Series 3 - Futures & Forwards Cyrp.né)",
+    "promptLines": [
+      "Most exchange traded futures contracts may be traded in the Pit on the floor of the exchange or directly negotiated between dealers.",
+      "( True/False )"
+    ],
+    "prompt": "Most exchange traded futures contracts may be traded in the Pit on the floor of the exchange or directly negotiated between dealers.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "Futures trading on the floor of the exchange takes place in the futures \"pit\" for the specific contract. No trades for futures contracts may take place away from the pit or outside the",
+      "ring. ln the \"real world\" most of the Pits are closed and contracts are traded electronically on Globex. However, these trades still clear through the exchange and are futures contracts.",
+      "Futures contracts are not negotiated independently between dealers."
+    ],
+    "explanation": "Futures trading on the floor of the exchange takes place in the futures \"pit\" for the specific contract. No trades for futures contracts may take place away from the pit or outside the ring. ln the \"real world\" most of the Pits are closed and contracts are traded electronically on Globex. However, these trades still clear through the exchange and are futures contracts. Futures contracts are not negotiated independently between dealers.",
+    "ocrText": "QUESTION ID 19099 : Series 3 - Futures & Forwards Cyrp.né)\nMost exchange traded futures contracts may be traded in the Pit on the floor of the exchange or directly negotiated between dealers.\n( True/False )\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: A\nFutures trading on the floor of the exchange takes place in the futures \"pit\" for the specific contract. No trades for futures contracts may take place away from the pit or outside the\nring. ln the \"real world\" most of the Pits are closed and contracts are traded electronically on Globex. However, these trades still clear through the exchange and are futures contracts.\nFutures contracts are not negotiated independently between dealers.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
+    "category": "General Review",
+    "tags": []
+  },
+  {
+    "order": 18,
+    "fileName": "failure-18.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-18.png",
+    "questionId": "19144",
+    "title": "Question 19144",
+    "examLabel": "Series 3 - Futures Pricing r n",
+    "promptLines": [
+      "A crop year for a commodity covers the time when the commodity is harvested by farmers and runs until:"
+    ],
+    "prompt": "A crop year for a commodity covers the time when the commodity is harvested by farmers and runs until:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "the first delivery period"
+      },
+      {
+        "label": "B",
+        "text": "the time the commodity enters an exchange approved facility"
+      },
+      {
+        "label": "C",
+        "text": "the next harvest"
+      },
+      {
+        "label": "D",
+        "text": "the spring planting"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "A crop year for a commodity covers the time when the commodity is harvested by farmers and runs until the harvest period of the following year."
+    ],
+    "explanation": "A crop year for a commodity covers the time when the commodity is harvested by farmers and runs until the harvest period of the following year.",
+    "ocrText": "QUESTION ID 19144 : Series 3 - Futures Pricing r n\nA crop year for a commodity covers the time when the commodity is harvested by farmers and runs until:\nA. the first delivery period\nB. the time the commodity enters an exchange approved facility\nC. the next harvest\nD. the spring planting\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nA crop year for a commodity covers the time when the commodity is harvested by farmers and runs until the harvest period of the following year.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "the next harvest",
+    "yourAnswerText": "the first delivery period",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 19,
+    "fileName": "failure-19.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-19.png",
+    "questionId": "19141",
+    "title": "Question 19141",
+    "examLabel": "Series 3- Futures Pricing wr n )",
+    "promptLines": [
+      "The daily price limits for any given commodity are set by the:"
+    ],
+    "prompt": "The daily price limits for any given commodity are set by the:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "NFA"
+      },
+      {
+        "label": "B",
+        "text": "CFTC"
+      },
+      {
+        "label": "C",
+        "text": "Board of directors at the exchange"
+      },
+      {
+        "label": "D",
+        "text": "Floor officials at the exchange"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "D",
+    "explanationLines": [
+      "The daily price limits for a given commodity contract are established by the board of directors at the exchange where the futures contract trades. All daily price limits set by the",
+      "exchange are subject to review and approval of the Commodity Futures Trading Commission (CFTC)."
+    ],
+    "explanation": "The daily price limits for a given commodity contract are established by the board of directors at the exchange where the futures contract trades. All daily price limits set by the exchange are subject to review and approval of the Commodity Futures Trading Commission (CFTC).",
+    "ocrText": "QUESTION ID 19141 : Series 3- Futures Pricing wr n )\nThe daily price limits for any given commodity are set by the:\nA. NFA\nB. CFTC\nC. Board of directors at the exchange\nD. Floor officials at the exchange\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: D\nThe daily price limits for a given commodity contract are established by the board of directors at the exchange where the futures contract trades. All daily price limits set by the\nexchange are subject to review and approval of the Commodity Futures Trading Commission (CFTC).",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "Board of directors at the exchange",
+    "yourAnswerText": "Floor officials at the exchange",
+    "category": "Compliance",
+    "tags": [
+      "regulation"
+    ]
+  },
+  {
+    "order": 20,
+    "fileName": "failure-20.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-20.png",
+    "questionId": "19156",
+    "title": "Question 19156",
+    "examLabel": "Series 3 - Futures Pricing ron )",
+    "promptLines": [
+      "An investor who is short a US Treasury bond futures contract submits a notice of their intent to deliver the bond to settle the contract. The bond that the investor is long and wishes to",
+      "deliver:"
+    ],
+    "prompt": "An investor who is short a US Treasury bond futures contract submits a notice of their intent to deliver the bond to settle the contract. The bond that the investor is long and wishes to\ndeliver:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "may not be callable"
+      },
+      {
+        "label": "B",
+        "text": "may not be callable for 5 years"
+      },
+      {
+        "label": "C",
+        "text": "may not be callable for 20 years"
+      },
+      {
+        "label": "D",
+        "text": "may not be callable for 15 years"
+      }
+    ],
+    "correctAnswer": "D",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "If the bonds to be tendered have a call provision attached to them the bonds must not be callable within the first 15 years."
+    ],
+    "explanation": "If the bonds to be tendered have a call provision attached to them the bonds must not be callable within the first 15 years.",
+    "ocrText": "QUESTION ID 19156 : Series 3 - Futures Pricing ron )\nAn investor who is short a US Treasury bond futures contract submits a notice of their intent to deliver the bond to settle the contract. The bond that the investor is long and wishes to\ndeliver:\nA. may not be callable\nB. may not be callable for 5 years\nC. may not be callable for 20 years\nD. may not be callable for 15 years\n» CORRECT ANSWER IS: D\n» YOUR ANSWER IS: A\nIf the bonds to be tendered have a call provision attached to them the bonds must not be callable within the first 15 years.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "may not be callable for 15 years",
+    "yourAnswerText": "may not be callable",
+    "category": "Options",
+    "tags": [
+      "options",
+      "rates"
+    ]
+  },
+  {
+    "order": 21,
+    "fileName": "failure-21.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-21.png",
+    "questionId": "25495",
+    "title": "Question 25495",
+    "examLabel": "Series 3 - Futures Pricing r n",
+    "promptLines": [
+      "With the demand for beef and beef products relatively stable and with little to no known supply concerns, in this environment the pricing and market structure for feeder cattle relative",
+      "to the front month contract, will be:"
+    ],
+    "prompt": "With the demand for beef and beef products relatively stable and with little to no known supply concerns, in this environment the pricing and market structure for feeder cattle relative\nto the front month contract, will be:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "higher"
+      },
+      {
+        "label": "B",
+        "text": "lower"
+      },
+      {
+        "label": "C",
+        "text": "in contango"
+      },
+      {
+        "label": "D",
+        "text": "inverted"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "C",
+    "explanationLines": [
+      "ln a normal market, the price of feeder cattle will trade at a discount or lower than the price of the front month contract. Feeder cattle are the input used to produce live cattle, the final",
+      "commodity or product. Contango is not correct because the question concerns the relationship between the cash price and a single futures contract, not the relationship between",
+      "different delivery months.\""
+    ],
+    "explanation": "ln a normal market, the price of feeder cattle will trade at a discount or lower than the price of the front month contract. Feeder cattle are the input used to produce live cattle, the final commodity or product. Contango is not correct because the question concerns the relationship between the cash price and a single futures contract, not the relationship between different delivery months.\"",
+    "ocrText": "QUESTION ID 25495 : Series 3 - Futures Pricing r n\nWith the demand for beef and beef products relatively stable and with little to no known supply concerns, in this environment the pricing and market structure for feeder cattle relative\nto the front month contract, will be:\nA. higher\nB. lower\nC. in contango\nD. inverted\n» CORRECT ANSWER IS: B\nYOUR ANSWER IS: C\nln a normal market, the price of feeder cattle will trade at a discount or lower than the price of the front month contract. Feeder cattle are the input used to produce live cattle, the final\ncommodity or product. Contango is not correct because the question concerns the relationship between the cash price and a single futures contract, not the relationship between\ndifferent delivery months.\"",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "lower",
+    "yourAnswerText": "in contango",
+    "category": "Delivery & Settlement",
+    "tags": [
+      "options",
+      "spreads"
+    ]
+  },
+  {
+    "order": 22,
+    "fileName": "failure-22.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-22.png",
+    "questionId": "19152",
+    "title": "Question 19152",
+    "examLabel": "Series 3 - Futures Pricing ron )",
+    "promptLines": [
+      "The maximum amount by which the value of the contract may change during a trading session is based on:"
+    ],
+    "prompt": "The maximum amount by which the value of the contract may change during a trading session is based on:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "the price set during the opening range"
+      },
+      {
+        "label": "B",
+        "text": "the average weighted price during the trading session"
+      },
+      {
+        "label": "C",
+        "text": "the previous settlement"
+      },
+      {
+        "label": "D",
+        "text": "the price per unit covered under the contract"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "D",
+    "explanationLines": [
+      "The maximum amount by which the value of the contract may change during a trading session is set based on the previous day's settlement price for the contract."
+    ],
+    "explanation": "The maximum amount by which the value of the contract may change during a trading session is set based on the previous day's settlement price for the contract.",
+    "ocrText": "QUESTION ID 19152 : Series 3 - Futures Pricing ron )\nThe maximum amount by which the value of the contract may change during a trading session is based on:\nA. the price set during the opening range\nB. the average weighted price during the trading session\nC. the previous settlement\nD. the price per unit covered under the contract\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: D\nThe maximum amount by which the value of the contract may change during a trading session is set based on the previous day's settlement price for the contract.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "the previous settlement",
+    "yourAnswerText": "the price per unit covered under the contract",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 23,
+    "fileName": "failure-23.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-23.png",
+    "questionId": "19261",
+    "title": "Question 19261",
+    "examLabel": "Series 3 Options and Spreads",
+    "promptLines": [
+      "An option customer establishes the following position:",
+      "Bought 15 March corn 500 calls at .05",
+      "Bought 15 March corn 500 puts at .04",
+      "The maximum possible loss on this position is:"
+    ],
+    "prompt": "An option customer establishes the following position:\nBought 15 March corn 500 calls at .05\nBought 15 March corn 500 puts at .04\nThe maximum possible loss on this position is:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "$450"
+      },
+      {
+        "label": "B",
+        "text": "$6,750"
+      },
+      {
+        "label": "C",
+        "text": "$3,750"
+      },
+      {
+        "label": "D",
+        "text": "Unlimited"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "The maximum loss on a long straddle is always going to be the total premium paid. ln this case the option trader 5 cents per bushel for the call option and 4 cents per busheel for the",
+      "put option for a total of 9 cents per bushel. To determine the total premium paid you must multiply the total premium per bushel x 5,000 bushels covered in each futures contract. 5,000",
+      "bushels x .09 = $450 X 15 contracts — $6,750."
+    ],
+    "explanation": "The maximum loss on a long straddle is always going to be the total premium paid. ln this case the option trader 5 cents per bushel for the call option and 4 cents per busheel for the put option for a total of 9 cents per bushel. To determine the total premium paid you must multiply the total premium per bushel x 5,000 bushels covered in each futures contract. 5,000 bushels x .09 = $450 X 15 contracts — $6,750.",
+    "ocrText": "QUESTION ID 19261 : Series 3 Options and Spreads\nAn option customer establishes the following position:\nBought 15 March corn 500 calls at .05\nBought 15 March corn 500 puts at .04\nThe maximum possible loss on this position is:\nA. $450\nB. $6,750\nc. $3,750\nD. Unlimited\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: A\nThe maximum loss on a long straddle is always going to be the total premium paid. ln this case the option trader 5 cents per bushel for the call option and 4 cents per busheel for the\nput option for a total of 9 cents per bushel. To determine the total premium paid you must multiply the total premium per bushel x 5,000 bushels covered in each futures contract. 5,000\nbushels x .09 = $450 X 15 contracts — $6,750.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "$6,750",
+    "yourAnswerText": "$450",
+    "category": "Options",
+    "tags": [
+      "options"
+    ]
+  },
+  {
+    "order": 24,
+    "fileName": "failure-24.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-24.png",
+    "questionId": "19260",
+    "title": "Question 19260",
+    "examLabel": "Series 3",
+    "promptLines": [
+      "A short hedger is one who:",
+      "I. Is short the basis",
+      "II. Is long the basis",
+      "III. Sells futures",
+      "IV. Buys futures"
+    ],
+    "prompt": "A short hedger is one who:\nI. Is short the basis\nII. Is long the basis\nIII. Sells futures\nIV. Buys futures",
+    "choices": [
+      {
+        "label": "A",
+        "text": "II and III"
+      },
+      {
+        "label": "B",
+        "text": "II and IV"
+      },
+      {
+        "label": "C",
+        "text": "I and III"
+      },
+      {
+        "label": "D",
+        "text": "I and IV"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "D",
+    "explanationLines": [
+      "- Speculation & Hedging",
+      "ron",
+      "A short hedger will sell futures to protect from the risk of the price of the commodity falling. A short hedger is someone who produces the commodity or who owns the cash commodity",
+      "(long the basis)."
+    ],
+    "explanation": "- Speculation & Hedging ron A short hedger will sell futures to protect from the risk of the price of the commodity falling. A short hedger is someone who produces the commodity or who owns the cash commodity (long the basis).",
+    "ocrText": "QUESTION ID 19260 : Series 3\nA short hedger is one who:\nI. Is short the basis\nII. Is long the basis\nIII. Sells futures\nIV. Buys futures\nA. II and III\nB. II and IV\nC. I and III\nD. I and IV\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: D\n- Speculation & Hedging\nron\nA short hedger will sell futures to protect from the risk of the price of the commodity falling. A short hedger is someone who produces the commodity or who owns the cash commodity\n(long the basis).",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "II and III",
+    "yourAnswerText": "I and IV",
+    "category": "Hedging",
+    "tags": [
+      "hedging",
+      "spreads"
+    ]
+  },
+  {
+    "order": 25,
+    "fileName": "failure-25.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-25.png",
+    "questionId": "19304",
+    "title": "Question 19304",
+    "examLabel": "Series 3 - Speculation & Hedging ron",
+    "promptLines": [
+      "An investor who establishes a position in a soybean contract is liable for which of the following ?"
+    ],
+    "prompt": "An investor who establishes a position in a soybean contract is liable for which of the following ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "the initial margin only"
+      },
+      {
+        "label": "B",
+        "text": "the initial margin plus any variation margin"
+      },
+      {
+        "label": "C",
+        "text": "the full value of the contract"
+      },
+      {
+        "label": "D",
+        "text": "all carrying charges"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "When an investor establishes a position in a futures contract either long or short that investor is liable for the full value of the underlying contract. The margin deposit is only a good",
+      "faith deposit to ensure the investor can make or take delivery."
+    ],
+    "explanation": "When an investor establishes a position in a futures contract either long or short that investor is liable for the full value of the underlying contract. The margin deposit is only a good faith deposit to ensure the investor can make or take delivery.",
+    "ocrText": "QUESTION ID 19304 : Series 3 - Speculation & Hedging ron\nAn investor who establishes a position in a soybean contract is liable for which of the following ?\nA. the initial margin only\nB. the initial margin plus any variation margin\nC. the full value of the contract\nD. all carrying charges\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: B\nWhen an investor establishes a position in a futures contract either long or short that investor is liable for the full value of the underlying contract. The margin deposit is only a good\nfaith deposit to ensure the investor can make or take delivery.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "the full value of the contract",
+    "yourAnswerText": "the initial margin plus any variation margin",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 26,
+    "fileName": "failure-26.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-26.png",
+    "questionId": "25531",
+    "title": "Question 25531",
+    "examLabel": "Series 3 - Speculation & Hedging",
+    "promptLines": [
+      "StoreDry Grain, Inc is a large elevator operator and regularly owns and stores millions of bushels of wheat. To protect from falling prices StoreDry often sells a substantial number of",
+      "wheat futures contracts. Prior to exceeding the position limit, StoreDry must give:"
+    ],
+    "prompt": "StoreDry Grain, Inc is a large elevator operator and regularly owns and stores millions of bushels of wheat. To protect from falling prices StoreDry often sells a substantial number of\nwheat futures contracts. Prior to exceeding the position limit, StoreDry must give:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "30 days notice to the CFTC"
+      },
+      {
+        "label": "B",
+        "text": "IO days notice to the exchange"
+      },
+      {
+        "label": "C",
+        "text": "IO days notice to the CFTC"
+      },
+      {
+        "label": "D",
+        "text": "30 days notice to the exchange"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "A bona fide hedger must give 30 days notice to the CFTC prior to establishing a position that would exceed the position limit."
+    ],
+    "explanation": "A bona fide hedger must give 30 days notice to the CFTC prior to establishing a position that would exceed the position limit.",
+    "ocrText": "QUESTION ID 25531 : Series 3 - Speculation & Hedging (wrong)\nStoreDry Grain, Inc is a large elevator operator and regularly owns and stores millions of bushels of wheat. To protect from falling prices StoreDry often sells a substantial number of\nwheat futures contracts. Prior to exceeding the position limit, StoreDry must give:\nA. 30 days notice to the CFTC\nB. IO days notice to the exchange\nC. IO days notice to the CFTC\nD. 30 days notice to the exchange\n» CORRECT ANSWER IS: A\nYOUR ANSWER IS: B\nA bona fide hedger must give 30 days notice to the CFTC prior to establishing a position that would exceed the position limit.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "30 days notice to the CFTC",
+    "yourAnswerText": "IO days notice to the exchange",
+    "category": "Compliance",
+    "tags": [
+      "hedging",
+      "regulation"
+    ]
+  },
+  {
+    "order": 27,
+    "fileName": "failure-27.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-27.png",
+    "questionId": "19321",
+    "title": "Question 19321",
+    "examLabel": "Series 3 - Speculation & Hedging ron",
+    "promptLines": [
+      "The OTE or open trade equity in a customer's account is equal to the good faith margin deposit plus or minus any unrealized profit or loss on the open contracts not yet offset.",
+      "( True/False )"
+    ],
+    "prompt": "The OTE or open trade equity in a customer's account is equal to the good faith margin deposit plus or minus any unrealized profit or loss on the open contracts not yet offset.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "The OTE or open trade equity in a customer's account is the unrealized profit or loss on the open contracts not yet offset."
+    ],
+    "explanation": "The OTE or open trade equity in a customer's account is the unrealized profit or loss on the open contracts not yet offset.",
+    "ocrText": "QUESTION ID 19321 : Series 3 - Speculation & Hedging ron\nThe OTE or open trade equity in a customer's account is equal to the good faith margin deposit plus or minus any unrealized profit or loss on the open contracts not yet offset.\n( True/False )\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: A\nThe OTE or open trade equity in a customer's account is the unrealized profit or loss on the open contracts not yet offset.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 28,
+    "fileName": "failure-28.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-28.png",
+    "questionId": "19324",
+    "title": "Question 19324",
+    "examLabel": "Series 3 - Speculation & Hedging (wronq)",
+    "promptLines": [
+      "An elevator operator who is long wheat in storage may create their own basis by establishing a hedge in a distant contract. ln this case their basis will differ from the basis quoted in the",
+      "marketplace.",
+      "( True/False )"
+    ],
+    "prompt": "An elevator operator who is long wheat in storage may create their own basis by establishing a hedge in a distant contract. ln this case their basis will differ from the basis quoted in the\nmarketplace.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "The basis quoted in the market is the cash price relative to the current or front month contract. When a hedger uses distant contract months to hedge they create their own basis."
+    ],
+    "explanation": "The basis quoted in the market is the cash price relative to the current or front month contract. When a hedger uses distant contract months to hedge they create their own basis.",
+    "ocrText": "QUESTION ID 19324 : Series 3 - Speculation & Hedging (wronq)\nAn elevator operator who is long wheat in storage may create their own basis by establishing a hedge in a distant contract. ln this case their basis will differ from the basis quoted in the\nmarketplace.\n( True/False )\n» CORRECT ANSWER IS: A\nYOUR ANSWER IS: B\nThe basis quoted in the market is the cash price relative to the current or front month contract. When a hedger uses distant contract months to hedge they create their own basis.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "True",
+    "yourAnswerText": "False",
+    "category": "Hedging",
+    "tags": [
+      "hedging",
+      "spreads"
+    ]
+  },
+  {
+    "order": 29,
+    "fileName": "failure-29.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-29.png",
+    "questionId": "19246",
+    "title": "Question 19246",
+    "examLabel": "Series 3 - Speculation & Hedging wron",
+    "promptLines": [
+      "The futures contracts for wheat have been very volatile of late due the unknown impact of a late frost. The exchange has decided to raise the margin requirement for the contracts. As a",
+      "result open contract positions will have to deposit increased margin.",
+      "( True/False )"
+    ],
+    "prompt": "The futures contracts for wheat have been very volatile of late due the unknown impact of a late frost. The exchange has decided to raise the margin requirement for the contracts. As a\nresult open contract positions will have to deposit increased margin.\n( True/False )",
+    "choices": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "Open positions that were established under the lower initial margin requirement will not have to deposit funds so long as the equity in the account remains above the higher minimum",
+      "margin requirement now in force."
+    ],
+    "explanation": "Open positions that were established under the lower initial margin requirement will not have to deposit funds so long as the equity in the account remains above the higher minimum margin requirement now in force.",
+    "ocrText": "QUESTION ID 19246 : Series 3 - Speculation & Hedging wron\nThe futures contracts for wheat have been very volatile of late due the unknown impact of a late frost. The exchange has decided to raise the margin requirement for the contracts. As a\nresult open contract positions will have to deposit increased margin.\n( True/False )\n» CORRECT ANSWER IS: B\n» YOUR ANSWER IS: A\nOpen positions that were established under the lower initial margin requirement will not have to deposit funds so long as the equity in the account remains above the higher minimum\nmargin requirement now in force.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "False",
+    "yourAnswerText": "True",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 30,
+    "fileName": "failure-30.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-30.png",
+    "questionId": "19241",
+    "title": "Question 19241",
+    "examLabel": "Series 3 - Speculation & Hedging (wronq)",
+    "promptLines": [
+      "A futures trader's open trade equity is considered to be:"
+    ],
+    "prompt": "A futures trader's open trade equity is considered to be:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The net result of an open futures position"
+      },
+      {
+        "label": "B",
+        "text": "The net result of an offset futures position"
+      },
+      {
+        "label": "C",
+        "text": "The trader's total equity"
+      },
+      {
+        "label": "D",
+        "text": "The amount the trader may use to establish another futures position"
+      }
+    ],
+    "correctAnswer": "A",
+    "yourAnswer": "D",
+    "explanationLines": [
+      "Open trade equity or OTE is the unrealized profit or loss on an open futures position."
+    ],
+    "explanation": "Open trade equity or OTE is the unrealized profit or loss on an open futures position.",
+    "ocrText": "QUESTION ID 19241 : Series 3 - Speculation & Hedging (wronq)\nA futures trader's open trade equity is considered to be:\nA. The net result of an open futures position\nB. The net result of an offset futures position\nC. The trader's total equity\nD. The amount the trader may use to establish another futures position\n» CORRECT ANSWER IS: A\n» YOUR ANSWER IS: D\nOpen trade equity or OTE is the unrealized profit or loss on an open futures position.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "The net result of an open futures position",
+    "yourAnswerText": "The amount the trader may use to establish another futures position",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 31,
+    "fileName": "failure-31.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-31.png",
+    "questionId": "19229",
+    "title": "Question 19229",
+    "examLabel": "Series 3 - Speculation & Hedging (wron",
+    "promptLines": [
+      "If the initial margin requirement for crude oil is $3.74 per barrel (each contract covers 1,000 barrels) a crude oil trader who purchased 12 December crude oil at 89.05, would have to",
+      "deposit the initial margin of."
+    ],
+    "prompt": "If the initial margin requirement for crude oil is $3.74 per barrel (each contract covers 1,000 barrels) a crude oil trader who purchased 12 December crude oil at 89.05, would have to\ndeposit the initial margin of.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "$89,005"
+      },
+      {
+        "label": "B",
+        "text": "$85,031"
+      },
+      {
+        "label": "C",
+        "text": "$44,880"
+      },
+      {
+        "label": "D",
+        "text": "$37,440"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "D",
+    "explanationLines": [
+      "If the initial margin requirement for crude oil is $3.74 per barrel or $3,740 per contract($3.74 X 1000 barrels) the crude oil trader who purchased 12 December crude oil at 89.05 had to",
+      "deposit the initial margin of $3,740 for each of the 12 contracts. The traders total required deposit was $44,880"
+    ],
+    "explanation": "If the initial margin requirement for crude oil is $3.74 per barrel or $3,740 per contract($3.74 X 1000 barrels) the crude oil trader who purchased 12 December crude oil at 89.05 had to deposit the initial margin of $3,740 for each of the 12 contracts. The traders total required deposit was $44,880",
+    "ocrText": "QUESTION ID 19229 : Series 3 - Speculation & Hedging (wron\nIf the initial margin requirement for crude oil is $3.74 per barrel (each contract covers 1,000 barrels) a crude oil trader who purchased 12 December crude oil at 89.05, would have to\ndeposit the initial margin of.\nA. $89,005\nB. $85,031\nc. $44,880\nD. $37,440\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: D\nIf the initial margin requirement for crude oil is $3.74 per barrel or $3,740 per contract($3.74 X 1000 barrels) the crude oil trader who purchased 12 December crude oil at 89.05 had to\ndeposit the initial margin of $3,740 for each of the 12 contracts. The traders total required deposit was $44,880",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "$44,880",
+    "yourAnswerText": "$37,440",
+    "category": "Delivery & Settlement",
+    "tags": []
+  },
+  {
+    "order": 32,
+    "fileName": "failure-32.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-32.png",
+    "questionId": "19253",
+    "title": "Question 19253",
+    "examLabel": "Series 3 - Speculation & Hedging (wrona)",
+    "promptLines": [
+      "A long hedger will:"
+    ],
+    "prompt": "A long hedger will:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Purchase futures to protect from a fall in prices"
+      },
+      {
+        "label": "B",
+        "text": "Purchase the cash commodity to protect from a rise in prices"
+      },
+      {
+        "label": "C",
+        "text": "Purchase futures to protect from a rise in prices"
+      },
+      {
+        "label": "D",
+        "text": "Sell the cash commodity and purchase the futures contract"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "D",
+    "explanationLines": [
+      "A long hedger will purchase futures to protect from the risk of the price of the commodity going up. A longer hedger is someone who needs the underlying commodity to operate their",
+      "business."
+    ],
+    "explanation": "A long hedger will purchase futures to protect from the risk of the price of the commodity going up. A longer hedger is someone who needs the underlying commodity to operate their business.",
+    "ocrText": "QUESTION ID 19253 : Series 3 - Speculation & Hedging (wrona)\nA long hedger will:\nA. Purchase futures to protect from a fall in prices\nB. Purchase the cash commodity to protect from a rise in prices\nC. Purchase futures to protect from a rise in prices\nD. Sell the cash commodity and purchase the futures contract\n» CORRECT ANSWER IS: C\nYOUR ANSWER IS: D\nA long hedger will purchase futures to protect from the risk of the price of the commodity going up. A longer hedger is someone who needs the underlying commodity to operate their\nbusiness.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "Purchase futures to protect from a rise in prices",
+    "yourAnswerText": "Sell the cash commodity and purchase the futures contract",
+    "category": "Hedging",
+    "tags": [
+      "hedging"
+    ]
+  },
+  {
+    "order": 33,
+    "fileName": "failure-33.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-33.png",
+    "questionId": "25490",
+    "title": "Question 25490",
+    "examLabel": "Series 3 - Trading Futures g)",
+    "promptLines": [
+      "An investor who establishes a position in a commodity futures contract, may offset the position by:",
+      "I. Executing an offsetting order on any exchange in the same contract month",
+      "II. Executing an offsetting order on the same exchange",
+      "III. Executing an order on another exchange and offsetting the position via an Ex pit transaction",
+      "IV. Taking an opposite position in a contract with a longer expiration"
+    ],
+    "prompt": "An investor who establishes a position in a commodity futures contract, may offset the position by:\nI. Executing an offsetting order on any exchange in the same contract month\nII. Executing an offsetting order on the same exchange\nIII. Executing an order on another exchange and offsetting the position via an Ex pit transaction\nIV. Taking an opposite position in a contract with a longer expiration",
+    "choices": [
+      {
+        "label": "A",
+        "text": "II and III"
+      },
+      {
+        "label": "B",
+        "text": "I and IV"
+      },
+      {
+        "label": "C",
+        "text": "II only"
+      },
+      {
+        "label": "D",
+        "text": "l, II and III"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "D",
+    "explanationLines": [
+      "An investor must offset the contract position by executing an offsetting order on the same exchange through which the contract position was established."
+    ],
+    "explanation": "An investor must offset the contract position by executing an offsetting order on the same exchange through which the contract position was established.",
+    "ocrText": "QUESTION ID 25490 : Series 3 - Trading Futures g)\nAn investor who establishes a position in a commodity futures contract, may offset the position by:\nI. Executing an offsetting order on any exchange in the same contract month\nII. Executing an offsetting order on the same exchange\nIII. Executing an order on another exchange and offsetting the position via an Ex pit transaction\nIV. Taking an opposite position in a contract with a longer expiration\nA. II and III\nB. I and IV\nC. II only\nD. l, II and III\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: D\nAn investor must offset the contract position by executing an offsetting order on the same exchange through which the contract position was established.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "II only",
+    "yourAnswerText": "l, II and III",
+    "category": "General Review",
+    "tags": []
+  },
+  {
+    "order": 34,
+    "fileName": "failure-34.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-34.png",
+    "questionId": "18872",
+    "title": "Question 18872",
+    "examLabel": "Series 3 - Trading Futures (wron",
+    "promptLines": [
+      "q)",
+      "Silver futures have been very volatile of late. October silver closes at $23.10. Your customer has placed an order to sell 5 October silver at 22.70 stop limit 22.50 GTC. After the close the",
+      "FRB announces it is increasing interest rates. The next day October silver opens at 22.05. What happened to your customer's order?"
+    ],
+    "prompt": "q)\nSilver futures have been very volatile of late. October silver closes at $23.10. Your customer has placed an order to sell 5 October silver at 22.70 stop limit 22.50 GTC. After the close the\nFRB announces it is increasing interest rates. The next day October silver opens at 22.05. What happened to your customer's order?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It has been cancelled since the contract price is below the stop price."
+      },
+      {
+        "label": "B",
+        "text": "It has been cancelled because the contract price is below the limit price."
+      },
+      {
+        "label": "C",
+        "text": "It has been elected and executed."
+      },
+      {
+        "label": "D",
+        "text": "It has been elected and has become a limit order."
+      }
+    ],
+    "correctAnswer": "D",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "The order has been elected since the silver contract has traded through the stop price. The order has now become a limit order to sell the 5 October silver contracts at 22.50."
+    ],
+    "explanation": "The order has been elected since the silver contract has traded through the stop price. The order has now become a limit order to sell the 5 October silver contracts at 22.50.",
+    "ocrText": "QUESTION ID 18872 : Series 3 - Trading Futures (wron\nq)\nSilver futures have been very volatile of late. October silver closes at $23.10. Your customer has placed an order to sell 5 October silver at 22.70 stop limit 22.50 GTC. After the close the\nFRB announces it is increasing interest rates. The next day October silver opens at 22.05. What happened to your customer's order?\nA. It has been cancelled since the contract price is below the stop price.\nB. It has been cancelled because the contract price is below the limit price.\nC. It has been elected and executed.\nD. It has been elected and has become a limit order.\n» CORRECT ANSWER IS: D\nYOUR ANSWER IS: B\nThe order has been elected since the silver contract has traded through the stop price. The order has now become a limit order to sell the 5 October silver contracts at 22.50.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "It has been elected and has become a limit order.",
+    "yourAnswerText": "It has been cancelled because the contract price is below the limit price.",
+    "category": "Rates & Bonds",
+    "tags": [
+      "rates"
+    ]
+  },
+  {
+    "order": 35,
+    "fileName": "failure-35.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-35.png",
+    "questionId": "18957",
+    "title": "Question 18957",
+    "examLabel": "Series 3 - Trading Futures ron",
+    "promptLines": [
+      "This type of order is entered when an investor wishes to establish or liquidate a position by purchasing or selling futures contracts contingent upon certain market events"
+    ],
+    "prompt": "This type of order is entered when an investor wishes to establish or liquidate a position by purchasing or selling futures contracts contingent upon certain market events",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Bunched order"
+      },
+      {
+        "label": "B",
+        "text": "OCO"
+      },
+      {
+        "label": "C",
+        "text": "Basis order"
+      },
+      {
+        "label": "D",
+        "text": "AON"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "A basis order is entered when an investor wishes to establish or liquidate a position by purchasing or selling futures contracts based on or contingent upon certain market events"
+    ],
+    "explanation": "A basis order is entered when an investor wishes to establish or liquidate a position by purchasing or selling futures contracts based on or contingent upon certain market events",
+    "ocrText": "QUESTION ID 18957 : Series 3 - Trading Futures ron\nThis type of order is entered when an investor wishes to establish or liquidate a position by purchasing or selling futures contracts contingent upon certain market events\nA. Bunched order\nB. OCO\nC. Basis order\nD. AON\n» CORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nA basis order is entered when an investor wishes to establish or liquidate a position by purchasing or selling futures contracts based on or contingent upon certain market events",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "Basis order",
+    "yourAnswerText": "OCO",
+    "category": "Macro & Market Theory",
+    "tags": [
+      "spreads"
+    ]
+  },
+  {
+    "order": 36,
+    "fileName": "failure-36.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-36.png",
+    "questionId": "18968",
+    "title": "Question 18968",
+    "examLabel": "Series 3 - Trading Futures (wron",
+    "promptLines": [
+      "g)",
+      "An investor places the following order",
+      "Sell 10 May silver at 16.90 stop 16.80 limit GTC",
+      "May silver closes at 17.40. The following morning Federal Reserve Board announces that it plans to increase interest rates and to tighten the money supply causing the US dollar to rally",
+      "sharply. As result all the metals are indicated to open sharply lower. May silver opens at 16.45 what happens to the above order on the opening print?"
+    ],
+    "prompt": "g)\nAn investor places the following order\nSell 10 May silver at 16.90 stop 16.80 limit GTC\nMay silver closes at 17.40. The following morning Federal Reserve Board announces that it plans to increase interest rates and to tighten the money supply causing the US dollar to rally\nsharply. As result all the metals are indicated to open sharply lower. May silver opens at 16.45 what happens to the above order on the opening print?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It is executed"
+      },
+      {
+        "label": "B",
+        "text": "it is cancelled"
+      },
+      {
+        "label": "C",
+        "text": "it is elected as a limit order to sell at 16.90"
+      },
+      {
+        "label": "D",
+        "text": "it is elected as a limit order to sell at 16.80"
+      }
+    ],
+    "correctAnswer": "D",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "The opening print of 16.45 elected the order and the order became a limit order to sell IO May silver contracts at the limit price of 16.80."
+    ],
+    "explanation": "The opening print of 16.45 elected the order and the order became a limit order to sell IO May silver contracts at the limit price of 16.80.",
+    "ocrText": "QUESTION ID 18968 : Series 3 - Trading Futures (wron\ng)\nAn investor places the following order\nSell 10 May silver at 16.90 stop 16.80 limit GTC\nMay silver closes at 17.40. The following morning Federal Reserve Board announces that it plans to increase interest rates and to tighten the money supply causing the US dollar to rally\nsharply. As result all the metals are indicated to open sharply lower. May silver opens at 16.45 what happens to the above order on the opening print?\nA. It is executed\nB. it is cancelled\nC. it is elected as a limit order to sell at 16.90\nD. it is elected as a limit order to sell at 16.80\n» CORRECT ANSWER IS: D\n» YOUR ANSWER IS: B\nThe opening print of 16.45 elected the order and the order became a limit order to sell IO May silver contracts at the limit price of 16.80.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "it is elected as a limit order to sell at 16.80",
+    "yourAnswerText": "it is cancelled",
+    "category": "Rates & Bonds",
+    "tags": [
+      "rates"
+    ]
+  },
+  {
+    "order": 37,
+    "fileName": "failure-37.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-37.png",
+    "questionId": "18909",
+    "title": "Question 18909",
+    "examLabel": "Series 3 - Trading Futures g)",
+    "promptLines": [
+      "Where would an exchange for physical order be executed?"
+    ],
+    "prompt": "Where would an exchange for physical order be executed?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ln the primary market"
+      },
+      {
+        "label": "B",
+        "text": "On the floor of the CME"
+      },
+      {
+        "label": "C",
+        "text": "Ex pit"
+      },
+      {
+        "label": "D",
+        "text": "ln the OTC swaps market"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "A",
+    "explanationLines": [
+      "An exchange for physical order would take place ex pit and away from the floor of the exchange. An exchange for physical order is completed by the exchange of the physical",
+      "underlying commodity in exchange for a futures contract position."
+    ],
+    "explanation": "An exchange for physical order would take place ex pit and away from the floor of the exchange. An exchange for physical order is completed by the exchange of the physical underlying commodity in exchange for a futures contract position.",
+    "ocrText": "QUESTION ID 18909 : Series 3 - Trading Futures g)\nWhere would an exchange for physical order be executed?\nA. ln the primary market\nB. On the floor of the CME\nC. Ex pit\nD. ln the OTC swaps market\n» CORRECT ANSWER IS: C\n» YOUR ANSWER IS: A\nAn exchange for physical order would take place ex pit and away from the floor of the exchange. An exchange for physical order is completed by the exchange of the physical\nunderlying commodity in exchange for a futures contract position.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "Ex pit",
+    "yourAnswerText": "ln the primary market",
+    "category": "General Review",
+    "tags": []
+  },
+  {
+    "order": 38,
+    "fileName": "failure-38.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-38.png",
+    "questionId": "18877",
+    "title": "Question 18877",
+    "examLabel": "Series 3 - Trading Futures wron",
+    "promptLines": [
+      "The inside market for a futures contracts is the:",
+      "I. Highest offer",
+      "II. Lowest offer",
+      "III. Highest bid",
+      "IV. Lowest bid"
+    ],
+    "prompt": "The inside market for a futures contracts is the:\nI. Highest offer\nII. Lowest offer\nIII. Highest bid\nIV. Lowest bid",
+    "choices": [
+      {
+        "label": "A",
+        "text": "I and III"
+      },
+      {
+        "label": "B",
+        "text": "II and III"
+      },
+      {
+        "label": "C",
+        "text": "I and IV"
+      },
+      {
+        "label": "D",
+        "text": "I and II"
+      }
+    ],
+    "correctAnswer": "B",
+    "yourAnswer": "C",
+    "explanationLines": [
+      "The inside market is the highest bid and the lowest offer. The inside market represents the best prices at which an investor may buy or sell the contract."
+    ],
+    "explanation": "The inside market is the highest bid and the lowest offer. The inside market represents the best prices at which an investor may buy or sell the contract.",
+    "ocrText": "QUESTION ID 18877 : Series 3 - Trading Futures wron\nThe inside market for a futures contracts is the:\nI. Highest offer\nII. Lowest offer\nIII. Highest bid\nIV. Lowest bid\nA. I and III\nB. II and III\nC. I and IV\nD. I and II\n» CORRECT ANSWER IS: B\nYOUR ANSWER IS: C\nThe inside market is the highest bid and the lowest offer. The inside market represents the best prices at which an investor may buy or sell the contract.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "II and III",
+    "yourAnswerText": "I and IV",
+    "category": "General Review",
+    "tags": []
+  },
+  {
+    "order": 39,
+    "fileName": "failure-39.png",
+    "localImage": "screenshots/simulated-final-exam-1/failure-39.png",
+    "questionId": "20989",
+    "title": "Question 20989",
+    "examLabel": "Series 3 - Price Forecasting",
+    "promptLines": [
+      "If a trader who is long 20 October silver contracts decided to exit the market by offsetting the long silver contracts with a sale to a pit trader who had no established position in the",
+      "October silver contract, the open interest would"
+    ],
+    "prompt": "If a trader who is long 20 October silver contracts decided to exit the market by offsetting the long silver contracts with a sale to a pit trader who had no established position in the\nOctober silver contract, the open interest would",
+    "choices": [
+      {
+        "label": "A",
+        "text": "go up"
+      },
+      {
+        "label": "B",
+        "text": "go down"
+      },
+      {
+        "label": "C",
+        "text": "remain unchanged"
+      },
+      {
+        "label": "D",
+        "text": "be offset"
+      }
+    ],
+    "correctAnswer": "C",
+    "yourAnswer": "B",
+    "explanationLines": [
+      "The total open interest did not change because the pit trader came into the market and established a new long position by purchasing the contracts that were being offset by a",
+      "previous long."
+    ],
+    "explanation": "The total open interest did not change because the pit trader came into the market and established a new long position by purchasing the contracts that were being offset by a previous long.",
+    "ocrText": "QUESTION ID 20989 : Series 3 - Price Forecasting\nIf a trader who is long 20 October silver contracts decided to exit the market by offsetting the long silver contracts with a sale to a pit trader who had no established position in the\nOctober silver contract, the open interest would\nA. go up\nB. go down\nC. remain unchanged\nD. be offset\n» CORRECT ANSWER IS: C\nYOUR ANSWER IS: B\nThe total open interest did not change because the pit trader came into the market and established a new long position by purchasing the contracts that were being offset by a\nprevious long.",
+    "isWrong": true,
+    "isUnanswered": false,
+    "correctAnswerText": "remain unchanged",
+    "yourAnswerText": "go down",
+    "category": "General Review",
+    "tags": [
+      "rates"
+    ]
+  }
+];

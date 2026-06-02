@@ -1,9 +1,11 @@
 # Series 3 Wrong Question Review
 
-This workspace contains a static website generated from two Series 3 screenshot sets:
+This workspace contains a static website generated from four Series 3 screenshot sets:
 
 - the original GreenLight `error-*.png` screenshots
 - a second simulated exam result set with 24 missed questions
+- simulated final exam 1 with 39 missed questions
+- simulated final exam 2 with 24 missed questions
 
 ## Rebuild The OCR Data
 
@@ -33,7 +35,41 @@ C:\Users\eric.benhamou\.cache\codex-runtimes\codex-primary-runtime\dependencies\
   --js data\questions-second-exam.js
 ```
 
-4. Open [index.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\index.html) for the first exam, or [second-exam-results.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\second-exam-results.html) for the second exam.
+4. To rebuild simulated final exam 1, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\extract-questions.ps1 `
+  -SourceDir "C:\Users\eric.benhamou\Desktop\wrong\Simulated final exam 1 - Score 67 - 05-31-2026 8 05 AM (39 errors)" `
+  -RawOutput "data\raw-ocr-simulated-final-exam-1.json" `
+  -ScreenshotDir "screenshots\simulated-final-exam-1" `
+  -FilePattern "failure-*.png"
+
+C:\Users\eric.benhamou\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe .\scripts\build-questions.mjs `
+  --raw data\raw-ocr-simulated-final-exam-1.json `
+  --json data\questions-simulated-final-exam-1.json `
+  --js data\questions-simulated-final-exam-1.js
+```
+
+5. To rebuild simulated final exam 2, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\extract-questions.ps1 `
+  -SourceDir "C:\Users\eric.benhamou\Desktop\wrong\Simulated final exam 2 - Score 80 - 06-01-2026-4 49 AM (24 errors)" `
+  -RawOutput "data\raw-ocr-simulated-final-exam-2.json" `
+  -ScreenshotDir "screenshots\simulated-final-exam-2"
+
+C:\Users\eric.benhamou\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe .\scripts\build-questions.mjs `
+  --raw data\raw-ocr-simulated-final-exam-2.json `
+  --json data\questions-simulated-final-exam-2.json `
+  --js data\questions-simulated-final-exam-2.js
+```
+
+6. Open one of these pages:
+
+- [index.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\index.html)
+- [second-exam-results.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\second-exam-results.html)
+- [simulated-final-exam-1.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\simulated-final-exam-1.html)
+- [simulated-final-exam-2.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\simulated-final-exam-2.html)
 
 ## Notes
 

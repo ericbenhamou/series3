@@ -27,9 +27,9 @@ if (!fs.existsSync(rawPath)) {
 const rawEntries = JSON.parse(fs.readFileSync(rawPath, "utf8").replace(/^\uFEFF/, ""));
 
 const choicePattern = /^([A-D])[\.\)]\s*(.*)$/i;
-const headerPattern = /^QUESTION ID\s+(\d+)\s*:\s*(.+)$/i;
-const correctPattern = /^[»>\s]*CORRECT ANSWER IS:\s*(.+)$/i;
-const yourPattern = /^[»>\s]*YOUR ANSWER IS:\s*(.+)$/i;
+const headerPattern = /^QUESTION ID\s+(\d+)\s*:?\s*(.+)$/i;
+const correctPattern = /^[»>\s]*CORRECT ANSWER(?:\s+IS)?\s*:\s*(.+)$/i;
+const yourPattern = /^[»>\s]*YOUR ANSWER(?:\s+IS)?\s*:\s*(.+)$/i;
 const trueFalsePattern = /^\(?\s*true\s*\/\s*false\s*\)?\.?$/i;
 
 const categoryRules = [
@@ -81,13 +81,18 @@ function normalizeLine(line) {
     .trim();
 
   value = value.replace(/^QUESTION ID\s+(\d+)\s*:\s*series/i, "QUESTION ID $1 : Series");
+  value = value.replace(/^QUESTION ID\s+(\d+)\s+series/i, "QUESTION ID $1 : Series");
   value = value.replace(/\bseries 3\b/gi, "Series 3");
   value = value.replace(/\bGreenlight\b/g, "GreenLight");
   value = value.replace(/^l\.\s/, "I. ");
+  value = value.replace(/^Il\.\s/, "II. ");
   value = value.replace(/^'V\.\s/, "IV. ");
   value = value.replace(/^V\.\s/, "IV. ");
   value = value.replace(/\bIll\b/g, "III");
   value = value.replace(/\blV\b/g, "IV");
+  value = value.replace(/\bIl\b/g, "II");
+  value = value.replace(/\bCFTC 1['’] NFA\b/gi, "CFTC / NFA");
+  value = value.replace(/\bI \/ are\b/g, "is / are");
 
   return value;
 }
