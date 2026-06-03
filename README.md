@@ -1,11 +1,12 @@
 # Series 3 Wrong Question Review
 
-This workspace contains a static website generated from four Series 3 screenshot sets:
+This workspace contains a static website generated from five Series 3 screenshot sets:
 
 - the original GreenLight `error-*.png` screenshots
 - a second simulated exam result set with 24 missed questions
 - simulated final exam 1 with 39 missed questions
 - simulated final exam 2 with 24 missed questions
+- simulated final exam 3 with 28 missed questions
 
 ## Rebuild The OCR Data
 
@@ -64,12 +65,27 @@ C:\Users\eric.benhamou\.cache\codex-runtimes\codex-primary-runtime\dependencies\
   --js data\questions-simulated-final-exam-2.js
 ```
 
-6. Open one of these pages:
+6. To rebuild simulated final exam 3, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\extract-questions.ps1 `
+  -SourceDir "C:\Users\eric.benhamou\Desktop\wrong\Simulated final exam 3 - Score 76 - 06-02-2026-4 49 AM (28 errors)" `
+  -RawOutput "data\raw-ocr-simulated-final-exam-3.json" `
+  -ScreenshotDir "screenshots\simulated-final-exam-3"
+
+C:\Users\eric.benhamou\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe .\scripts\build-questions.mjs `
+  --raw data\raw-ocr-simulated-final-exam-3.json `
+  --json data\questions-simulated-final-exam-3.json `
+  --js data\questions-simulated-final-exam-3.js
+```
+
+7. Open one of these pages:
 
 - [index.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\index.html)
 - [second-exam-results.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\second-exam-results.html)
 - [simulated-final-exam-1.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\simulated-final-exam-1.html)
 - [simulated-final-exam-2.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\simulated-final-exam-2.html)
+- [simulated-final-exam-3.html](C:\Users\eric.benhamou\Documents\Codex\Series-3\simulated-final-exam-3.html)
 
 ## Notes
 
